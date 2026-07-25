@@ -2,187 +2,187 @@
   "id": "prepositions-1",
   "title": "前置詞 基礎 1（時間・場所）",
   "category": "preposition",
-  "description": "at / on / in を中心とした時間・場所の前置詞",
+  "description": "at =「点」/ on =「接触」/ in =「囲まれた中」のイメージをつかむ",
   "questions": [
     {
       "sentence": "The meeting starts ___ 9 a.m.",
       "answer": "at",
       "translation": "会議は午前9時に始まります。",
-      "explanation": "時刻には at を使う。"
+      "explanation": "at のイメージは「点」。時刻は時間の流れの上に打った一点で、幅のない一瞬を指でさす感覚。だから at。"
     },
     {
       "sentence": "My birthday is ___ October.",
       "answer": "in",
       "translation": "私の誕生日は10月です。",
-      "explanation": "月には in を使う。"
+      "explanation": "in のイメージは「囲まれた中」。10月という31日分の箱があって、誕生日はその中にすっぽり入っている。"
     },
     {
       "sentence": "We have an English class ___ Monday.",
       "answer": "on",
       "translation": "月曜日に英語の授業があります。",
-      "explanation": "曜日には on を使う。"
+      "explanation": "on のイメージは「面に乗る」。カレンダーの月曜のマスの上に授業を置く感覚。1日は面、月は箱。"
     },
     {
       "sentence": "She was born ___ 1998.",
       "answer": "in",
       "translation": "彼女は1998年に生まれました。",
-      "explanation": "年には in を使う。"
+      "explanation": "1年は一番大きな期間の器。その中に包まれている出来事なので in。"
     },
     {
       "sentence": "Let's meet ___ noon.",
       "answer": "at",
       "translation": "正午に会いましょう。",
-      "explanation": "noon / midnight / night などの時点には at。"
+      "explanation": "noon は時計の針がぴったり重なる一瞬。幅のない点なので at。"
     },
     {
       "sentence": "The store closes ___ midnight.",
       "answer": "at",
       "translation": "その店は深夜0時に閉まります。",
-      "explanation": "midnight は時点なので at。"
+      "explanation": "midnight も日付が切り替わる瞬間の一点。点には at。"
     },
     {
       "sentence": "I'll see you ___ the morning.",
       "answer": "in",
       "translation": "また明日の朝に会いましょう。",
-      "explanation": "in the morning / afternoon / evening は in。"
+      "explanation": "morning は数時間の幅を持つ時間帯。点ではなく「その中にいる」感覚なので in。"
     },
     {
       "sentence": "The party is ___ Friday evening.",
       "answer": "on",
       "translation": "パーティーは金曜の夜です。",
-      "explanation": "特定の曜日の朝・昼・晩は on（on Friday evening）。"
+      "explanation": "evening 単体なら in だが、金曜という特定の1日に結びついた瞬間、カレンダーのマスの上に乗るので on。"
     },
     {
       "sentence": "He arrived ___ Christmas Day.",
       "answer": "on",
       "translation": "彼はクリスマスの日に到着しました。",
-      "explanation": "特定の日（〜Day）には on。"
+      "explanation": "日付は1日分のマス。その面の上に「到着」を乗せるイメージで on。"
     },
     {
       "sentence": "It gets very cold here ___ winter.",
       "answer": "in",
       "translation": "ここは冬になるととても寒くなります。",
-      "explanation": "季節には in を使う。"
+      "explanation": "季節は数か月の幅を持つ大きな器。その中に包まれているので in。"
     },
     {
       "sentence": "She lives ___ Tokyo.",
       "answer": "in",
       "translation": "彼女は東京に住んでいます。",
-      "explanation": "都市や国など広がりのある場所には in。"
+      "explanation": "in は自分を取り囲むもの。東京は境界を持つ広がりで、その内側で生活しているイメージ。"
     },
     {
       "sentence": "I'll wait for you ___ the bus stop.",
       "answer": "at",
       "translation": "バス停で待っています。",
-      "explanation": "地点として捉える場所には at。"
+      "explanation": "バス停は地図にピンを刺せる一点。中に入るものではなく「そこ」という位置なので at。"
     },
     {
       "sentence": "There is a picture ___ the wall.",
       "answer": "on",
       "translation": "壁に絵がかかっています。",
-      "explanation": "面に接している場合は on。"
+      "explanation": "on の本質は「上」ではなく「接触」。絵は壁の面にぴったりくっついているので、垂直でも on。"
     },
     {
       "sentence": "He is cooking ___ the kitchen.",
       "answer": "in",
       "translation": "彼は台所で料理をしています。",
-      "explanation": "部屋などの空間の中には in。"
+      "explanation": "台所は壁と天井に囲まれた空間。その中に入っているので in。"
     },
     {
       "sentence": "We arrived ___ the airport two hours early.",
       "answer": "at",
       "translation": "私たちは2時間早く空港に着きました。",
-      "explanation": "arrive at + 地点（建物・施設）。都市や国なら arrive in。"
+      "explanation": "空港を「旅程の途中の一地点」として見ている。in the airport にすると建物の内側にいることを強調する感じになる。"
     },
     {
       "sentence": "The keys are ___ the table.",
       "answer": "on",
       "translation": "鍵はテーブルの上にあります。",
-      "explanation": "面の上に置かれている場合は on。"
+      "explanation": "テーブルの面に接して支えられている状態。触れて乗っているものは on。"
     },
     {
       "sentence": "There are many fish ___ the river.",
       "answer": "in",
       "translation": "その川にはたくさんの魚がいます。",
-      "explanation": "水の中は in。"
+      "explanation": "魚は水に全方向から囲まれている。まさに「中」のイメージなので in。"
     },
     {
       "sentence": "I met him ___ the party last night.",
       "answer": "at",
       "translation": "昨夜のパーティーで彼に会いました。",
-      "explanation": "イベント・催しの場には at。"
+      "explanation": "パーティーは「その催しが行われている場」という一点。広さは意識していないので at。"
     },
     {
       "sentence": "The cat is sleeping ___ the sofa.",
       "answer": "on",
       "translation": "猫はソファの上で眠っています。",
-      "explanation": "面に接して上にいる場合は on。"
+      "explanation": "座面に接して乗っている状態。in the sofa と言うとクッションに沈み込んで埋まっている感じになる。"
     },
     {
       "sentence": "He stayed ___ home all day.",
       "answer": "at",
       "translation": "彼は一日中家にいました。",
-      "explanation": "stay at home で「家にいる」。home を地点として捉える。"
+      "explanation": "home を「自分の拠点という一点」として捉えている。in the house なら建物の内側を意識した言い方になる。"
     },
     {
       "sentence": "We swam ___ the sea.",
       "answer": "in",
       "translation": "私たちは海で泳ぎました。",
-      "explanation": "海や川の中で泳ぐので in。"
+      "explanation": "水に囲まれて泳いでいるので in。on the sea だと水面に浮かんでいるイメージになる。"
     },
     {
       "sentence": "Write your name ___ the top of the page.",
       "answer": "at",
       "translation": "ページの一番上に名前を書いてください。",
-      "explanation": "at the top / at the bottom は決まった言い方。"
+      "explanation": "「一番上」を面ではなく位置の一点として指している。上端という点なので at。"
     },
     {
       "sentence": "I read the news ___ the internet.",
       "answer": "on",
       "translation": "私はインターネットでそのニュースを読みました。",
-      "explanation": "on the internet / on TV / on the radio は on。"
+      "explanation": "on は「乗っかる土台」のイメージ。ネットやテレビは情報が流れる土台で、その上に乗って届く感覚。"
     },
     {
       "sentence": "She sat ___ the front row.",
       "answer": "in",
       "translation": "彼女は最前列に座りました。",
-      "explanation": "in the front row（列の中に）は in。"
+      "explanation": "列は席が並んだ枠。その枠の中に収まっているイメージなので in。"
     },
     {
       "sentence": "The bus stops ___ the corner of the street.",
       "answer": "at",
       "translation": "バスは通りの角に停まります。",
-      "explanation": "at the corner は「角という地点で」。"
+      "explanation": "角は2本の道が交わる一点。地図にピンを刺せる場所なので at。"
     },
     {
       "sentence": "They live ___ the fifth floor.",
       "answer": "on",
       "translation": "彼らは5階に住んでいます。",
-      "explanation": "階には on を使う（on the fifth floor）。"
+      "explanation": "floor は「床」という面。その面の上に乗って生活しているイメージなので on。"
     },
     {
       "sentence": "I found the word ___ the dictionary.",
       "answer": "in",
       "translation": "その単語を辞書で見つけました。",
-      "explanation": "本・辞書・新聞の中の情報は in。"
+      "explanation": "辞書は言葉が詰まった箱。その中身の中から見つけたので in。"
     },
     {
       "sentence": "Turn left ___ the next traffic light.",
       "answer": "at",
       "translation": "次の信号を左に曲がってください。",
-      "explanation": "信号や交差点などの地点には at。"
+      "explanation": "信号は道の上の一点。そこに差しかかった地点を指すので at。"
     },
     {
       "sentence": "There is a stain ___ your shirt.",
       "answer": "on",
       "translation": "シャツにしみがついていますよ。",
-      "explanation": "表面についているものは on。"
+      "explanation": "しみは布の表面に接触している。くっついているものは向きに関係なく on。"
     },
     {
       "sentence": "The children are playing ___ the park.",
       "answer": "in",
       "translation": "子どもたちは公園で遊んでいます。",
-      "explanation": "公園などの囲まれた空間の中は in。"
+      "explanation": "公園は境界のある空間。その内側に入って遊んでいるので in。待ち合わせ地点として指すなら at the park。"
     }
   ]
 }

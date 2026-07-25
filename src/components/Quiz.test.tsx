@@ -17,21 +17,40 @@ describe('Quiz', () => {
     expect(screen.getByText(/I arrived/)).toBeInTheDocument()
   })
 
-  it('正解を入力すると「正解」と表示される', async () => {
+  it('和訳は解答前から表示される', () => {
+    setup()
+    expect(screen.getByText('駅に着いた。')).toBeInTheDocument()
+  })
+
+  it('解答前は解説が表示されない', () => {
+    setup()
+    expect(screen.queryByText('地点には at。')).not.toBeInTheDocument()
+  })
+
+  it('正解を入力すると「正解」と解説が表示される', async () => {
     const user = userEvent.setup()
     setup()
     await user.type(screen.getByRole('textbox'), 'at{Enter}')
     expect(screen.getByText('正解！')).toBeInTheDocument()
+    expect(screen.getByText('地点には at。')).toBeInTheDocument()
   })
 
-  it('不正解のときは「不正解」と正解・和訳・解説が表示される', async () => {
+  it('不正解のときは「不正解」と正解・解説が表示される', async () => {
     const user = userEvent.setup()
     setup()
     await user.type(screen.getByRole('textbox'), 'on{Enter}')
     expect(screen.getByText('不正解')).toBeInTheDocument()
     expect(screen.getByText(/正解: at/)).toBeInTheDocument()
-    expect(screen.getByText('駅に着いた。')).toBeInTheDocument()
     expect(screen.getByText('地点には at。')).toBeInTheDocument()
+  })
+
+  it('次の問題に進むと和訳も切り替わる', async () => {
+    const user = userEvent.setup()
+    setup()
+    await user.type(screen.getByRole('textbox'), 'at{Enter}')
+    await user.click(screen.getByRole('button', { name: '次へ' }))
+    expect(screen.getByText('彼女は東京に住んでいる。')).toBeInTheDocument()
+    expect(screen.queryByText('駅に着いた。')).not.toBeInTheDocument()
   })
 
   it('「次へ」で次の問題に進む', async () => {

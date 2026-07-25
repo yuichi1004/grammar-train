@@ -2,187 +2,187 @@
   "id": "articles-2",
   "title": "冠詞 基礎 2（the と無冠詞）",
   "category": "article",
-  "description": "the をつけるか、何もつけないか（無冠詞は空欄のまま解答）",
+  "description": "無冠詞 =「輪郭を消して行為や中身として見る」/ the =「唯一に絞られる」（無冠詞は空欄のまま解答）",
   "questions": [
     {
       "sentence": "I usually have ___ breakfast at seven.",
       "answer": "",
       "translation": "私はたいてい7時に朝食をとります。",
-      "explanation": "食事名（breakfast / lunch / dinner）は普通は無冠詞。"
+      "explanation": "この breakfast は皿の上の食べ物ではなく「朝食をとるという行為」。物としての輪郭がないので冠詞をつけない。"
     },
     {
       "sentence": "She plays ___ piano every day.",
       "answer": "the",
       "translation": "彼女は毎日ピアノを弾きます。",
-      "explanation": "play the + 楽器。"
+      "explanation": "楽器の the は「みんなが知っているあのピアノという存在」を指す感覚。目の前の1台ではなく種目として the。"
     },
     {
       "sentence": "We went to ___ bed early last night.",
       "answer": "",
       "translation": "昨夜は早く寝ました。",
-      "explanation": "go to bed（寝る）は無冠詞の決まり文句。"
+      "explanation": "go to bed の bed は家具ではなく「寝るという行為」。物の輪郭が消えているので無冠詞。"
     },
     {
       "sentence": "He is good at ___ math.",
       "answer": "",
       "translation": "彼は数学が得意です。",
-      "explanation": "教科名は無冠詞。"
+      "explanation": "教科は形のない知識のかたまり。1個2個と切り出せないので冠詞なし。"
     },
     {
       "sentence": "We climbed ___ Mt. Fuji last summer.",
       "answer": "",
       "translation": "私たちは去年の夏、富士山に登りました。",
-      "explanation": "単独の山の名前は無冠詞（Mt. Fuji）。山脈には the がつく。"
+      "explanation": "固有名詞はそれ自体で唯一。名前だけで指がさせているので、the を足す必要がない。"
     },
     {
       "sentence": "The ship crossed ___ Pacific Ocean.",
       "answer": "the",
       "translation": "その船は太平洋を横断しました。",
-      "explanation": "海・大洋の名前には the がつく。"
+      "explanation": "海は境界がはっきりせず広がっているので、the をつけて「あのひとまとまりの水域」として束ねる感覚。"
     },
     {
       "sentence": "I go to ___ school by bike.",
       "answer": "",
       "translation": "私は自転車で学校に通っています。",
-      "explanation": "go to school（通学する）は本来の目的なら無冠詞。"
+      "explanation": "go to school は建物へ行く話ではなく「学ぶという営み」に向かう話。行為なので無冠詞。"
     },
     {
       "sentence": "They visited ___ United States last year.",
       "answer": "the",
       "translation": "彼らは昨年アメリカを訪れました。",
-      "explanation": "複数形や連合体の国名には the（the United States）。"
+      "explanation": "States と複数形になった瞬間、ばらばらの州を the で1つの国に束ね直す必要が出る。"
     },
     {
       "sentence": "We had ___ lunch together at the office.",
       "answer": "",
       "translation": "私たちはオフィスで一緒に昼食をとりました。",
-      "explanation": "食事名は無冠詞。"
+      "explanation": "「昼食をとる」という行為そのもの。皿の上の物を指していないので無冠詞。"
     },
     {
       "sentence": "Can you play ___ chess?",
       "answer": "",
       "translation": "チェスはできますか。",
-      "explanation": "スポーツ・ゲーム名は無冠詞（play chess / play soccer）。"
+      "explanation": "ゲーム名は「その遊びをするという活動」。物ではないので冠詞なし。play the piano と対比すると分かりやすい。"
     },
     {
       "sentence": "___ Shinano River is the longest river in Japan.",
       "answer": "the",
       "translation": "信濃川は日本で一番長い川です。",
-      "explanation": "川の名前には the がつく。"
+      "explanation": "川は細長く広がって輪郭が曖昧。the で「あの一続きの流れ」としてまとめる感覚。"
     },
     {
       "sentence": "He speaks ___ English fluently.",
       "answer": "",
       "translation": "彼は英語を流ちょうに話します。",
-      "explanation": "言語名は無冠詞。"
+      "explanation": "言語は形のない体系。切り出せる物ではないので冠詞なし。"
     },
     {
       "sentence": "We ate ___ dinner at a nice restaurant.",
       "answer": "",
       "translation": "私たちは素敵なレストランで夕食をとりました。",
-      "explanation": "食事名は無冠詞。"
+      "explanation": "食事名は行為として捉えるので無冠詞。ただし a nice dinner のように像を絞ると輪郭が生まれて a がつく。"
     },
     {
       "sentence": "She went to ___ hospital to visit her uncle.",
       "answer": "the",
       "translation": "彼女はおじを見舞いに病院へ行きました。",
-      "explanation": "入院ではなくお見舞いなど、建物として行く場合は the hospital。"
+      "explanation": "お見舞いは「建物としての病院」に行く話。指をさせる場所なので the。in hospital（入院中）は行為なので無冠詞。"
     },
     {
       "sentence": "The sun rises in ___ east.",
       "answer": "the",
       "translation": "太陽は東から昇ります。",
-      "explanation": "方角（east / west / north / south）には the。"
+      "explanation": "方角は世界に1つずつしかない向き。誰の頭にも同じ方向が浮かぶので the。"
     },
     {
       "sentence": "I play ___ soccer on weekends.",
       "answer": "",
       "translation": "私は週末にサッカーをします。",
-      "explanation": "スポーツ名は無冠詞。"
+      "explanation": "スポーツ名も「その競技をする」という活動。物の輪郭がないので冠詞なし。"
     },
     {
       "sentence": "He sailed around ___ world alone.",
       "answer": "the",
       "translation": "彼は単独で世界一周の航海をしました。",
-      "explanation": "the world は一つしかないものなので the。"
+      "explanation": "世界は1つしかない。全員が同じものを思い浮かべられるので the。"
     },
     {
       "sentence": "He goes to ___ church every Sunday.",
       "answer": "",
       "translation": "彼は毎週日曜日に礼拝に行きます。",
-      "explanation": "礼拝という本来の目的で行く場合は無冠詞（go to church）。"
+      "explanation": "礼拝という目的で行くときの church は建物ではなく行為。建物を見物に行くなら the church になる。"
     },
     {
       "sentence": "___ Japanese food is popular around the world.",
       "answer": "",
       "translation": "日本食は世界中で人気があります。",
-      "explanation": "一般的な総称として言う場合は無冠詞。"
+      "explanation": "「日本食というもの全般」を輪郭なしにひとまとめで語っている。総称は冠詞なし。"
     },
     {
       "sentence": "She studies ___ history at university.",
       "answer": "",
       "translation": "彼女は大学で歴史を学んでいます。",
-      "explanation": "学問名は無冠詞。"
+      "explanation": "学問は形のない知の領域。数えられないので冠詞なし。"
     },
     {
       "sentence": "This is ___ only way to solve the problem.",
       "answer": "the",
       "translation": "これがその問題を解決する唯一の方法です。",
-      "explanation": "only（唯一の）には the がつく。"
+      "explanation": "「唯一」と言えば他にありえない。指がさせる1つなので the。"
     },
     {
       "sentence": "Birds were flying high in ___ sky.",
       "answer": "the",
       "translation": "鳥たちが空高く飛んでいました。",
-      "explanation": "sky は一つしかないものとして the sky。"
+      "explanation": "見上げれば誰にとっても同じ1つの空。共有された唯一のものは the。"
     },
     {
       "sentence": "I go to work by ___ car.",
       "answer": "",
       "translation": "私は車で通勤しています。",
-      "explanation": "by + 交通手段は無冠詞（by car / by train）。"
+      "explanation": "by + 乗り物は「車という手段」を抽象的に指している。具体的な1台の輪郭が消えるので無冠詞。"
     },
     {
       "sentence": "We are on ___ same team.",
       "answer": "the",
       "translation": "私たちは同じチームです。",
-      "explanation": "same には常に the がつく。"
+      "explanation": "「同じ」と言った時点で1つに絞られる。だから the。"
     },
     {
       "sentence": "Please open ___ window. It's hot in here.",
       "answer": "the",
       "translation": "窓を開けてください。ここは暑いです。",
-      "explanation": "その場にある特定の窓を指すので the。"
+      "explanation": "この部屋のあの窓、と互いに分かっている。指をさせるので the。"
     },
     {
       "sentence": "We watched the sunset over ___ sea.",
       "answer": "the",
       "translation": "私たちは海に沈む夕日を眺めました。",
-      "explanation": "the sea は一つのまとまりとして the がつく。"
+      "explanation": "海は輪郭が曖昧に広がるので、the で「あのひとまとまり」として扱う。"
     },
     {
       "sentence": "I drink ___ coffee every morning.",
       "answer": "",
       "translation": "私は毎朝コーヒーを飲みます。",
-      "explanation": "飲食物を一般的に言う場合は無冠詞。"
+      "explanation": "ここでの coffee は液体そのもの。輪郭のない物質として語っているので無冠詞。1杯なら a cup of coffee。"
     },
     {
       "sentence": "___ Alps are covered with snow all year.",
       "answer": "the",
       "translation": "アルプス山脈は一年中雪に覆われています。",
-      "explanation": "山脈の名前には the がつく（the Alps）。"
+      "explanation": "山脈は連なる複数の山。the で「あの一群」として束ねる。単独の山（Mt. Fuji）は唯一なので無冠詞。"
     },
     {
       "sentence": "She traveled to ___ Kyoto by bullet train.",
       "answer": "",
       "translation": "彼女は新幹線で京都へ行きました。",
-      "explanation": "都市名は無冠詞。"
+      "explanation": "都市名は固有名詞。名前だけで唯一に決まるので the はいらない。"
     },
     {
       "sentence": "What is ___ capital of France?",
       "answer": "the",
       "translation": "フランスの首都はどこですか。",
-      "explanation": "of で特定されている名詞には the（the capital of France）。"
+      "explanation": "of France と言った瞬間、首都は1つに絞られる。指がさせる状態になるので the。"
     }
   ]
 }

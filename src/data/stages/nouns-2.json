@@ -2,190 +2,190 @@
   "id": "nouns-2",
   "title": "可算・不可算 基礎 2（形と数え方）",
   "category": "noun",
-  "description": "複数形・不規則変化・不可算名詞の数え方（カッコ内の語を正しい形で入力）",
+  "description": "形のないものは「容器や形を借りて」数える。複数形の綴りは音の言いやすさで決まる（カッコ内の語を正しい形で入力）",
   "questions": [
     {
       "sentence": "I'd like a ___ of water, please.",
       "answer": "glass",
       "accept": ["cup", "bottle"],
       "translation": "水を1杯ください。",
-      "explanation": "水は a glass of water のように容器で数える。"
+      "explanation": "水そのものには形がない。だから「グラス1杯分」という容器の形を借りて輪郭を与えて数える。"
     },
     {
       "sentence": "She bought two ___ of bread. (loaf)",
       "answer": "loaves",
       "translation": "彼女はパンを2斤買いました。",
-      "explanation": "loaf の複数形は loaves。bread は a loaf of で数える。"
+      "explanation": "bread も形が決まっていないので「1斤」という塊を借りて数える。loaf の f は s と続けると言いにくいので v に濁って loaves。"
     },
     {
       "sentence": "Can you give me a ___ of paper?",
       "answer": "piece",
       "accept": ["sheet"],
       "translation": "紙を1枚もらえますか。",
-      "explanation": "paper は不可算名詞。a piece / sheet of paper で数える。"
+      "explanation": "paper は「紙という素材」。素材に輪郭はないので「1枚」という形を借りる。"
     },
     {
       "sentence": "He drank three ___ of coffee today. (cup)",
       "answer": "cups",
       "translation": "彼は今日コーヒーを3杯飲みました。",
-      "explanation": "コーヒーは a cup of coffee で数える。3杯なら cups。"
+      "explanation": "液体は器で数える。増えるのはコーヒーではなく器の側なので、複数形になるのは cup。"
     },
     {
       "sentence": "There are five ___ in the room. (child)",
       "answer": "children",
       "translation": "部屋には5人の子どもがいます。",
-      "explanation": "child の複数形は children（不規則変化）。"
+      "explanation": "child は -s を使わない古い複数形が生き残った語。-ren が「複数」を表す化石のような形。"
     },
     {
       "sentence": "I saw two ___ grazing in the field. (sheep)",
       "answer": "sheep",
       "translation": "野原で2頭の羊が草を食べているのを見ました。",
-      "explanation": "sheep は単複同形。"
+      "explanation": "羊は群れでひとまとまりに見える動物。英語は1頭でも群れでも同じ形のまま扱う。"
     },
     {
       "sentence": "My ___ hurt after the long walk. (foot)",
       "answer": "feet",
       "translation": "長く歩いたあとで両足が痛みました。",
-      "explanation": "foot の複数形は feet（不規則変化）。"
+      "explanation": "foot → feet は -s ではなく中の母音を変えて数を示す古い型。goose → geese と同じ仲間。"
     },
     {
       "sentence": "The dentist pulled out two of my ___. (tooth)",
       "answer": "teeth",
       "translation": "歯医者は私の歯を2本抜きました。",
-      "explanation": "tooth の複数形は teeth（不規則変化）。"
+      "explanation": "tooth も母音を変えて複数にする古い型。だから teeth。"
     },
     {
       "sentence": "There were many ___ waiting at the station. (person)",
       "answer": "people",
       "accept": ["persons"],
       "translation": "駅では多くの人が待っていました。",
-      "explanation": "person の複数は通常 people を使う。"
+      "explanation": "person は「1人の個人」を指す語。集まりを言うときは people という別の語に切り替わる。"
     },
     {
       "sentence": "Three ___ were caught in the trap. (mouse)",
       "answer": "mice",
       "translation": "3匹のネズミがわなにかかりました。",
-      "explanation": "mouse の複数形は mice（不規則変化）。"
+      "explanation": "mouse も母音が変わる古い型で mice。"
     },
     {
       "sentence": "She gave me a lot of useful ___. (advice)",
       "answer": "advice",
       "translation": "彼女は役に立つアドバイスをたくさんくれました。",
-      "explanation": "advice は不可算名詞なので複数形にしない。"
+      "explanation": "advice は「助言という中身」で形がない。輪郭がないものは複数形にできず、量として増える。"
     },
     {
       "sentence": "We need more ___ before we decide. (information)",
       "answer": "information",
       "translation": "決める前にもっと情報が必要です。",
-      "explanation": "information は不可算名詞なので複数形にしない。"
+      "explanation": "information も輪郭のない中身。粒に分かれず、かたまりのまま濃くなるイメージなので複数形にしない。"
     },
     {
       "sentence": "He carried two heavy ___ upstairs. (box)",
       "answer": "boxes",
       "translation": "彼は重い箱を2つ2階へ運びました。",
-      "explanation": "-x で終わる語の複数形は -es（boxes）。"
+      "explanation": "-x の直後に s を続けると発音できない。母音 e をはさんで言えるようにするので boxes。"
     },
     {
       "sentence": "Autumn ___ are falling from the trees. (leaf)",
       "answer": "leaves",
       "translation": "秋の葉が木から落ちています。",
-      "explanation": "leaf の複数形は leaves（f → ves）。"
+      "explanation": "f の後ろに s が来ると濁って v の音になる。音の流れに合わせて綴りも変わり leaves。"
     },
     {
       "sentence": "He told us two funny ___. (story)",
       "answer": "stories",
       "translation": "彼は私たちにおもしろい話を2つしてくれました。",
-      "explanation": "子音 + y で終わる語は y を i に変えて -es。"
+      "explanation": "y の前が子音のときは y を i に変えて -es。音を滑らかにするための綴り替え。"
     },
     {
       "sentence": "___ usually hunt in groups. (wolf)",
       "answer": "wolves",
       "translation": "オオカミはふつう群れで狩りをします。",
-      "explanation": "wolf の複数形は wolves（f → ves）。"
+      "explanation": "wolf も f が v に濁って wolves。leaf / knife と同じ仲間。"
     },
     {
       "sentence": "We bought some new ___ for the living room. (furniture)",
       "answer": "furniture",
       "translation": "リビング用に新しい家具をいくつか買いました。",
-      "explanation": "furniture は不可算名詞なので複数形にしない。"
+      "explanation": "furniture は机や椅子をまとめた「家具というカテゴリ」。個々の形を意識しない語なので複数形にしない（a piece of furniture で1つ）。"
     },
     {
       "sentence": "Two ___ of cake, please. (slice)",
       "answer": "slices",
       "translation": "ケーキを2切れください。",
-      "explanation": "ケーキは a slice / piece of cake で数える。"
+      "explanation": "ケーキは切り方で大きさが変わる。決まった形がないので「1切れ」という形を借りて数える。"
     },
     {
       "sentence": "There is a lot of ___ on this road in the morning. (traffic)",
       "answer": "traffic",
       "translation": "朝はこの道路は交通量が多いです。",
-      "explanation": "traffic は不可算名詞なので複数形にしない。"
+      "explanation": "traffic は車の台数ではなく「流れ」という量。川の水のように捉えるので複数形にしない。"
     },
     {
       "sentence": "Be careful. These ___ are very sharp. (knife)",
       "answer": "knives",
       "translation": "気をつけて。これらのナイフはとても鋭いです。",
-      "explanation": "knife の複数形は knives（fe → ves）。"
+      "explanation": "knife の fe も v に濁って knives。f 系の語の共通パターン。"
     },
     {
       "sentence": "Many ___ live in this lake. (fish)",
       "answer": "fish",
       "translation": "この湖には多くの魚が生息しています。",
-      "explanation": "fish は通常、単複同形。"
+      "explanation": "魚も群れでひとまとまりに見える生き物なので単複同形。種類の違いを意識するときだけ fishes。"
     },
     {
       "sentence": "The ___ in this store are all expensive. (watch)",
       "answer": "watches",
       "translation": "この店の腕時計はどれも高価です。",
-      "explanation": "-ch で終わる語の複数形は -es（watches）。"
+      "explanation": "-ch の後に s は続けて発音できないので e をはさんで watches。"
     },
     {
       "sentence": "We saw wild ___ in the forest. (deer)",
       "answer": "deer",
       "translation": "森で野生のシカを見ました。",
-      "explanation": "deer は単複同形。"
+      "explanation": "deer も単複同形。sheep と同じで、群れとしてまとめて捉える動物。"
     },
     {
       "sentence": "He has two English ___. (dictionary)",
       "answer": "dictionaries",
       "translation": "彼は英語の辞書を2冊持っています。",
-      "explanation": "子音 + y で終わる語は y を i に変えて -es。"
+      "explanation": "子音 + y は y を i に変えて -es。story と同じパターン。"
     },
     {
       "sentence": "Could you make two ___ of toast? (piece)",
       "answer": "pieces",
       "translation": "トーストを2枚作ってもらえますか。",
-      "explanation": "toast は不可算名詞。a piece of toast で数える。"
+      "explanation": "toast は「焼いたパンという素材」。形が決まっていないので「1枚」という形を借りて数える。"
     },
     {
       "sentence": "We grow ___ in our garden. (potato)",
       "answer": "potatoes",
       "translation": "私たちは庭でじゃがいもを育てています。",
-      "explanation": "-o で終わる語の多くは複数形が -es（potatoes / tomatoes）。"
+      "explanation": "-o の後は e をはさんで -es（potatoes / tomatoes）。"
     },
     {
       "sentence": "How much ___ do you have tonight? (homework)",
       "answer": "homework",
       "translation": "今夜はどのくらい宿題がありますか。",
-      "explanation": "homework は不可算名詞なので複数形にしない。"
+      "explanation": "homework は「やるべきことの量」。輪郭のない仕事のかたまりなので複数形にしない。"
     },
     {
       "sentence": "Several ___ were parked outside the hotel. (bus)",
       "answer": "buses",
       "translation": "ホテルの外に数台のバスが停まっていました。",
-      "explanation": "-s で終わる語の複数形は -es（buses）。"
+      "explanation": "-s の直後に s は続けられないので e をはさんで buses。"
     },
     {
       "sentence": "Three ___ were waiting in line. (woman)",
       "answer": "women",
       "translation": "3人の女性が列に並んで待っていました。",
-      "explanation": "woman の複数形は women（不規則変化）。"
+      "explanation": "woman も母音を変えて複数にする古い型。綴りは a → e だが、発音は「ウィミン」と大きく変わる。"
     },
     {
       "sentence": "He ate two ___ of rice. (bowl)",
       "answer": "bowls",
       "translation": "彼はご飯を2杯食べました。",
-      "explanation": "rice は不可算名詞。a bowl of rice で数える。"
+      "explanation": "rice は粒に見えても、英語では砂のような量として扱う。だから「1杯」という器を借りて数える。"
     }
   ]
 }

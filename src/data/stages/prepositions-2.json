@@ -2,189 +2,189 @@
   "id": "prepositions-2",
   "title": "前置詞 基礎 2（方向・手段・その他）",
   "category": "preposition",
-  "description": "to / for / by / with / from / of / about などの使い分け",
+  "description": "to =「到達」/ for =「向ける」/ by =「通り道」/ with =「一緒に」/ from =「起点」/ of =「切り離せない」/ about =「まわり」",
   "questions": [
     {
       "sentence": "This present is ___ you.",
       "answer": "for",
       "translation": "このプレゼントはあなたのためのものです。",
-      "explanation": "「〜のために」は for。"
+      "explanation": "for のイメージは「〜に向けて」の矢印。プレゼントがあなたの方を向いていて、まだ手渡す前でも宛先は決まっている感じ。"
     },
     {
       "sentence": "I go ___ work by train.",
       "answer": "to",
       "translation": "私は電車で通勤しています。",
-      "explanation": "行き先・到達点には to。"
+      "explanation": "to は矢印が到達点まで届くイメージ。for は向きだけだが、to は「たどり着く」ところまで含む。"
     },
     {
       "sentence": "This novel was written ___ a famous author.",
       "answer": "by",
       "translation": "この小説は有名な作家によって書かれました。",
-      "explanation": "受け身の動作主は by。"
+      "explanation": "by のイメージは「すぐそばを通る」。小説がその人の手を通って生まれた、通り道としての作者を示している。"
     },
     {
       "sentence": "She cut the paper ___ scissors.",
       "answer": "with",
       "translation": "彼女ははさみで紙を切りました。",
-      "explanation": "道具を使う場合は with。"
+      "explanation": "with のイメージは「一緒に持っている」。はさみを手に携えた状態で切っているので with。"
     },
     {
       "sentence": "He comes ___ Canada.",
       "answer": "from",
       "translation": "彼はカナダ出身です。",
-      "explanation": "出身・起点は from。"
+      "explanation": "from は出発点から線が伸びるイメージ。カナダという出どころから彼が出てきた感覚。"
     },
     {
       "sentence": "This is a picture ___ my family.",
       "answer": "of",
       "translation": "これは私の家族の写真です。",
-      "explanation": "「〜の」という所属・内容は of。"
+      "explanation": "of はもともと「切り離せないつながり」。写真の中身が家族そのもの、と直結している関係を表す。"
     },
     {
       "sentence": "We talked ___ the problem for hours.",
       "answer": "about",
       "translation": "私たちはその問題について何時間も話しました。",
-      "explanation": "「〜について」は about。"
+      "explanation": "about のイメージは「まわりをぐるぐる」。芯を突くのではなく、その問題の周辺をあれこれ話す感じ。"
     },
     {
       "sentence": "Thank you ___ your help.",
       "answer": "for",
       "translation": "手伝ってくれてありがとう。",
-      "explanation": "感謝の対象は for。"
+      "explanation": "感謝の気持ちが「あなたの助け」に向かって飛んでいく矢印。だから for。"
     },
     {
       "sentence": "I listened ___ music all night.",
       "answer": "to",
       "translation": "私は一晩中音楽を聴きました。",
-      "explanation": "listen to で「〜を聴く」。"
+      "explanation": "listen は耳を音の方へ向ける動作。意識の矢印が音楽まで届くので to（hear は届いてしまう音なので前置詞なし）。"
     },
     {
       "sentence": "Please send the file ___ email.",
       "answer": "by",
       "translation": "そのファイルをメールで送ってください。",
-      "explanation": "手段は by（by email / by train）。"
+      "explanation": "by は「〜を通って」。ファイルがメールという経路を通り抜けて届くイメージ。"
     },
     {
       "sentence": "He filled the glass ___ water.",
       "answer": "with",
       "translation": "彼はグラスを水で満たしました。",
-      "explanation": "fill A with B で「A を B で満たす」。"
+      "explanation": "グラスが水を伴った状態になる、という「一緒にある」イメージ。中身を伴わせるときは with。"
     },
     {
       "sentence": "The shop is open ___ nine to five.",
       "answer": "from",
       "translation": "その店は9時から5時まで開いています。",
-      "explanation": "from A to B で「A から B まで」。"
+      "explanation": "時間の線を引くとき、from が始点、to が終点。9時という起点から線が伸びて5時に届く。"
     },
     {
       "sentence": "She is afraid ___ dogs.",
       "answer": "of",
       "translation": "彼女は犬が怖いです。",
-      "explanation": "be afraid of で「〜を恐れる」。"
+      "explanation": "of は切り離せない直結。恐怖の中身が犬そのもの、とぴったりくっついている感覚。"
     },
     {
       "sentence": "What do you think ___ this plan?",
       "answer": "about",
       "accept": ["of"],
       "translation": "この計画についてどう思いますか。",
-      "explanation": "think about / think of どちらも可。"
+      "explanation": "about なら計画のまわりを見わたして意見を述べる感じ、of なら計画そのものをぱっと思い浮かべる感じ。どちらも使える。"
     },
     {
       "sentence": "I paid 500 yen ___ this coffee.",
       "answer": "for",
       "translation": "このコーヒーに500円払いました。",
-      "explanation": "pay + 金額 + for + 品物。"
+      "explanation": "for には「引き換えに」の感覚がある。500円とコーヒーが交換される矢印のイメージ。"
     },
     {
       "sentence": "This train goes ___ Osaka.",
       "answer": "to",
       "translation": "この電車は大阪行きです。",
-      "explanation": "行き先は to。"
+      "explanation": "電車の矢印が大阪という到達点に届く。行き着く先を示すので to。"
     },
     {
       "sentence": "We traveled ___ car.",
       "answer": "by",
       "translation": "私たちは車で旅行しました。",
-      "explanation": "交通手段は by + 無冠詞の乗り物（by car / by bus）。"
+      "explanation": "by + 乗り物は「車という経路を通って」という抽象的な手段。具体的な1台の輪郭が消えるので冠詞もつかない。"
     },
     {
       "sentence": "He agreed ___ my idea.",
       "answer": "with",
       "translation": "彼は私の考えに賛成しました。",
-      "explanation": "agree with で「〜に賛成する」。"
+      "explanation": "with は「同じ側に並ぶ」イメージ。相手の考えと自分の考えが一緒にある状態が「賛成」。"
     },
     {
       "sentence": "Keep away ___ the fire.",
       "answer": "from",
       "translation": "火に近づかないでください。",
-      "explanation": "keep away from で「〜から離れている」。"
+      "explanation": "from は「そこから遠ざかる」矢印。火という起点から距離をとるイメージ。"
     },
     {
       "sentence": "She is proud ___ her son.",
       "answer": "of",
       "translation": "彼女は息子を誇りに思っています。",
-      "explanation": "be proud of で「〜を誇りに思う」。"
+      "explanation": "誇りの中身が息子と直結している。感情とその対象が切り離せない関係なので of。"
     },
     {
       "sentence": "I'm looking ___ my keys.",
       "answer": "for",
       "translation": "鍵を探しています。",
-      "explanation": "look for で「〜を探す」。"
+      "explanation": "意識の矢印を鍵の方に向けて動いている状態。まだ届いていないので to ではなく for。"
     },
     {
       "sentence": "He apologized ___ me for being late.",
       "answer": "to",
       "translation": "彼は遅れたことを私に謝りました。",
-      "explanation": "apologize to 人 for 事柄。"
+      "explanation": "謝罪の言葉が私に向かって届く。相手に到達する矢印なので to（謝る理由の方は for）。"
     },
     {
       "sentence": "The room was cleaned ___ my brother.",
       "answer": "by",
       "translation": "部屋は弟によって掃除されました。",
-      "explanation": "受け身の動作主は by。"
+      "explanation": "掃除という行為が弟の手を通って起こった。行為の通り道になった人を示すので by。"
     },
     {
       "sentence": "Would you like to come ___ us?",
       "answer": "with",
       "translation": "私たちと一緒に来ませんか。",
-      "explanation": "「〜と一緒に」は with。"
+      "explanation": "with は「同じ場に並んである」イメージ。私たちのそばに一緒にいる状態を表す。"
     },
     {
       "sentence": "The result was different ___ what I expected.",
       "answer": "from",
       "translation": "結果は予想と違っていました。",
-      "explanation": "be different from で「〜と異なる」。"
+      "explanation": "予想という出発点から結果が離れていったイメージ。距離ができている感覚が from。"
     },
     {
       "sentence": "The city is famous ___ its old temples.",
       "answer": "for",
       "translation": "その都市は古い寺で有名です。",
-      "explanation": "be famous for で「〜で有名」。"
+      "explanation": "有名さの矢印が「古い寺」の方を指している。何に向けて名が知られているかを示すので for。"
     },
     {
       "sentence": "She belongs ___ the tennis club.",
       "answer": "to",
       "translation": "彼女はテニス部に所属しています。",
-      "explanation": "belong to で「〜に所属する」。"
+      "explanation": "彼女から伸びた線がテニス部にくっついて届いている。所属先という到達点なので to。"
     },
     {
       "sentence": "He died ___ cancer.",
       "answer": "of",
       "accept": ["from"],
       "translation": "彼はがんで亡くなりました。",
-      "explanation": "die of / die from どちらも使われる。"
+      "explanation": "of なら死の原因が体の中の病と直結している感覚、from なら外からの要因がじわじわ効いた感覚。どちらも使われる。"
     },
     {
       "sentence": "I made this cake ___ butter and eggs.",
       "answer": "with",
       "translation": "バターと卵でこのケーキを作りました。",
-      "explanation": "材料が形を残す場合は with（または made with）。"
+      "explanation": "with は「〜を伴って」。材料が姿を残したまま一緒に入っているイメージ。原料が別物に変わるなら made of / from。"
     },
     {
       "sentence": "He was late ___ school this morning.",
       "answer": "for",
       "translation": "彼は今朝学校に遅刻しました。",
-      "explanation": "be late for で「〜に遅れる」。"
+      "explanation": "「学校に向けて」の矢印に対して遅れている。場所ではなく向かう予定に対しての遅れなので for。"
     }
   ]
 }

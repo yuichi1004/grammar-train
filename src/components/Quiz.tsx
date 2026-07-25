@@ -60,6 +60,8 @@ export function Quiz({ stage, onFinish, onQuit }: QuizProps) {
         {after}
       </p>
 
+      <p className="translation">{question.translation}</p>
+
       {stage.category === 'article' && !answered && (
         <p className="hint">無冠詞のときは空欄のまま「答える」を押してください</p>
       )}
@@ -103,7 +105,6 @@ export function Quiz({ stage, onFinish, onQuit }: QuizProps) {
               正解: {question.answer === '' ? '（無冠詞）' : question.answer}
             </p>
           )}
-          <p className="translation">{question.translation}</p>
           <p className="explanation">{question.explanation}</p>
         </div>
       )}

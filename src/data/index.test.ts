@@ -29,6 +29,16 @@ describe('ステージデータ', () => {
     }
   })
 
+  // 解説は「なぜその語を使うのか」というネイティブのイメージを言語化する方針。
+  // 「〜には at」のような一言ルールに戻っていないことを長さで最低限ガードする。
+  it('解説がイメージを説明できる長さになっている', () => {
+    for (const stage of stages) {
+      for (const [i, q] of stage.questions.entries()) {
+        expect(q.explanation.length, `${stage.id}[${i}]`).toBeGreaterThanOrEqual(20)
+      }
+    }
+  })
+
   it('冠詞カテゴリ以外では answer が空でない', () => {
     for (const stage of stages) {
       if (stage.category === 'article') continue

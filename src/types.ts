@@ -7,9 +7,9 @@ export interface Question {
   answer: string
   /** 別解 */
   accept?: string[]
-  /** 和訳 */
+  /** 和訳（解答前から表示する） */
   translation: string
-  /** 解説 */
+  /** 解説。なぜその語を使うのかがイメージで分かるように書く（解答後に表示） */
   explanation: string
 }
 

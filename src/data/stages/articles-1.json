@@ -2,187 +2,187 @@
   "id": "articles-1",
   "title": "冠詞 基礎 1（a / an / the）",
   "category": "article",
-  "description": "a / an / the の基本的な使い分け",
+  "description": "a =「仲間のうちの1つ」/ the =「指をさせる、あれ」というイメージ",
   "questions": [
     {
       "sentence": "I saw ___ dog in the park.",
       "answer": "a",
       "translation": "公園で犬を見かけました。",
-      "explanation": "初めて話題に出る数えられる名詞には a。"
+      "explanation": "a のイメージは「たくさんいる仲間の中から1匹を取り出す」。聞き手の頭にはまだどの犬かの像がないので a。"
     },
     {
       "sentence": "She is ___ honest person.",
       "answer": "an",
       "translation": "彼女は正直な人です。",
-      "explanation": "honest は h を発音しないので母音で始まる音 → an。"
+      "explanation": "an は母音の前で口が詰まるのを避けるつなぎ。honest は h を読まず「オ」で始まるので an。綴りではなく音で決まる。"
     },
     {
       "sentence": "He bought ___ umbrella yesterday.",
       "answer": "an",
       "translation": "彼は昨日傘を買いました。",
-      "explanation": "母音の音で始まる語には an。"
+      "explanation": "a umbrella では母音が続いて言いにくい。n をはさんで滑らかにつなぐので an。"
     },
     {
       "sentence": "___ sun rises in the east.",
       "answer": "the",
       "translation": "太陽は東から昇ります。",
-      "explanation": "世界に一つしかないものには the。"
+      "explanation": "the のイメージは「ほら、あれ」と指をさせること。太陽は誰の頭にも同じ1つが浮かぶので the。"
     },
     {
       "sentence": "I have ___ idea. Let's ask her directly.",
       "answer": "an",
       "translation": "いい考えがあります。彼女に直接聞いてみましょう。",
-      "explanation": "idea は母音の音で始まるので an。"
+      "explanation": "idea は「アイ」という母音の音で始まる。音の衝突を避けて an。"
     },
     {
       "sentence": "Can you close ___ door? It's cold.",
       "answer": "the",
       "translation": "ドアを閉めてくれますか。寒いので。",
-      "explanation": "どのドアか話し手と聞き手が分かっている場合は the。"
+      "explanation": "同じ部屋にいる二人の頭に、同じ1枚のドアが浮かんでいる。指をさせる状態なので the。"
     },
     {
       "sentence": "She is ___ university student.",
       "answer": "a",
       "translation": "彼女は大学生です。",
-      "explanation": "university は「ユ (ju)」という子音の音で始まるので a。"
+      "explanation": "綴りは u でも音は「ユ」という子音。口が詰まらないので n をはさむ必要がなく a。"
     },
     {
       "sentence": "We stayed at ___ hotel near the station.",
       "answer": "a",
       "translation": "私たちは駅の近くのホテルに泊まりました。",
-      "explanation": "特定されていないホテルには a。hotel の h は発音する。"
+      "explanation": "聞き手はまだどのホテルか知らない。「ホテルという仲間の1軒」を新しく差し出すので a。h は発音するので an にはならない。"
     },
     {
       "sentence": "This is ___ easiest way to learn English.",
       "answer": "the",
       "translation": "これが英語を学ぶ最も簡単な方法です。",
-      "explanation": "最上級には the をつける。"
+      "explanation": "「最も簡単」と言えば候補は1つに絞られる。他にありえないから指をさせて the。"
     },
     {
       "sentence": "He plays ___ guitar very well.",
       "answer": "the",
       "translation": "彼はギターをとても上手に弾きます。",
-      "explanation": "play the + 楽器。"
+      "explanation": "楽器の the は「みんなが知っているあのギターという存在」を指す感覚。目の前の1本ではなく世に確立した種目として the。"
     },
     {
       "sentence": "I need ___ new phone. Mine is broken.",
       "answer": "a",
       "translation": "新しい電話が必要です。私のは壊れています。",
-      "explanation": "不特定の1つのものには a。"
+      "explanation": "どのメーカーの何でもよく、まだ像のない「1台」。輪郭のある1個を取り出す感覚なので a。"
     },
     {
       "sentence": "It takes ___ hour to get there.",
       "answer": "an",
       "translation": "そこまで1時間かかります。",
-      "explanation": "hour は h を発音しないので an。"
+      "explanation": "hour は h を読まず「アワー」と母音で始まる。音が詰まるので an。"
     },
     {
       "sentence": "___ moon was really beautiful last night.",
       "answer": "the",
       "translation": "昨夜は月が本当にきれいでした。",
-      "explanation": "世界に一つしかないものには the。"
+      "explanation": "夜空を見上げれば誰の頭にも同じ1つが浮かぶ。共有された唯一のものは the。"
     },
     {
       "sentence": "She works as ___ engineer.",
       "answer": "an",
       "translation": "彼女はエンジニアとして働いています。",
-      "explanation": "母音の音で始まる職業名には an。"
+      "explanation": "engineer は「エ」という母音の音で始まるので an。"
     },
     {
       "sentence": "I read ___ interesting book last week.",
       "answer": "an",
       "translation": "先週おもしろい本を読みました。",
-      "explanation": "形容詞が母音の音で始まれば an（an interesting book）。"
+      "explanation": "a / an は直後に来る語の音で決まる。book ではなく interesting が母音の音なので an。"
     },
     {
       "sentence": "Please turn off ___ lights when you leave.",
       "answer": "the",
       "translation": "出るときは電気を消してください。",
-      "explanation": "その場にある特定の照明を指すので the。"
+      "explanation": "「この部屋のあの照明」と互いに分かっている。指をさせるので、複数でも the。"
     },
     {
       "sentence": "He is ___ best player on the team.",
       "answer": "the",
       "translation": "彼はチームで一番の選手です。",
-      "explanation": "最上級 best には the。"
+      "explanation": "「一番」は1人に絞られる。他にありえないので the。"
     },
     {
       "sentence": "Do you have ___ pen I can borrow?",
       "answer": "a",
       "translation": "借りられるペンはありますか。",
-      "explanation": "どれでもよい1本なので a。"
+      "explanation": "どのペンでもよい、仲間の中の1本。相手の頭に特定の像を作らせていないので a。"
     },
     {
       "sentence": "My father is ___ doctor.",
       "answer": "a",
       "translation": "父は医者です。",
-      "explanation": "職業を言うときは a / an をつける。"
+      "explanation": "職業を言うのは「医者という種類の人の1人」という枠にはめる言い方。だから a。"
     },
     {
       "sentence": "This is ___ same shirt I bought last week.",
       "answer": "the",
       "translation": "これは先週買ったのと同じシャツです。",
-      "explanation": "same には常に the がつく（the same）。"
+      "explanation": "「同じ」と言った瞬間、比べる相手の1つに絞られる。指をさせるので the。"
     },
     {
       "sentence": "There was ___ accident on the highway.",
       "answer": "an",
       "translation": "高速道路で事故がありました。",
-      "explanation": "accident は母音の音で始まるので an。"
+      "explanation": "accident は「ア」という母音の音で始まるので an。"
     },
     {
       "sentence": "I go to the gym twice ___ week.",
       "answer": "a",
       "translation": "私は週に2回ジムに行きます。",
-      "explanation": "「〜につき」の意味では a（twice a week）。"
+      "explanation": "a には「1つ分」という感覚がある。1週間という単位ごとに、というイメージで a week。"
     },
     {
       "sentence": "He asked me ___ difficult question.",
       "answer": "a",
       "translation": "彼は私に難しい質問をしました。",
-      "explanation": "不特定の1つの質問なので a。"
+      "explanation": "聞き手の頭にまだ像のない質問。「質問のうちの1つ」として差し出すので a。"
     },
     {
       "sentence": "___ first train leaves at five in the morning.",
       "answer": "the",
       "translation": "始発電車は朝5時に出ます。",
-      "explanation": "序数（first, second …）には the。"
+      "explanation": "「1番目」と言えばその日の1本に決まる。順番で絞られたものは指をさせるので the。"
     },
     {
       "sentence": "She wants to be ___ actress.",
       "answer": "an",
       "translation": "彼女は女優になりたいと思っています。",
-      "explanation": "actress は母音の音で始まるので an。"
+      "explanation": "actress は「ア」という母音の音で始まるので an。"
     },
     {
       "sentence": "We watched ___ movie last night. The movie was great.",
       "answer": "a",
       "translation": "昨夜映画を観ました。その映画は最高でした。",
-      "explanation": "初出は a、2回目からは the。"
+      "explanation": "1文目では相手の頭にまだ像がないので a。2文目では互いに同じ映画が浮かんでいるので the。a → the は像の受け渡し。"
     },
     {
       "sentence": "Is there ___ ATM near here?",
       "answer": "an",
       "translation": "この近くに ATM はありますか。",
-      "explanation": "ATM は「エイ」という母音の音で始まるので an。"
+      "explanation": "読み上げると「エイ・ティー・エム」で母音の音から始まる。文字の見た目ではなく音で決まるので an。"
     },
     {
       "sentence": "He gave me ___ useful tip.",
       "answer": "a",
       "translation": "彼は役に立つヒントをくれました。",
-      "explanation": "useful は「ユ (ju)」という子音の音で始まるので a。"
+      "explanation": "useful は「ユースフル」と子音の音で始まる。母音字でも音が子音なら a。"
     },
     {
       "sentence": "I heard ___ strange noise upstairs.",
       "answer": "a",
       "translation": "2階で変な物音が聞こえました。",
-      "explanation": "初めて出てくる不特定の物音なので a。"
+      "explanation": "初めて話に出す、聞き手にまだ像のない物音。「1つの音」として差し出すので a。"
     },
     {
       "sentence": "Who is ___ woman standing over there?",
       "answer": "the",
       "translation": "あそこに立っている女性は誰ですか。",
-      "explanation": "「あそこに立っている」と特定されているので the。"
+      "explanation": "「あそこに立っている」と言えば、どの人か指をさせる。1人に絞られているので the。"
     }
   ]
 }
