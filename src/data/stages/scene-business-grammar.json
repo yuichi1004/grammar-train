@@ -48,9 +48,9 @@
       "explanation": "once の枠の中は未来でも will で塗らない。have を付けると「確認が終わった状態になったら」と完了の絵がはっきりする。"
     },
     {
-      "sentence": "We'll issue the invoice as soon as the goods ___ . (arrive)",
+      "sentence": "We'll issue the invoice as soon as the goods ___ at the port. (arrive)",
       "answer": "arrive",
-      "translation": "商品が到着次第、請求書を発行いたします。",
+      "translation": "商品が港に到着次第、請求書を発行いたします。",
       "explanation": "as soon as は時の枠を作る接続詞。未来のことでも枠の中は現在形にし、未来は主節の will が引き受ける。"
     },
     {
@@ -60,9 +60,9 @@
       "explanation": "when 節の中に will は入れない。日本語の「戻ったら」に未来の印がないのと同じ感覚。"
     },
     {
-      "sentence": "Please confirm before the deadline ___ . (pass)",
+      "sentence": "Please confirm before the deadline ___ on Friday. (pass)",
       "answer": "passes",
-      "translation": "締め切りが過ぎる前にご確認ください。",
+      "translation": "金曜の締め切りが過ぎる前にご確認ください。",
       "explanation": "before も時の枠を作る。枠の中は現在形になり、三人称単数の s だけが残る。"
     },
     {

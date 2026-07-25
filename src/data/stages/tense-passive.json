@@ -35,7 +35,7 @@
       "explanation": "追加される側が主語で、しかも作業の途中。主語が複数なので be は are になる。"
     },
     {
-      "sentence": "The road ___ , so please take the detour. (repair)",
+      "sentence": "The road ___, so please take the detour. (repair)",
       "answer": "is being repaired",
       "accept": ["'s being repaired", "’s being repaired"],
       "translation": "道路が補修中なので、迂回路をお使いください。",
@@ -82,9 +82,9 @@
       "explanation": "地震という点が刺さった時点で工事は続いていた。過去の線に受け身を重ねると was being ＋ 過去分詞になる。"
     },
     {
-      "sentence": "I couldn't use the lift because it ___ . (service)",
+      "sentence": "I couldn't use the lift because it ___ that day. (service)",
       "answer": "was being serviced",
-      "translation": "エレベーターは点検中だったので使えなかった。",
+      "translation": "その日はエレベーターが点検中だったので使えなかった。",
       "explanation": "使えなかった過去の場面で、点検の線がその時間を横切っていた。受け身の進行形が過去に移った形。"
     },
     {
@@ -94,9 +94,9 @@
       "explanation": "主語が複数なので were。出来事の点が刺さった瞬間も作業の線が続いていた。"
     },
     {
-      "sentence": "She suddenly realized she ___ . (follow)",
+      "sentence": "She suddenly realized she ___ by someone. (follow)",
       "answer": "was being followed",
-      "translation": "彼女は突然、自分がつけられていることに気づいた。",
+      "translation": "彼女は突然、誰かにつけられていることに気づいた。",
       "explanation": "気づいた瞬間も、つけられている線は続いていた。誰につけられているか分からないので受け身が自然になる。"
     },
     {

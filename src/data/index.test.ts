@@ -90,6 +90,16 @@ describe('ステージデータ', () => {
     }
   })
 
+  // Quiz は sentence を ___ で 2 つに割って前後を表示する。
+  // 空欄が 2 つあると 3 つ目以降の断片が画面から消えてしまう。
+  it('空欄はちょうど 1 つ', () => {
+    for (const stage of stages) {
+      for (const [i, q] of stage.questions.entries()) {
+        expect(q.sentence.split('___').length - 1, `${stage.id}[${i}]`).toBe(1)
+      }
+    }
+  })
+
   // 解説は「なぜその語を使うのか」というネイティブのイメージを言語化する方針。
   // 「〜には at」のような一言ルールに戻っていないことを長さで最低限ガードする。
   it('解説がイメージを説明できる長さになっている', () => {

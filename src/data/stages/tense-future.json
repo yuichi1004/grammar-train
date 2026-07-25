@@ -25,7 +25,7 @@
       "explanation": "the moment も when と同じ働きで時の枠を作る。枠の中に will を入れると英語として成り立たない。"
     },
     {
-      "sentence": "Once the payment ___ , we'll ship the goods immediately. (arrive)",
+      "sentence": "Once the payment ___, we'll ship the goods immediately. (arrive)",
       "answer": "arrives",
       "translation": "入金が確認でき次第、すぐに商品を発送します。",
       "explanation": "once も時の枠を作る接続詞。未来の話でも枠の中は現在形になり、三人称単数の s だけが残る。"

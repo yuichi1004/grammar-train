@@ -69,10 +69,10 @@
       "explanation": "いつでも変わらない性質を言うときは現在形。特定の時間の途中を切り取っていないので進行形にはしない。"
     },
     {
-      "sentence": "Be quiet — the baby ___ . (sleep)",
+      "sentence": "Be quiet — the baby ___ upstairs. (sleep)",
       "answer": "is sleeping",
       "accept": ["'s sleeping", "’s sleeping"],
-      "translation": "静かにして。赤ちゃんが寝ているところだから。",
+      "translation": "静かにして。赤ちゃんが2階で寝ているところだから。",
       "explanation": "今この瞬間に続いている線の途中を指している。習慣ではなく目の前の一場面なので進行形。"
     },
     {
@@ -102,7 +102,7 @@
       "explanation": "every Sunday は繰り返される点の集まり。1回1回の途中ではなく習慣全体を指すので現在形。"
     },
     {
-      "sentence": "My English ___ , but very slowly. (improve)",
+      "sentence": "My English ___, but very slowly. (improve)",
       "answer": "is improving",
       "accept": ["'s improving", "’s improving"],
       "translation": "私の英語は上達しているが、とてもゆっくりだ。",
