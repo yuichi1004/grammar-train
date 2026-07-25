@@ -10,10 +10,24 @@ import { validateStages, MIN_QUESTIONS } from '../lib/stages'
 const PUBLISHED_IDS = [
   'prepositions-1',
   'prepositions-2',
+  'prepositions-abstract',
+  'prepositions-verbs',
+  'prepositions-adj-noun',
+  'prepositions-contrast',
   'articles-1',
   'articles-2',
   'nouns-1',
   'nouns-2',
+  'tense-present',
+  'tense-past',
+  'tense-perfect',
+  'tense-past-perfect',
+  'tense-future',
+  'tense-passive',
+  'tense-unreal',
+  'scene-business-prepositions',
+  'scene-business-articles',
+  'scene-business-grammar',
 ]
 
 describe('ステージデータ', () => {

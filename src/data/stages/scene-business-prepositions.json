@@ -1,0 +1,189 @@
+{
+  "id": "scene-business-prepositions",
+  "order": 510,
+  "title": "ビジネス 1（メール・会議の前置詞）",
+  "category": "scene",
+  "description": "数字の報告、メールのやりとり、締め切りと進捗。実務でそのまま使う型を前置詞から固める",
+  "questions": [
+    {
+      "sentence": "Sales rose ___ 12% compared with the same period last year.",
+      "answer": "by",
+      "translation": "売上は前年同期比で12%増加した。",
+      "explanation": "by は差の幅を測るものさし。増えた分だけを指しているので、到達点そのものを指す to とは絵が違う。"
+    },
+    {
+      "sentence": "The unit price has gone up ___ 12,000 yen from 10,000.",
+      "answer": "to",
+      "translation": "単価は1万円から1万2000円に上がった。",
+      "explanation": "to は到達した地点を指す矢印。上がった先の数字そのものを言っているので、差ではなく着地点になる。"
+    },
+    {
+      "sentence": "We need to cut costs ___ at least 10% this quarter.",
+      "answer": "by",
+      "translation": "今四半期は少なくとも10%のコスト削減が必要だ。",
+      "explanation": "削る幅を言っているので by。to にすると「10%まで下げる」となり、9割削る話になってしまう。"
+    },
+    {
+      "sentence": "Headcount will increase ___ 150 by the end of the year.",
+      "answer": "to",
+      "translation": "年末までに人員は150人まで増える。",
+      "explanation": "増えた結果たどり着く数を指しているので to。by 150 なら150人分の増加という意味になる。"
+    },
+    {
+      "sentence": "Profits fell ___ half compared with 2024.",
+      "answer": "by",
+      "translation": "利益は2024年比で半分に減った。",
+      "explanation": "減った幅が半分だという言い方。by は差を測るので、失われた側の量を指している。"
+    },
+    {
+      "sentence": "The share price dropped ___ 800 yen, its lowest level this year.",
+      "answer": "to",
+      "translation": "株価は今年最安値の800円まで下落した。",
+      "explanation": "下がって止まった地点を指すので to。その後に「今年の最安値」と続くのも、到達点の話だという合図になる。"
+    },
+    {
+      "sentence": "I've attached the revised quotation ___ this email.",
+      "answer": "to",
+      "translation": "改訂した見積書を本メールに添付しました。",
+      "explanation": "メールという台紙にファイルを届けて貼り付ける絵。くっつける先を指すので to。"
+    },
+    {
+      "sentence": "Please keep me ___ the loop on this.",
+      "answer": "in",
+      "translation": "この件は私にも共有し続けてください。",
+      "explanation": "情報が回っている輪の内側に入れておく絵。輪の外に出されると話が届かなくなる。"
+    },
+    {
+      "sentence": "I'll cc you ___ my reply to the client.",
+      "answer": "on",
+      "translation": "クライアントへの返信にあなたを cc します。",
+      "explanation": "その案件に触れたまま乗せておく絵。輪の中に入れる in the loop と近いが、cc は個々のメールに乗せる。"
+    },
+    {
+      "sentence": "I'll follow up ___ the client tomorrow morning.",
+      "answer": "with",
+      "translation": "明日の午前にクライアントに追って連絡します。",
+      "explanation": "相手と一緒に次の一歩を進める絵。人が相手なら with、案件が相手なら follow up on になる。"
+    },
+    {
+      "sentence": "I'll get back ___ you by Thursday at the latest.",
+      "answer": "to",
+      "translation": "遅くとも木曜までにご返答します。",
+      "explanation": "相手のところまで戻っていく矢印。返事が届く先を指しているので to。"
+    },
+    {
+      "sentence": "Thank you for getting ___ touch so quickly.",
+      "answer": "in",
+      "translation": "早々にご連絡いただきありがとうございます。",
+      "explanation": "触れ合える範囲の中に入るという絵。連絡が届く圏内に入った状態を指している。"
+    },
+    {
+      "sentence": "Please submit your expenses ___ close of business on Friday.",
+      "answer": "by",
+      "translation": "金曜の営業終了時までに経費を提出してください。",
+      "explanation": "by は締め切りという1本の線。線を越える前ならいつ出してもよいという含みになる。"
+    },
+    {
+      "sentence": "I'm sorry to ask ___ such short notice.",
+      "answer": "at",
+      "translation": "急なお願いで恐れ入ります。",
+      "explanation": "知らせから実行までの間隔を一点にまで詰めた絵。幅がないので「急な」という意味になる。"
+    },
+    {
+      "sentence": "We would appreciate a reply ___ your earliest convenience.",
+      "answer": "at",
+      "translation": "ご都合のつき次第ご返信いただけますと幸いです。",
+      "explanation": "都合のよい時刻という一点を指し、その選択を相手に預けている。締め切りを切らない丁寧な言い方。"
+    },
+    {
+      "sentence": "The invoice is payable ___ 30 days of the delivery date.",
+      "answer": "within",
+      "translation": "請求書は納品日から30日以内にお支払いください。",
+      "explanation": "30日という円を描いて、その内側に支払いを収める。円の縁までは自由という含みがある。"
+    },
+    {
+      "sentence": "We're two weeks ___ schedule, so the launch will slip.",
+      "answer": "behind",
+      "translation": "予定より2週間遅れているので、発売はずれ込みます。",
+      "explanation": "予定表という走者の後ろを走っている絵。前に出ていれば ahead of schedule になる。"
+    },
+    {
+      "sentence": "The project is still ___ track for a June launch.",
+      "answer": "on",
+      "translation": "プロジェクトは6月の発売に向けて順調です。",
+      "explanation": "決められた線路の上から落ちていない絵。on は接触なので、レールに乗ったままなら順調ということになる。"
+    },
+    {
+      "sentence": "The offer is subject ___ board approval.",
+      "answer": "to",
+      "translation": "本オファーは役員会の承認を条件とします。",
+      "explanation": "承認という力の下に置かれ、その判断に従う関係。従う相手を指すので to。"
+    },
+    {
+      "sentence": "This is ___ line with what we agreed in March.",
+      "answer": "in",
+      "translation": "これは3月に合意した内容に沿っています。",
+      "explanation": "1本の線の上に並んで、そこからはみ出していない絵。合意という線の内側にとどまっている。"
+    },
+    {
+      "sentence": "I'm writing ___ behalf of our CEO, who is currently overseas.",
+      "answer": "on",
+      "translation": "現在海外におります弊社CEOに代わってご連絡しております。",
+      "explanation": "相手の側に立ち、その名前を背負って前に出る絵。一個人としてではなく代理として書いている。"
+    },
+    {
+      "sentence": "Please process the order ___ per the attached specification.",
+      "answer": "as",
+      "translation": "添付の仕様書のとおりに発注処理をお願いします。",
+      "explanation": "示された型にぴたりと重ねて進めるという言い方。契約書やメールでよく使う硬い表現。"
+    },
+    {
+      "sentence": "The goods will be delivered ___ our standard terms.",
+      "answer": "under",
+      "translation": "商品は弊社の標準取引条件のもとで納品されます。",
+      "explanation": "条件という屋根の下に入って、その支配を受けている絵。契約の枠の中で動くことを表す。"
+    },
+    {
+      "sentence": "She is ___ charge of the Asian market.",
+      "answer": "in",
+      "translation": "彼女はアジア市場の責任者です。",
+      "explanation": "責任という枠の中に入っていて、その範囲のことは全部その人のものになる。"
+    },
+    {
+      "sentence": "Let's move ___ to the next item on the agenda.",
+      "answer": "on",
+      "translation": "次の議題に移りましょう。",
+      "explanation": "議事という線路の上を前へ滑らせる絵。レールに乗ったまま次へ進む感覚。"
+    },
+    {
+      "sentence": "Could you put that ___ the agenda for Monday?",
+      "answer": "on",
+      "translation": "それを月曜の議題に載せてもらえますか。",
+      "explanation": "議題という一覧表の上に項目を載せる絵。紙の面に接触させるので on。"
+    },
+    {
+      "sentence": "I'd like to comment ___ the second proposal.",
+      "answer": "on",
+      "translation": "2つ目の提案について意見を述べたいと思います。",
+      "explanation": "対象の上に自分の言葉を重ねて置く絵。触れる面がはっきりしているので on。"
+    },
+    {
+      "sentence": "We're still ___ budget for this financial year.",
+      "answer": "on",
+      "translation": "今年度はまだ予算内で収まっています。",
+      "explanation": "予算という線の上から外れていない絵。超えれば over budget になる。"
+    },
+    {
+      "sentence": "The item you ordered is currently ___ stock.",
+      "answer": "in",
+      "translation": "ご注文の商品は現在在庫がございます。",
+      "explanation": "倉庫という箱の中にある状態。切れていれば箱の外に出て out of stock になる。"
+    },
+    {
+      "sentence": "Three people were absent ___ the meeting.",
+      "answer": "from",
+      "translation": "その会議には3人が欠席した。",
+      "explanation": "from は起点から離れている矢印。会議という場から距離を取って外にいることを表す。"
+    }
+  ]
+}

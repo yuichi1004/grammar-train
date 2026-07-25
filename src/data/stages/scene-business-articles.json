@@ -1,0 +1,191 @@
+{
+  "id": "scene-business-articles",
+  "order": 520,
+  "title": "ビジネス 2（冠詞と数えられない名詞）",
+  "category": "scene",
+  "description": "feedback / advice / information / equipment は英語では「水や砂のような量」。a を付けたり複数形にしたりせず、動詞も単数で受ける",
+  "hint": "括弧のある問題は括弧内の語を文に合う形にして入力",
+  "questions": [
+    {
+      "sentence": "The equipment ___ arrived this morning. (have)",
+      "answer": "has",
+      "translation": "機材は今朝到着しました。",
+      "explanation": "equipment は道具をまとめた「装備という量」。粒に分かれないので複数形にならず、動詞も単数で受ける。"
+    },
+    {
+      "sentence": "Your feedback on the draft ___ extremely helpful. (be)",
+      "answer": "was",
+      "accept": ["is"],
+      "translation": "草案へのご意見はきわめて有益でした。",
+      "explanation": "feedback は返ってくる反応の総量。1つ2つと数えないので a feedback とも feedbacks とも言わない。"
+    },
+    {
+      "sentence": "There ___ very little information available at this stage. (be)",
+      "answer": "is",
+      "translation": "現段階では入手できる情報はごくわずかです。",
+      "explanation": "information は輪郭のない中身なので、少なさは few ではなく little で測る。動詞も単数になる。"
+    },
+    {
+      "sentence": "All the luggage ___ been checked in. (have)",
+      "answer": "has",
+      "translation": "荷物はすべて預け入れが済んでいます。",
+      "explanation": "luggage は荷物ひとまとめを指す量の語。個数を数えたいときは two pieces of luggage と器を借りる。"
+    },
+    {
+      "sentence": "The advice they gave us ___ excellent. (be)",
+      "answer": "was",
+      "translation": "彼らがくれた助言は素晴らしいものだった。",
+      "explanation": "advice は「助言という中身」で形がない。数えたいときは a piece of advice と1つ分の形を借りる。"
+    },
+    {
+      "sentence": "Research ___ shown that flexible hours improve retention. (have)",
+      "answer": "has",
+      "translation": "研究により、柔軟な勤務時間が定着率を高めることが示されている。",
+      "explanation": "research は積み上がった調査の総量。個々の調査を数えるなら a study と別の語に切り替える。"
+    },
+    {
+      "sentence": "Progress ___ been slower than we expected. (have)",
+      "answer": "has",
+      "translation": "進捗は予想より遅れています。",
+      "explanation": "progress は進み具合という量。多い少ないで測るので、a progress や progresses とはならない。"
+    },
+    {
+      "sentence": "The furniture for the new office ___ ordered last week. (be)",
+      "answer": "was",
+      "translation": "新オフィス用の家具は先週発注しました。",
+      "explanation": "furniture は机や椅子をまとめたカテゴリ。個々の形を意識しない語なので単数扱いになる。"
+    },
+    {
+      "sentence": "___ board will meet on the 15th to approve the budget.",
+      "answer": "The",
+      "translation": "役員会は15日に開かれ、予算を承認します。",
+      "explanation": "the は「指をさせる」印。社内で board といえばどれのことか一つに絞れるので the が付く。"
+    },
+    {
+      "sentence": "Prices are falling right across ___ whole market.",
+      "answer": "the",
+      "translation": "市場全体で価格が下落している。",
+      "explanation": "whole が付いた時点で、話し手と聞き手が同じ1つの市場を思い浮かべている。指させるので the。"
+    },
+    {
+      "sentence": "Could you take ___ minutes at tomorrow's meeting?",
+      "answer": "the",
+      "translation": "明日の会議の議事録を取ってもらえますか。",
+      "explanation": "議事録は会議に1つと決まっているので指させる。minutes は複数形だが「議事録」という決まった言い方。"
+    },
+    {
+      "sentence": "She works in ___ marketing, not in sales.",
+      "answer": "",
+      "translation": "彼女は営業ではなくマーケティングの部門にいる。",
+      "explanation": "分野や部門の名前は輪郭を消して「その領域として」扱う。だから冠詞を付けずに裸のまま置く。"
+    },
+    {
+      "sentence": "I'll be at ___ work until about six.",
+      "answer": "",
+      "translation": "6時ごろまで職場にいます。",
+      "explanation": "建物ではなく「仕事をしている状態」を指している。場所の輪郭を消しているので冠詞が消える。"
+    },
+    {
+      "sentence": "Let's discuss it over ___ lunch tomorrow.",
+      "answer": "",
+      "translation": "明日、昼食をとりながら話しましょう。",
+      "explanation": "食事の名前は「食べるという行為」として扱うので無冠詞。特定の一食を指すときだけ the が付く。"
+    },
+    {
+      "sentence": "___ Ministry of Finance published the figures yesterday.",
+      "answer": "The",
+      "translation": "財務省は昨日その数字を公表した。",
+      "explanation": "of で中身が限定されると、指させる一つに決まる。組織名に of が入ると the が付きやすい。"
+    },
+    {
+      "sentence": "Our largest overseas market is ___ United States.",
+      "answer": "the",
+      "translation": "当社最大の海外市場はアメリカです。",
+      "explanation": "States という複数のまとまりを1つに束ねる the。複数形を含む国名にはこの the が付く。"
+    },
+    {
+      "sentence": "We've set ___ deadline for the 30th; please make a note of it.",
+      "answer": "a",
+      "translation": "締め切りを30日に設定しました。ご記録ください。",
+      "explanation": "話に初めて出てきた締め切りなので、まだ指させない。「そういうものを1つ」と置くのが a。"
+    },
+    {
+      "sentence": "I'm afraid we can't move ___ deadline we agreed last week.",
+      "answer": "the",
+      "translation": "先週合意した締め切りは動かせません。",
+      "explanation": "we agreed last week が付いてどれの話か決まった。指させるようになった瞬間に the に変わる。"
+    },
+    {
+      "sentence": "I've attached ___ draft for your review.",
+      "answer": "a",
+      "translation": "ご確認用に草案を添付しました。",
+      "explanation": "相手にとって初めて登場する草案なので a。まだ相手の頭の中に指させる対象がない。"
+    },
+    {
+      "sentence": "Please send ___ draft back with your comments by Friday.",
+      "answer": "the",
+      "translation": "その草案にコメントを付けて金曜までにご返送ください。",
+      "explanation": "直前で添付した草案のことだと双方に分かっている。二度目の登場なので指させる the になる。"
+    },
+    {
+      "sentence": "There's ___ problem with the invoice you sent.",
+      "answer": "a",
+      "translation": "お送りいただいた請求書に1点問題があります。",
+      "explanation": "問題があること自体を初めて持ち出しているので a。invoice のほうは相手が知っているので the。"
+    },
+    {
+      "sentence": "Is this model still in ___ stock?",
+      "answer": "",
+      "translation": "このモデルはまだ在庫がありますか。",
+      "explanation": "in stock は「在庫という状態にある」という決まり文句。状態を指すので輪郭がなく冠詞を付けない。"
+    },
+    {
+      "sentence": "We finished the project on ___ budget and on time.",
+      "answer": "",
+      "translation": "私たちはそのプロジェクトを予算内かつ期限内に終えた。",
+      "explanation": "on budget も状態を表す型。決められた線の上から外れていないという意味で、冠詞は入らない。"
+    },
+    {
+      "sentence": "Members can buy tickets at ___ discount.",
+      "answer": "a",
+      "translation": "会員は割引価格でチケットを購入できます。",
+      "explanation": "at a discount は「ある割引の幅で」という形。割引率という数えられる幅を1つ取り出すので a が残る。"
+    },
+    {
+      "sentence": "The laptop is still under ___ warranty.",
+      "answer": "",
+      "translation": "そのノートパソコンはまだ保証期間内です。",
+      "explanation": "保証という屋根の下にある状態を指す型。状態には輪郭がないので冠詞が消える。"
+    },
+    {
+      "sentence": "Please put this item on ___ agenda for the next meeting.",
+      "answer": "the",
+      "translation": "この件を次回会議の議題に載せてください。",
+      "explanation": "次回会議の議題は1つに決まっているので指させる。for the next meeting がその範囲を限定している。"
+    },
+    {
+      "sentence": "Every member of staff ___ received the notice. (have)",
+      "answer": "has",
+      "translation": "全社員がその通知を受け取りました。",
+      "explanation": "every は集団を1人ずつに切り分けて数える語。切り分けた1人が主語なので動詞は単数になる。"
+    },
+    {
+      "sentence": "None of the equipment ___ been delivered yet. (have)",
+      "answer": "has",
+      "translation": "機材はまだ1つも納品されていません。",
+      "explanation": "受けているのが不可算の equipment なので、none でも単数で受ける。数えられる名詞なら have も使える。"
+    },
+    {
+      "sentence": "The number of complaints ___ fallen sharply this year. (have)",
+      "answer": "has",
+      "translation": "今年は苦情の件数が大きく減った。",
+      "explanation": "主語は複数の complaints ではなく number という1つの数値。数そのものが減ったので単数で受ける。"
+    },
+    {
+      "sentence": "A great deal of time ___ been spent on this issue. (have)",
+      "answer": "has",
+      "translation": "この問題には多大な時間が費やされてきた。",
+      "explanation": "a great deal of は不可算の量を測る言い方。測っている中身が time という量なので動詞は単数になる。"
+    }
+  ]
+}

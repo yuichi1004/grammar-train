@@ -1,0 +1,208 @@
+{
+  "id": "scene-business-grammar",
+  "order": 530,
+  "title": "ビジネス 3（メールの時制と語法）",
+  "category": "scene",
+  "description": "メールの書き出し、条件の伝え方、議事録の時制の一致、報告書の受動態。丁寧さは would / could で現実から一歩距離を取ることで生まれる",
+  "hint": "括弧内の語を、文脈に合う時制・人称の形にして入力",
+  "questions": [
+    {
+      "sentence": "I ___ to confirm our meeting on the 12th. (write)",
+      "answer": "am writing",
+      "accept": ["'m writing", "’m writing"],
+      "translation": "12日の打ち合わせの確認のためご連絡しております。",
+      "explanation": "今まさに書いている最中の線を示すことで、目の前で話しかけている感じが出る。I write では説明文のように硬くなる。"
+    },
+    {
+      "sentence": "I ___ the revised contract for your review. (attach)",
+      "answer": "have attached",
+      "accept": ["'ve attached", "’ve attached"],
+      "translation": "ご確認用に改訂版の契約書を添付いたしました。",
+      "explanation": "添付したのは書き終える直前でも、その結果が今このメールに残っている。今との線がつながるので完了形。"
+    },
+    {
+      "sentence": "Thank you — we ___ your payment, so your account is now up to date. (receive)",
+      "answer": "have received",
+      "accept": ["'ve received", "’ve received"],
+      "translation": "お支払いを確認いたしました。お客様の残高は最新の状態です。",
+      "explanation": "入金という過去の出来事が、今の残高という形で残っている。結果が今に届いているので完了形になる。"
+    },
+    {
+      "sentence": "I ___ to apologize for the delay in replying. (write)",
+      "answer": "am writing",
+      "accept": ["'m writing", "’m writing"],
+      "translation": "ご返信が遅くなりましたことをお詫び申し上げます。",
+      "explanation": "書き出しの型。今この手紙を書いている線の途中に立って、目的をそのまま述べている。"
+    },
+    {
+      "sentence": "Please ___ attached our latest catalogue. (find)",
+      "answer": "find",
+      "translation": "最新のカタログを添付いたします。",
+      "explanation": "命令形は動詞の原形をそのまま置く形。please find attached はメールで長く使われてきた決まり文句。"
+    },
+    {
+      "sentence": "Once you ___ the draft, please let me know your thoughts. (review)",
+      "answer": "have reviewed",
+      "accept": ["review", "'ve reviewed", "’ve reviewed"],
+      "translation": "草案をご確認いただいたら、ご意見をお知らせください。",
+      "explanation": "once の枠の中は未来でも will で塗らない。have を付けると「確認が終わった状態になったら」と完了の絵がはっきりする。"
+    },
+    {
+      "sentence": "We'll issue the invoice as soon as the goods ___ . (arrive)",
+      "answer": "arrive",
+      "translation": "商品が到着次第、請求書を発行いたします。",
+      "explanation": "as soon as は時の枠を作る接続詞。未来のことでも枠の中は現在形にし、未来は主節の will が引き受ける。"
+    },
+    {
+      "sentence": "I'll call you when I ___ back from Osaka. (get)",
+      "answer": "get",
+      "translation": "大阪から戻りましたらお電話します。",
+      "explanation": "when 節の中に will は入れない。日本語の「戻ったら」に未来の印がないのと同じ感覚。"
+    },
+    {
+      "sentence": "Please confirm before the deadline ___ . (pass)",
+      "answer": "passes",
+      "translation": "締め切りが過ぎる前にご確認ください。",
+      "explanation": "before も時の枠を作る。枠の中は現在形になり、三人称単数の s だけが残る。"
+    },
+    {
+      "sentence": "After you ___ the form, please send it to HR. (complete)",
+      "answer": "have completed",
+      "accept": ["complete", "'ve completed", "’ve completed"],
+      "translation": "用紙にご記入のうえ、人事部へお送りください。",
+      "explanation": "after の枠の中も未来形にしない。have を添えると「記入が終わった状態で」と順序がはっきりする。"
+    },
+    {
+      "sentence": "I ___ be grateful if you could reply by Friday. (will)",
+      "answer": "would",
+      "accept": ["'d", "’d"],
+      "translation": "金曜までにご返信いただけますと幸いです。",
+      "explanation": "would は現実から一歩下がる形。「もしそうしていただけるなら」と仮の世界に置くことで押しつけがましさが消える。"
+    },
+    {
+      "sentence": "___ it be possible to move the meeting to Thursday? (will)",
+      "answer": "Would",
+      "translation": "会議を木曜に移すことは可能でしょうか。",
+      "explanation": "断定の will を一段下げて、相手に断る余地を残している。距離を取るほど丁寧になる。"
+    },
+    {
+      "sentence": "We ___ appreciate an early reply. (will)",
+      "answer": "would",
+      "accept": ["'d", "’d"],
+      "translation": "早めにご返信いただけますとありがたく存じます。",
+      "explanation": "will appreciate だと決定事項のように響く。would にして仮の枠に入れると、要求が願いに変わる。"
+    },
+    {
+      "sentence": "___ you possibly send the file today? (can)",
+      "answer": "Could",
+      "translation": "本日中にファイルをお送りいただけますでしょうか。",
+      "explanation": "can を一段下げた could は、できるかどうかを直接問わずに遠回しに頼む形。possibly がさらに距離を足している。"
+    },
+    {
+      "sentence": "There ___ be a slight delay — I'll confirm tomorrow. (may)",
+      "answer": "may",
+      "accept": ["might"],
+      "translation": "多少の遅れが出るかもしれません。明日確定してお知らせします。",
+      "explanation": "断定を避けて可能性だけを置く形。悪い知らせほど、確信の度合いを下げて伝えるのが実務の作法になる。"
+    },
+    {
+      "sentence": "It ___ be helpful if we had the figures in advance. (will)",
+      "answer": "would",
+      "accept": ["'d", "’d"],
+      "translation": "事前に数字をいただけると助かります。",
+      "explanation": "had という仮の条件に合わせて主節も一段下げる。現実からずらした組み合わせが、控えめな依頼になる。"
+    },
+    {
+      "sentence": "Mr. Sato said the budget ___ already been approved. (have)",
+      "answer": "had",
+      "accept": ["'d", "’d"],
+      "translation": "佐藤氏は、予算はすでに承認済みだと述べた。",
+      "explanation": "said が過去に立っているので、その中身も一段さかのぼる。議事録は基準点を過去に固定して書く。"
+    },
+    {
+      "sentence": "The team reported that sales ___ rising steadily. (be)",
+      "answer": "were",
+      "translation": "チームは売上が着実に伸びていると報告した。",
+      "explanation": "報告した時点が基準点なので、中身の進行形も一段下げる。今も伸びていても、報告の枠に合わせる。"
+    },
+    {
+      "sentence": "She confirmed that the supplier ___ deliver by the 20th. (will)",
+      "answer": "would",
+      "accept": ["'d", "’d"],
+      "translation": "彼女は、供給元が20日までに納品すると確認した。",
+      "explanation": "確認した時点から見た未来なので will が would に下がる。過去の中の未来を表す形。"
+    },
+    {
+      "sentence": "It was noted that the figures ___ from a 2024 survey. (come)",
+      "answer": "came",
+      "translation": "その数字は2024年の調査に基づくものであることが確認された。",
+      "explanation": "記録した時点が過去なので、中身の現在形も過去形にそろえる。議事録全体が過去の枠に入る。"
+    },
+    {
+      "sentence": "He explained that the system ___ down since Monday. (be)",
+      "answer": "had been",
+      "accept": ["'d been", "’d been"],
+      "translation": "彼は、システムが月曜からずっと停止していると説明した。",
+      "explanation": "説明の時点まで続いていた線を、その時点から振り返っている。現在完了がそのまま一段さかのぼる。"
+    },
+    {
+      "sentence": "The survey ___ among 500 customers last month. (conduct)",
+      "answer": "was conducted",
+      "translation": "その調査は先月、500人の顧客を対象に実施された。",
+      "explanation": "誰が実施したかより調査そのものが話題なので受け身。報告書は行為者を隠すことで客観的な響きになる。"
+    },
+    {
+      "sentence": "A full report ___ to the board next week. (submit)",
+      "answer": "will be submitted",
+      "accept": ["'ll be submitted", "’ll be submitted"],
+      "translation": "来週、役員会に完全な報告書が提出されます。",
+      "explanation": "未来へ飛ぶ仕事は will が引き受け、その後ろは be ＋ 過去分詞のまま残る。"
+    },
+    {
+      "sentence": "The data ___ by an external auditor at the moment. (check)",
+      "answer": "is being checked",
+      "accept": ["'s being checked", "’s being checked"],
+      "translation": "データは現在、外部監査人によって確認されています。",
+      "explanation": "確認される側が主語で、その作業が今進んでいる。途中を示す being を挟んで受け身に重ねる。"
+    },
+    {
+      "sentence": "No decision ___ yet. (make)",
+      "answer": "has been made",
+      "accept": ["'s been made", "’s been made"],
+      "translation": "まだ何も決定されていません。",
+      "explanation": "yet は今を基準にする語なので完了形と組む。決めた人を言わずに、決定の有無だけを述べている。"
+    },
+    {
+      "sentence": "All complaints ___ within 48 hours. (handle)",
+      "answer": "are handled",
+      "translation": "すべての苦情は48時間以内に対応されます。",
+      "explanation": "決まりとして繰り返されることなので現在形。担当者ではなく仕組みの話なので受け身になる。"
+    },
+    {
+      "sentence": "If you ___ the quantity, we can offer a better price. (increase)",
+      "answer": "increase",
+      "translation": "数量を増やしていただければ、より良い価格をご提示できます。",
+      "explanation": "現実にありうる条件なので、if 節は現在形のまま置く。ずらしていないぶん、実際の提案として響く。"
+    },
+    {
+      "sentence": "We would consider it if the terms ___ more flexible. (be)",
+      "answer": "were",
+      "accept": ["was"],
+      "translation": "条件がもう少し柔軟であれば、検討いたします。",
+      "explanation": "現実から一歩ずらすことで「今の条件では難しい」と角を立てずに伝えている。交渉で使う距離の取り方。"
+    },
+    {
+      "sentence": "Had we known the schedule, we ___ have quoted differently. (will)",
+      "answer": "would",
+      "accept": ["'d", "’d"],
+      "translation": "日程を知っていれば、違う見積もりを出していました。",
+      "explanation": "起きなかった過去を語る形。if を省いて Had を前に出すと、書き言葉らしい硬い響きになる。"
+    },
+    {
+      "sentence": "If the goods ___ damaged in transit, we will replace them. (be)",
+      "answer": "are",
+      "translation": "輸送中に商品が破損した場合は、交換いたします。",
+      "explanation": "実際に起こりうる条件なので現在形のまま。ずらさないので、約束として効力を持つ言い方になる。"
+    }
+  ]
+}

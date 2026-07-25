@@ -17,6 +17,9 @@ import tensePastPerfect from './stages/tense-past-perfect.json'
 import tenseFuture from './stages/tense-future.json'
 import tensePassive from './stages/tense-passive.json'
 import tenseUnreal from './stages/tense-unreal.json'
+import sceneBusinessPrepositions from './stages/scene-business-prepositions.json'
+import sceneBusinessArticles from './stages/scene-business-articles.json'
+import sceneBusinessGrammar from './stages/scene-business-grammar.json'
 
 /**
  * 未検証のステージ JSON。新しいステージを追加するときはここに 1 行足すだけでよい。
@@ -41,6 +44,9 @@ export const stageSources: unknown[] = [
   tenseFuture,
   tensePassive,
   tenseUnreal,
+  sceneBusinessPrepositions,
+  sceneBusinessArticles,
+  sceneBusinessGrammar,
 ]
 
 /**
