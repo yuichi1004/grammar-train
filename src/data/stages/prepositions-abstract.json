@@ -1,0 +1,190 @@
+{
+  "id": "prepositions-abstract",
+  "order": 130,
+  "title": "前置詞 応用 1（抽象への拡張）",
+  "category": "preposition",
+  "description": "at =「点」/ on =「接触」/ in =「囲まれた中」のイメージが、目に見えない状態にも同じまま伸びていく",
+  "questions": [
+    {
+      "sentence": "The whole project is ___ risk if we miss this deadline.",
+      "answer": "at",
+      "translation": "この締め切りを逃せば、プロジェクト全体が危険にさらされる。",
+      "explanation": "at は地図にピンを刺すような「点」。危険という一点にプロジェクトが立たされている絵で、なんとなく危ないのではなく危険地帯そのものに置かれている。"
+    },
+    {
+      "sentence": "I was ___ a loss for words when they announced the news.",
+      "answer": "at",
+      "translation": "その知らせが発表されたとき、私は言葉に詰まってしまった。",
+      "explanation": "at は今いる位置を一点で示す。loss（失った状態）という点にぽつんと立ち止まっている絵なので、次の一歩が出てこない感じになる。"
+    },
+    {
+      "sentence": "___ first I thought it was a mistake, but the numbers were right.",
+      "answer": "at",
+      "translation": "最初は間違いだと思ったが、数字は正しかった。",
+      "explanation": "時間を1本の線として見たときの、いちばん先の一点を指すのが at first。線全体ではなく出発点だけを切り取っている。"
+    },
+    {
+      "sentence": "She read the whole report and answered every question ___ once.",
+      "answer": "at",
+      "translation": "彼女は報告書を全部読み、すべての質問にすぐさま答えた。",
+      "explanation": "once（一度）という一点に全部が集まる絵。時間の幅を持たせず一点で片づけるので「ただちに・同時に」になる。"
+    },
+    {
+      "sentence": "The goalkeeper was ___ his best in the second half.",
+      "answer": "at",
+      "translation": "そのゴールキーパーは後半に絶好調だった。",
+      "explanation": "調子を上下する曲線として見て、その頂点という一点に今いるという絵。at は幅ではなく位置を指す。"
+    },
+    {
+      "sentence": "The two countries have been ___ war for over a decade.",
+      "answer": "at",
+      "translation": "その2国は10年以上にわたって戦争状態にある。",
+      "explanation": "at は状態を1つの点として貼り付ける。戦争という立ち位置にぴたりと止まっている絵で、経過ではなく位置を言っている。"
+    },
+    {
+      "sentence": "Please get back to me ___ your earliest convenience.",
+      "answer": "at",
+      "translation": "ご都合のつき次第、お返事ください。",
+      "explanation": "都合のよい時刻という一点を指している。幅のある期間ではなく「その一点で」と言うので、時間の選択を相手に預ける丁寧な響きになる。"
+    },
+    {
+      "sentence": "Our legal team is ___ your disposal throughout the negotiation.",
+      "answer": "at",
+      "translation": "交渉の間、当社の法務チームはご自由にお使いいただけます。",
+      "explanation": "相手が手を伸ばせば届く一点に置いてある感覚。いつでも指させる位置に待機している絵。"
+    },
+    {
+      "sentence": "He didn't break the vase ___ purpose; it was an accident.",
+      "answer": "on",
+      "translation": "彼はわざと花瓶を割ったのではなく、事故だった。",
+      "explanation": "on は「くっついて離れない」。意図という土台の上に行動が乗っている絵で、たまたまではなく狙いに沿って動いたことを表す。"
+    },
+    {
+      "sentence": "The pharmacist is ___ duty until midnight.",
+      "answer": "on",
+      "translation": "その薬剤師は深夜まで勤務中だ。",
+      "explanation": "職務という土台に足をつけたまま降りていない絵。on は接触が続いていることなので、勤務から離れていない状態になる。"
+    },
+    {
+      "sentence": "The 8:05 train arrived exactly ___ time.",
+      "answer": "on",
+      "translation": "8時5分の電車はきっかり定刻に到着した。",
+      "explanation": "予定の時刻という点にぴたりと触れている。in time が「間に合う余裕をもって枠の中に入る」のに対し、on time は点に接触する。"
+    },
+    {
+      "sentence": "She's ___ the phone with a client at the moment.",
+      "answer": "on",
+      "translation": "彼女は今、顧客と電話中です。",
+      "explanation": "回線につながって切れていない状態。on は接触の継続なので、線がつながっている間ずっと通話中ということになる。"
+    },
+    {
+      "sentence": "The new model goes ___ sale next Friday.",
+      "answer": "on",
+      "translation": "新モデルは来週金曜に発売される。",
+      "explanation": "売り場という台の上に商品が載る絵。棚に接触した瞬間から買える状態に変わる。"
+    },
+    {
+      "sentence": "I ran into an old classmate ___ my way to the office.",
+      "answer": "on",
+      "translation": "会社に向かう途中で昔の同級生に出くわした。",
+      "explanation": "道という線に足がついたまま進んでいる。線から離れていないので「その途中で」という意味になる。"
+    },
+    {
+      "sentence": "The factory workers have been ___ strike for three weeks.",
+      "answer": "on",
+      "translation": "工場の労働者は3週間ストライキを続けている。",
+      "explanation": "ストライキという状態に乗ったまま降りていない絵。on は接触の継続なので、始まってずっと続いていることを表す。"
+    },
+    {
+      "sentence": "House prices are ___ the rise again.",
+      "answer": "on",
+      "translation": "住宅価格は再び上昇傾向にある。",
+      "explanation": "上昇していく流れという坂に乗って一緒に運ばれている絵。動きに接触しているので、今もその向きに進んでいる。"
+    },
+    {
+      "sentence": "Who is ___ charge of the budget this quarter?",
+      "answer": "in",
+      "translation": "今四半期は誰が予算の責任者ですか。",
+      "explanation": "in は「囲まれた中」。責任という枠の中に入っていて、その枠内のことは全部その人のものになる。"
+    },
+    {
+      "sentence": "Several species here are ___ danger of extinction.",
+      "answer": "in",
+      "translation": "ここに生息する数種は絶滅の危機にある。",
+      "explanation": "危険という領域にすっぽり入り込んでいる。at risk が一点に立つ感じなのに対し、in は周りを取り囲まれている。"
+    },
+    {
+      "sentence": "Can I pay ___ cash?",
+      "answer": "in",
+      "translation": "現金で払えますか。",
+      "explanation": "支払いを「その形式の中で」と枠に入れて言う。現金という容器の中で取引を完結させる絵。"
+    },
+    {
+      "sentence": "Don't sign anything ___ a hurry — take the weekend to think.",
+      "answer": "in",
+      "translation": "急いで署名しないで。週末をかけて考えて。",
+      "explanation": "急ぎという空気に包まれている状態。周りが慌ただしく、その中に閉じ込められたまま判断してしまう絵。"
+    },
+    {
+      "sentence": "The renovation is still ___ progress, so please use the side entrance.",
+      "answer": "in",
+      "translation": "改装はまだ進行中なので、通用口をお使いください。",
+      "explanation": "始まりと終わりにはさまれた途中に入り込んでいる。前後を囲まれているので「まだ途中」という意味になる。"
+    },
+    {
+      "sentence": "The contract was drawn up ___ English and Japanese.",
+      "answer": "in",
+      "translation": "契約書は英語と日本語で作成された。",
+      "explanation": "言語を入れ物として見て、その中に中身を注いだ絵。英語という容器の中で言葉が形になっている。"
+    },
+    {
+      "sentence": "The founder was still ___ her twenties when the company went public.",
+      "answer": "in",
+      "translation": "会社が上場したとき、創業者はまだ20代だった。",
+      "explanation": "20代という10年分の箱の中に年齢が入っている。幅のある期間は in で包むと考える。"
+    },
+    {
+      "sentence": "We keep ___ touch by email every week.",
+      "answer": "in",
+      "translation": "私たちは毎週メールで連絡を取り合っている。",
+      "explanation": "触れ合える範囲の中にお互いがとどまっている絵。圏外に出ていないので連絡が続く。"
+    },
+    {
+      "sentence": "The team has been ___ pressure to deliver since January.",
+      "answer": "under",
+      "translation": "チームは1月から納品を迫られる重圧を受けている。",
+      "explanation": "上から重さがのしかかり、その下敷きになっている絵。自分の意思より外の力が上に乗っている。"
+    },
+    {
+      "sentence": "The new terminal is still ___ construction.",
+      "answer": "under",
+      "translation": "新ターミナルはまだ建設中だ。",
+      "explanation": "工事という作業の下に置かれ、上から手が入れられ続けている状態。完成して手が離れるまで under のまま。"
+    },
+    {
+      "sentence": "The engine was ___ repair, so we replaced the whole machine.",
+      "answer": "beyond",
+      "translation": "エンジンは修理できる状態を超えていたので、機械ごと交換した。",
+      "explanation": "beyond は境界線の向こう側。修理の手が届く範囲の外に出てしまっていて、もう手が回らない。"
+    },
+    {
+      "sentence": "After months of work, the goal is finally ___ reach.",
+      "answer": "within",
+      "accept": ["in"],
+      "translation": "何か月もの作業を経て、目標にようやく手が届くところまで来た。",
+      "explanation": "within は「線の内側」。腕を伸ばして届く円を描き、その中に目標が入ったという絵。in reach とも言える。"
+    },
+    {
+      "sentence": "Please reply ___ 24 hours of receiving this notice.",
+      "answer": "within",
+      "translation": "この通知を受け取ってから24時間以内にご返信ください。",
+      "explanation": "24時間という円を描いて、その内側に返信を収める。縁までは自由という含みがあるので締め切りより柔らかい。"
+    },
+    {
+      "sentence": "The proposal is still ___ discussion at the board level.",
+      "answer": "under",
+      "translation": "その提案はまだ役員会で検討されている。",
+      "explanation": "議論という作業の下に置かれ、上から検討の手が入っている最中。結論はまだ下から出てきていない。"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "id": "prepositions-contrast",
+  "order": 160,
+  "title": "前置詞 応用 4（紛らわしいペアと群前置詞）",
+  "category": "preposition",
+  "description": "by と until、during と for のように日本語では同じ「まで」「間」になる組を絵で見分ける。in terms of のような複数語の前置詞も扱う",
+  "hint": "空欄に入るのは1語とはかぎらない（due to のように2語以上のこともある）",
+  "questions": [
+    {
+      "sentence": "The money was divided equally ___ the two founders.",
+      "answer": "between",
+      "translation": "その資金は2人の創業者で等分された。",
+      "explanation": "between は相手を1人ずつ向かい合わせに置く絵。2人でも10人でも、顔が見えて区別できるなら between。"
+    },
+    {
+      "sentence": "There is growing unease ___ the staff about the merger.",
+      "answer": "among",
+      "translation": "合併をめぐって社員の間に不安が広がっている。",
+      "explanation": "among は輪郭のない集団の中に埋もれている絵。誰と誰の間かを区別せず、群れ全体に混ざっている。"
+    },
+    {
+      "sentence": "What exactly is the difference ___ these two plans?",
+      "answer": "between",
+      "translation": "この2つのプランの違いは正確には何ですか。",
+      "explanation": "違いは2つを向かい合わせて比べたときに見えるもの。1対1で並べる絵なので between。"
+    },
+    {
+      "sentence": "Please send me the file ___ Friday at the latest.",
+      "answer": "by",
+      "translation": "遅くとも金曜までにファイルを送ってください。",
+      "explanation": "by は締め切りという1本の線。その線を越える前ならいつでもよく、線に触れた瞬間に終わっていればいい。"
+    },
+    {
+      "sentence": "The office will be closed ___ next Monday.",
+      "answer": "until",
+      "accept": ["till"],
+      "translation": "オフィスは来週の月曜まで閉まっています。",
+      "explanation": "until は線ではなく、そこまで伸びる帯。閉まっている状態が月曜まで途切れずに続いている絵。"
+    },
+    {
+      "sentence": "I'll be here ___ six, so come any time before that.",
+      "answer": "until",
+      "accept": ["till"],
+      "translation": "6時までここにいるので、それより前ならいつでも来て。",
+      "explanation": "いる状態が6時まで続く帯。by six なら「6時までに着く」という一点の話になり、意味が変わる。"
+    },
+    {
+      "sentence": "The repairs should be finished ___ the end of the month.",
+      "answer": "by",
+      "translation": "修理は月末までに終わるはずだ。",
+      "explanation": "終わるという出来事は一点で起きる。その一点が月末の線より手前にあればいいので by。"
+    },
+    {
+      "sentence": "He fell asleep ___ the presentation.",
+      "answer": "during",
+      "translation": "彼はプレゼンの最中に眠ってしまった。",
+      "explanation": "during は名前のついた期間という箱。その箱の中のどこかで出来事が起きたことを指す。"
+    },
+    {
+      "sentence": "We waited ___ nearly two hours.",
+      "answer": "for",
+      "translation": "私たちは2時間近く待った。",
+      "explanation": "for は長さを測るものさし。いつのことかではなく、どれだけ続いたかという幅そのものを言う。"
+    },
+    {
+      "sentence": "She called ___ I was in the shower.",
+      "answer": "while",
+      "translation": "シャワーを浴びている間に彼女から電話があった。",
+      "explanation": "while の後ろには文がまるごと来る。during は名詞の箱、while は動いている場面を丸ごと置く。"
+    },
+    {
+      "sentence": "The shop stays open ___ the holidays.",
+      "answer": "during",
+      "translation": "その店は休暇期間中も開いている。",
+      "explanation": "休暇という名前のついた期間の箱。その中でずっと開いているという絵になる。"
+    },
+    {
+      "sentence": "The report will be ready ___ three days.",
+      "answer": "in",
+      "translation": "報告書は3日後にできあがります。",
+      "explanation": "3日という箱を通り抜けた先に完成が置かれている絵。今から数えて箱の出口が期限になる。"
+    },
+    {
+      "sentence": "You must respond ___ seven days of receiving the notice.",
+      "answer": "within",
+      "translation": "通知を受け取ってから7日以内に返答しなければならない。",
+      "explanation": "within は円の内側。7日という円を描いて、その中に返答を収める絵になる。"
+    },
+    {
+      "sentence": "He put a blanket ___ the sleeping child.",
+      "answer": "over",
+      "translation": "彼は眠っている子どもに毛布をかけた。",
+      "explanation": "over は覆いかぶさる弧。高さを言うだけの above と違い、上から包み込んで接触までいく。"
+    },
+    {
+      "sentence": "Sea levels have risen two centimetres ___ the average.",
+      "answer": "above",
+      "translation": "海面は平均より2センチ上昇した。",
+      "explanation": "above は目盛りの上のほうという位置だけを示す。覆いかぶさらず、ただ高い位置にある。"
+    },
+    {
+      "sentence": "We walked ___ the forest to reach the lake.",
+      "answer": "through",
+      "translation": "湖に着くために森を抜けて歩いた。",
+      "explanation": "through は中を通り抜ける。木々に囲まれた立体の内部をくぐっていく絵。"
+    },
+    {
+      "sentence": "She swam ___ the lake in under an hour.",
+      "answer": "across",
+      "translation": "彼女は1時間かからずに湖を泳いで渡った。",
+      "explanation": "across は面の上を端から端へ渡る。水面という平らな面をなぞって横切る絵になる。"
+    },
+    {
+      "sentence": "The bullet went straight ___ the wall.",
+      "answer": "through",
+      "translation": "弾丸は壁を貫通した。",
+      "explanation": "壁の厚みの中に入り、反対側へ出ていく。中身を突き抜けるので through。"
+    },
+    {
+      "sentence": "The company now has offices ___ Asia.",
+      "answer": "across",
+      "accept": ["throughout"],
+      "translation": "その会社は今やアジア各地にオフィスを構えている。",
+      "explanation": "地図という面の上に点が散らばって広がっている絵。すみずみまでを強めたければ throughout も使える。"
+    },
+    {
+      "sentence": "Come and sit ___ me.",
+      "answer": "beside",
+      "accept": ["by", "next to"],
+      "translation": "こっちに来て隣に座って。",
+      "explanation": "beside は「横に並ぶ」位置。s が1つ増えた besides は「それに加えて」で、意味がまったく別になる。"
+    },
+    {
+      "sentence": "___ the cost, the plan has several other problems.",
+      "answer": "besides",
+      "accept": ["apart from", "aside from"],
+      "translation": "費用のほかにも、その計画にはいくつか問題がある。",
+      "explanation": "besides は横に並べて「もう1つ足す」。位置を表す beside と違い、話の上で項目を積み増している。"
+    },
+    {
+      "sentence": "___ the heavy rain, the match went ahead as planned.",
+      "answer": "despite",
+      "accept": ["in spite of"],
+      "translation": "大雨にもかかわらず、試合は予定どおり行われた。",
+      "explanation": "despite は立ちはだかる壁を押しのけて進む絵。後ろに名詞をそのまま置ける点が although との違い。"
+    },
+    {
+      "sentence": "The flight was cancelled ___ bad weather.",
+      "answer": "due to",
+      "accept": ["owing to", "because of"],
+      "translation": "悪天候のためその便は欠航になった。",
+      "explanation": "原因という土台にもたれかかる絵。前置詞のかたまりなので、後ろには名詞がそのまま来る。"
+    },
+    {
+      "sentence": "___ the latest figures, unemployment is falling.",
+      "answer": "according to",
+      "translation": "最新の数字によれば、失業率は下がっている。",
+      "explanation": "情報の出どころに沿って話を進める絵。自分の意見ではなく、その資料に足並みをそろえている。"
+    },
+    {
+      "sentence": "___ cost, the two options are almost identical.",
+      "answer": "in terms of",
+      "translation": "費用の面では、その2つの選択肢はほぼ同じだ。",
+      "explanation": "話をどの土俵に限るかを先に宣言する枠。費用という枠の内側だけを見比べている。"
+    },
+    {
+      "sentence": "I'd like to thank you ___ the whole project team.",
+      "answer": "on behalf of",
+      "translation": "プロジェクトチーム全体を代表してお礼申し上げます。",
+      "explanation": "チームの側に立ち、その名前を背負って前に出る絵。一個人としてではなく代弁者として話している。"
+    },
+    {
+      "sentence": "Everyone is welcome to apply, ___ age or experience.",
+      "answer": "regardless of",
+      "translation": "年齢や経験を問わず、どなたでも応募できます。",
+      "explanation": "そこに目をやらないと宣言する絵。条件があっても視線を向けないので、判断に影響しない。"
+    },
+    {
+      "sentence": "___ the price, I like everything about this flat.",
+      "answer": "apart from",
+      "accept": ["except for", "aside from"],
+      "translation": "値段を別にすれば、この部屋は何もかも気に入っている。",
+      "explanation": "1つだけ脇に取り分けて、残りをまとめて語る絵。取り分けた分は話の外に置かれる。"
+    },
+    {
+      "sentence": "___ a fire, use the stairs and not the lift.",
+      "answer": "in the event of",
+      "translation": "火災の際はエレベーターではなく階段を使ってください。",
+      "explanation": "まだ起きていない出来事を1つの箱として置き、その中に入ったらこうする、と手順を結びつけている。"
+    },
+    {
+      "sentence": "___ addition to the base salary, there is an annual bonus.",
+      "answer": "in",
+      "translation": "基本給に加えて、年1回の賞与があります。",
+      "explanation": "足し算という枠の中に置いて言う形。すでにあるものの上に、もう1つ積み増している絵。"
+    }
+  ]
+}

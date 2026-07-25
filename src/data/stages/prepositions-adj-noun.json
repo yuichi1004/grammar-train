@@ -1,0 +1,190 @@
+{
+  "id": "prepositions-adj-noun",
+  "order": 150,
+  "title": "前置詞 応用 3（形容詞・名詞＋前置詞）",
+  "category": "preposition",
+  "description": "形容詞や名詞が何を必要としているかで前置詞が決まる。of =「切り離せない」/ to =「向かう先」/ with =「並べて合わせる」/ in =「その中で起きる変化」",
+  "questions": [
+    {
+      "sentence": "I wasn't aware ___ the change in schedule.",
+      "answer": "of",
+      "translation": "予定の変更を知りませんでした。",
+      "explanation": "of は切り離せないつながり。頭の中にその情報がくっついている状態を言うので、知識と対象が一体になる。"
+    },
+    {
+      "sentence": "She's perfectly capable ___ handling the negotiation alone.",
+      "answer": "of",
+      "translation": "彼女は一人で交渉をまとめる力が十分にある。",
+      "explanation": "能力とその中身は切り離せない。「その行為を含んだ能力」として一体で持っているので of。"
+    },
+    {
+      "sentence": "These figures are indicative ___ a wider problem.",
+      "answer": "of",
+      "translation": "これらの数字はより広い問題を示している。",
+      "explanation": "数字と問題が同じものの表と裏になっている絵。切り離せない関係を示す of がその一体感を出す。"
+    },
+    {
+      "sentence": "He's very keen ___ cycling to work.",
+      "answer": "on",
+      "translation": "彼は自転車通勤にとても乗り気だ。",
+      "explanation": "on は接触して離れない。気持ちがその対象にべったり張りついている絵になる。"
+    },
+    {
+      "sentence": "Older systems are prone ___ crashing under heavy load.",
+      "answer": "to",
+      "translation": "古いシステムは高負荷でクラッシュしやすい。",
+      "explanation": "to は向かう先を指す矢印。放っておくと自然にその方向へ傾いていく坂道の絵。"
+    },
+    {
+      "sentence": "All prices are subject ___ change without notice.",
+      "answer": "to",
+      "translation": "価格は予告なく変更されることがあります。",
+      "explanation": "変更という力の下に置かれ、その方向に従わされる関係。従う先を指すので to。"
+    },
+    {
+      "sentence": "Your story isn't consistent ___ what you told the police.",
+      "answer": "with",
+      "translation": "あなたの話は警察に話した内容と食い違っている。",
+      "explanation": "with は2つを並べて一緒に置く絵。横に並べたとき形がそろうかどうかを見ている。"
+    },
+    {
+      "sentence": "The new app isn't compatible ___ older phones.",
+      "answer": "with",
+      "translation": "その新しいアプリは古い端末では動かない。",
+      "explanation": "並べて一緒に動かせるかを問うので with。相手と組んだときにかみ合うかという絵。"
+    },
+    {
+      "sentence": "I'm not familiar ___ this accounting software.",
+      "answer": "with",
+      "translation": "この会計ソフトには詳しくありません。",
+      "explanation": "相手と一緒に過ごした時間があるかという絵。手元に置いて使い慣れているかを with で示す。"
+    },
+    {
+      "sentence": "Are you eligible ___ the student discount?",
+      "answer": "for",
+      "translation": "学生割引の対象になりますか。",
+      "explanation": "for は「〜に向けて用意されている」矢印。その割引が自分に向けられる資格があるかを問う。"
+    },
+    {
+      "sentence": "Who is responsible ___ signing off the budget?",
+      "answer": "for",
+      "translation": "予算の承認は誰の担当ですか。",
+      "explanation": "自分の責任がどの件に向いているかを指す矢印。担当が引き受ける的が for の先にある。"
+    },
+    {
+      "sentence": "He's anxious ___ the test results.",
+      "answer": "about",
+      "translation": "彼は検査結果を心配している。",
+      "explanation": "about は対象のまわりをぐるぐる回るイメージ。頭の中で結果の周囲を回り続けている落ち着かなさが出る。"
+    },
+    {
+      "sentence": "We're very grateful ___ your patience.",
+      "answer": "for",
+      "translation": "お待ちいただき、まことにありがとうございます。",
+      "explanation": "感謝がどの行為に向かっているかを指す矢印。もらったものに向けて気持ちを返している絵。"
+    },
+    {
+      "sentence": "This model is superior ___ the previous one in every way.",
+      "answer": "to",
+      "translation": "このモデルはあらゆる点で前のモデルより優れている。",
+      "explanation": "than ではなく to を使う比較。2つを線でつないで、その一方の側が上にあると位置づける絵。"
+    },
+    {
+      "sentence": "That data isn't relevant ___ our study.",
+      "answer": "to",
+      "translation": "そのデータは私たちの研究には関係がない。",
+      "explanation": "関係があるとは線がつながっていること。つながる先を指すので to になる。"
+    },
+    {
+      "sentence": "There has been a sharp increase ___ energy prices.",
+      "answer": "in",
+      "translation": "エネルギー価格が急激に上昇した。",
+      "explanation": "変化がどの箱の中で起きたのかを示す in。価格という枠の内側で数字が動いている絵。"
+    },
+    {
+      "sentence": "We've seen a steady decline ___ paper use.",
+      "answer": "in",
+      "translation": "紙の使用量が着実に減っている。",
+      "explanation": "増減はその分野の中で起きる出来事。どの枠の中の話かを in が指している。"
+    },
+    {
+      "sentence": "The price change had little effect ___ sales.",
+      "answer": "on",
+      "translation": "価格変更は売上にほとんど影響しなかった。",
+      "explanation": "影響は相手の面に上から手を置く絵。触れた先が動くので on になる。"
+    },
+    {
+      "sentence": "The strike had a serious impact ___ deliveries.",
+      "answer": "on",
+      "translation": "ストライキは配送に深刻な影響を与えた。",
+      "explanation": "impact は上からぶつかる衝撃。ぶつかった面を指すので on が要る。"
+    },
+    {
+      "sentence": "That's no reason ___ giving up now.",
+      "answer": "for",
+      "translation": "それは今あきらめる理由にならない。",
+      "explanation": "理由がどの行為に向けられているかを示す矢印。行為の側に理由を差し出している絵。"
+    },
+    {
+      "sentence": "Demand ___ electric cars is growing fast.",
+      "answer": "for",
+      "translation": "電気自動車の需要が急速に伸びている。",
+      "explanation": "欲しい気持ちが向かう先を指す矢印。手を伸ばしている的が for の後ろに来る。"
+    },
+    {
+      "sentence": "There's no simple solution ___ this problem.",
+      "answer": "to",
+      "translation": "この問題に簡単な解決策はない。",
+      "explanation": "解決は問題に届いて初めて解決になる。鍵が鍵穴に届く絵なので to。"
+    },
+    {
+      "sentence": "We need a completely different approach ___ training.",
+      "answer": "to",
+      "translation": "研修にはまったく違うやり方が必要だ。",
+      "explanation": "approach は相手へ近づいていく動き。近づく先を指すので to が付く。"
+    },
+    {
+      "sentence": "Is there a realistic alternative ___ plastic packaging?",
+      "answer": "to",
+      "translation": "プラスチック包装に代わる現実的な選択肢はありますか。",
+      "explanation": "置き換える相手と1対1で向き合う関係。入れ替わる先を指すので to。"
+    },
+    {
+      "sentence": "Students have free access ___ the online library.",
+      "answer": "to",
+      "translation": "学生はオンライン図書館を無料で利用できる。",
+      "explanation": "access は入口へ通じる道。たどり着く先を指すので to になる。"
+    },
+    {
+      "sentence": "The project failed for lack ___ funding.",
+      "answer": "of",
+      "translation": "そのプロジェクトは資金不足で頓挫した。",
+      "explanation": "「足りない」と「何が」は切り離せない。欠けている中身を一体のものとして of でつなぐ。"
+    },
+    {
+      "sentence": "The book gives real insight ___ how the brain works.",
+      "answer": "into",
+      "translation": "その本は脳の働きへの本当の洞察を与えてくれる。",
+      "explanation": "insight は中をのぞき込む視線。外から内側へ入り込む動きなので、to ではなく into になる。"
+    },
+    {
+      "sentence": "Her attitude ___ risk has changed completely.",
+      "answer": "to",
+      "accept": ["toward", "towards"],
+      "translation": "リスクに対する彼女の姿勢はすっかり変わった。",
+      "explanation": "姿勢は何かのほうを向いて構えること。向いている先を指すので to、方向を強めたければ towards も使える。"
+    },
+    {
+      "sentence": "He has a real talent ___ languages.",
+      "answer": "for",
+      "translation": "彼は語学の才能が本物だ。",
+      "explanation": "才能がどの方面に向いているかを示す矢印。その分野に向けて力が差し出されている絵。"
+    },
+    {
+      "sentence": "Do you have any objection ___ moving the meeting to Thursday?",
+      "answer": "to",
+      "translation": "会議を木曜に移すことに異議はありますか。",
+      "explanation": "反対の声をぶつける先を指す to。前置詞なので後ろは動名詞になる。"
+    }
+  ]
+}

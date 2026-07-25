@@ -2,6 +2,10 @@ import { loadStages, sortStages } from '../lib/stages'
 import type { Stage } from '../types'
 import prepositions1 from './stages/prepositions-1.json'
 import prepositions2 from './stages/prepositions-2.json'
+import prepositionsAbstract from './stages/prepositions-abstract.json'
+import prepositionsVerbs from './stages/prepositions-verbs.json'
+import prepositionsAdjNoun from './stages/prepositions-adj-noun.json'
+import prepositionsContrast from './stages/prepositions-contrast.json'
 import articles1 from './stages/articles-1.json'
 import articles2 from './stages/articles-2.json'
 import nouns1 from './stages/nouns-1.json'
@@ -15,6 +19,10 @@ import nouns2 from './stages/nouns-2.json'
 export const stageSources: unknown[] = [
   prepositions1,
   prepositions2,
+  prepositionsAbstract,
+  prepositionsVerbs,
+  prepositionsAdjNoun,
+  prepositionsContrast,
   articles1,
   articles2,
   nouns1,

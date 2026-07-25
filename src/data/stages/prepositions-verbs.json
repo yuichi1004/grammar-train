@@ -1,0 +1,189 @@
+{
+  "id": "prepositions-verbs",
+  "order": 140,
+  "title": "前置詞 応用 2（動詞と結びつく前置詞）",
+  "category": "preposition",
+  "description": "動詞が向ける矢印の向きで前置詞が決まる。on =「土台に乗る」/ in =「中で起きる」/ from =「そこから離れる」/ to =「そこへ届く」",
+  "questions": [
+    {
+      "sentence": "The outcome depends entirely ___ how quickly we respond.",
+      "answer": "on",
+      "translation": "結果は私たちがどれだけ早く対応するかで完全に決まる。",
+      "explanation": "on は土台に乗って支えられている絵。結果という重さが対応の速さの上に乗っているので、土台が変われば結果も動く。"
+    },
+    {
+      "sentence": "She insisted ___ paying for everyone.",
+      "answer": "on",
+      "translation": "彼女は全員分を払うと言って譲らなかった。",
+      "explanation": "1つの点にどっかりと乗って動かない絵。その一点から足をどけないので「言い張る」になる。"
+    },
+    {
+      "sentence": "You can rely ___ him to keep his word.",
+      "answer": "on",
+      "translation": "彼は約束を守るから頼っていい。",
+      "explanation": "相手を土台にして自分の体重を預けている絵。乗っても崩れない相手だから安心して寄りかかれる。"
+    },
+    {
+      "sentence": "Let's concentrate ___ the main issue first.",
+      "answer": "on",
+      "translation": "まずは主要な論点に集中しよう。",
+      "explanation": "散らばった注意を1点に集めて、そこに重ねて置く絵。他の面から足を上げて1つの面だけに乗せる。"
+    },
+    {
+      "sentence": "The merger resulted ___ hundreds of job losses.",
+      "answer": "in",
+      "translation": "その合併は数百人の失業をもたらした。",
+      "explanation": "result in は流れ着いた先の中に入り込む絵。合併という流れが最後にたどり着いた部屋が失業だった。"
+    },
+    {
+      "sentence": "Most of the delays resulted ___ a shortage of parts.",
+      "answer": "from",
+      "translation": "遅延の大半は部品不足が原因だった。",
+      "explanation": "from は起点から離れていく矢印。遅れがどこから出てきたかをさかのぼって指しているので、原因の側を向いている。"
+    },
+    {
+      "sentence": "The accident resulted ___ human error, not a mechanical fault.",
+      "answer": "from",
+      "translation": "その事故は機械の故障ではなく人為的ミスから生じた。",
+      "explanation": "同じ result でも from は湧き出した泉のほうを指す。in なら流れ着いた結果、from なら出発点。"
+    },
+    {
+      "sentence": "The committee consists ___ seven members.",
+      "answer": "of",
+      "translation": "その委員会は7人の委員で構成されている。",
+      "explanation": "of は切り離せないつながり。7人を取り去ったら委員会そのものが消えるので、中身と全体が一体になっている。"
+    },
+    {
+      "sentence": "He was accused ___ leaking the documents.",
+      "answer": "of",
+      "translation": "彼は書類を漏らしたとして告発された。",
+      "explanation": "その人と行為を切り離せないものとして貼り付ける絵。「あなたとこの行為は一体だ」と突きつけている。"
+    },
+    {
+      "sentence": "The report is made up ___ three sections.",
+      "answer": "of",
+      "translation": "その報告書は3つの節から成っている。",
+      "explanation": "材料と出来上がったものが一体であることを示す of。3つの節を抜いたら報告書は残らない。"
+    },
+    {
+      "sentence": "Please refer ___ the attached document for details.",
+      "answer": "to",
+      "translation": "詳細は添付資料をご参照ください。",
+      "explanation": "to は到達点へ向かう矢印。目線を資料まで飛ばして着地させる絵になる。"
+    },
+    {
+      "sentence": "Several members objected ___ the new policy.",
+      "answer": "to",
+      "translation": "数人の委員が新方針に反対した。",
+      "explanation": "反対の声を相手にまっすぐ届ける矢印。ぶつける先がはっきりしているので to が要る。"
+    },
+    {
+      "sentence": "Her research contributed ___ our understanding of the virus.",
+      "answer": "to",
+      "translation": "彼女の研究はウイルスの理解を深めることに貢献した。",
+      "explanation": "自分の持ち分を相手の山に運んで足す絵。運ぶ先があるので到達を表す to になる。"
+    },
+    {
+      "sentence": "The repairs amounted ___ nearly a million yen.",
+      "answer": "to",
+      "translation": "修理費は100万円近くに達した。",
+      "explanation": "積み上がった数字が最後にその高さまで届く絵。到達点を指すので to。"
+    },
+    {
+      "sentence": "It took the team a month to adapt ___ the new rules.",
+      "answer": "to",
+      "translation": "チームが新しい規則に順応するのに1か月かかった。",
+      "explanation": "自分の形を相手に合わせて寄せていく動き。近づいて重なる先があるので to が付く。"
+    },
+    {
+      "sentence": "All suppliers must comply ___ the new safety standards.",
+      "answer": "with",
+      "translation": "すべての取引先は新しい安全基準を守らなければならない。",
+      "explanation": "with は相手と一緒に持って歩く絵。基準を手に抱えたまま行動するので「従う」になる。"
+    },
+    {
+      "sentence": "He's finding it hard to cope ___ the workload.",
+      "answer": "with",
+      "translation": "彼は仕事量をさばききれずにいる。",
+      "explanation": "相手を抱えたまま何とか運んでいく絵。手放せない荷物と組み合っている感覚。"
+    },
+    {
+      "sentence": "I'll deal ___ the complaints tomorrow.",
+      "answer": "with",
+      "translation": "苦情には明日対応します。",
+      "explanation": "相手を手元に引き寄せて一緒に処理する絵。向き合って手を動かす対象があるので with。"
+    },
+    {
+      "sentence": "The company provides all new staff ___ a laptop.",
+      "answer": "with",
+      "translation": "会社は新入社員全員にノートパソコンを支給する。",
+      "explanation": "相手の手に物を持たせてやる絵。人が主語の受け手なら、渡す物のほうが with で添えられる。"
+    },
+    {
+      "sentence": "Software now accounts ___ half of our revenue.",
+      "answer": "for",
+      "translation": "ソフトウェアが今や売上の半分を占めている。",
+      "explanation": "for は「〜の分として」と向ける矢印。売上の半分という枠に対して、その埋め合わせを担当している絵。"
+    },
+    {
+      "sentence": "She applied ___ a position in the Tokyo office.",
+      "answer": "for",
+      "translation": "彼女は東京オフィスの職に応募した。",
+      "explanation": "手に入れたいものへ向けて自分を差し出す矢印。狙いの先がその職なので for。"
+    },
+    {
+      "sentence": "Don't blame yourself ___ the delay.",
+      "answer": "for",
+      "translation": "その遅れを自分のせいにしないで。",
+      "explanation": "非難をどの件に向けるかを示す矢印。遅れという的に向かって責めが飛んでいる絵。"
+    },
+    {
+      "sentence": "The manager apologized ___ the confusion.",
+      "answer": "for",
+      "translation": "部長は混乱を招いたことを詫びた。",
+      "explanation": "謝罪が何に対するものかを指す矢印。人に向けるなら to、事柄に向けるなら for で分かれる。"
+    },
+    {
+      "sentence": "Nothing can prevent us ___ finishing on time.",
+      "answer": "from",
+      "translation": "何があっても私たちが期限内に終えるのを止められない。",
+      "explanation": "from は起点から引き離す矢印。行為に近づこうとする人を、その手前で後ろへ引きはがす絵。"
+    },
+    {
+      "sentence": "Small businesses will benefit ___ the tax change.",
+      "answer": "from",
+      "translation": "小規模事業者はその税制変更から恩恵を受ける。",
+      "explanation": "利益がどこから流れ出てきたかを指す from。税制という泉から自分のほうへ水が来ている。"
+    },
+    {
+      "sentence": "He has suffered ___ back pain for years.",
+      "answer": "from",
+      "translation": "彼は何年も腰痛に悩まされている。",
+      "explanation": "つらさの出どころを指す from。痛みという源から苦しみが流れ出し続けている絵。"
+    },
+    {
+      "sentence": "The new charge discourages people ___ driving downtown.",
+      "answer": "from",
+      "translation": "新しい課金は人々が都心に車で入るのを思いとどまらせる。",
+      "explanation": "prevent と同じく、行為の手前で後ろへ引き離す from。近づく足を止めて戻らせる絵。"
+    },
+    {
+      "sentence": "I look forward ___ hearing from you.",
+      "answer": "to",
+      "translation": "ご連絡をお待ちしております。",
+      "explanation": "この to は不定詞ではなく到達点を指す前置詞。前方にある「連絡が届く場面」を見ているので、後ろは動名詞になる。"
+    },
+    {
+      "sentence": "They finally succeeded ___ opening the safe.",
+      "answer": "in",
+      "translation": "彼らはついに金庫を開けることに成功した。",
+      "explanation": "成功はどの作業の中で起きたのかを示す in。金庫を開けるという場面の内側で成果が生まれている。"
+    },
+    {
+      "sentence": "We are committed ___ reducing waste by half.",
+      "answer": "to",
+      "translation": "私たちは廃棄物を半減させることに全力で取り組んでいます。",
+      "explanation": "自分を相手にくくりつける絵で、この to も前置詞。向かう先を指しているので後ろは動名詞になる。"
+    }
+  ]
+}
