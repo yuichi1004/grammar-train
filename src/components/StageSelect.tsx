@@ -10,13 +10,28 @@ interface StageSelectProps {
   stages: Stage[]
   records: Records
   onSelect: (stage: Stage) => void
+  onShowHistory: () => void
 }
 
-export function StageSelect({ stages, records, onSelect }: StageSelectProps) {
+export function StageSelect({
+  stages,
+  records,
+  onSelect,
+  onShowHistory,
+}: StageSelectProps) {
   return (
     <div className="stage-select">
       <h1>Grammar Train</h1>
       <p className="tagline">前置詞・冠詞・名詞をタイピングで鍛える</p>
+      <nav className="top-menu">
+        <button
+          type="button"
+          className="secondary-button"
+          onClick={onShowHistory}
+        >
+          学習記録
+        </button>
+      </nav>
       <ul className="stage-list">
         {stages.map((stage) => {
           const record = records[stage.id]

@@ -31,3 +31,6 @@ export interface StageRecord {
 }
 
 export type Records = Record<string, StageRecord>
+
+/** 日付キー(YYYY-MM-DD、ローカル日付) → その日にクリアしたステージ数 */
+export type StudyHistory = Record<string, number>

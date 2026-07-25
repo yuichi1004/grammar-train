@@ -1,15 +1,18 @@
 import { useState } from 'react'
-import type { Records, Stage } from './types'
+import type { Records, Stage, StudyHistory as StudyHistoryData } from './types'
 import { stages as defaultStages } from './data'
 import { loadRecords, saveRecord } from './lib/storage'
+import { loadHistory, recordStudy } from './lib/history'
 import { StageSelect } from './components/StageSelect'
 import { Quiz } from './components/Quiz'
 import { Result } from './components/Result'
+import { StudyHistory } from './components/StudyHistory'
 
 type View =
   | { screen: 'select' }
   | { screen: 'quiz'; stage: Stage }
   | { screen: 'result'; stage: Stage; correct: number }
+  | { screen: 'history' }
 
 interface AppProps {
   stages?: Stage[]
@@ -18,10 +21,13 @@ interface AppProps {
 function App({ stages = defaultStages }: AppProps) {
   const [view, setView] = useState<View>({ screen: 'select' })
   const [records, setRecords] = useState<Records>(() => loadRecords())
+  const [history, setHistory] = useState<StudyHistoryData>(() => loadHistory())
 
   function handleFinish(stage: Stage, correct: number) {
     saveRecord(stage.id, { correct, total: stage.questions.length })
+    recordStudy()
     setRecords(loadRecords())
+    setHistory(loadHistory())
     setView({ screen: 'result', stage, correct })
   }
 
@@ -32,6 +38,13 @@ function App({ stages = defaultStages }: AppProps) {
           stages={stages}
           records={records}
           onSelect={(stage) => setView({ screen: 'quiz', stage })}
+          onShowHistory={() => setView({ screen: 'history' })}
+        />
+      )}
+      {view.screen === 'history' && (
+        <StudyHistory
+          history={history}
+          onBack={() => setView({ screen: 'select' })}
         />
       )}
       {view.screen === 'quiz' && (

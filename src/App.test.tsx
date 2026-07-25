@@ -4,6 +4,7 @@ import userEvent from '@testing-library/user-event'
 import App from './App'
 import { makeTestStage } from './test-fixtures'
 import { loadRecords } from './lib/storage'
+import { loadHistory, toDateKey } from './lib/history'
 
 const stages = [makeTestStage({ id: 'stage-a', title: 'ステージ A' })]
 
@@ -40,6 +41,38 @@ describe('App', () => {
     // ステージ選択に戻ると前回の正答率が見える
     await user.click(screen.getByRole('button', { name: 'ステージ選択へ' }))
     expect(screen.getByText(/前回 67%/)).toBeInTheDocument()
+  })
+
+  it('ステージをクリアすると学習記録の今日のマスに反映される', async () => {
+    const user = userEvent.setup()
+    render(<App stages={stages} />)
+
+    await user.click(screen.getByRole('button', { name: /ステージ A/ }))
+    await user.type(screen.getByRole('textbox'), 'at{Enter}{Enter}')
+    await user.type(screen.getByRole('textbox'), 'in{Enter}{Enter}')
+    await user.type(screen.getByRole('textbox'), 'on{Enter}{Enter}')
+    await user.click(screen.getByRole('button', { name: 'ステージ選択へ' }))
+
+    await user.click(screen.getByRole('button', { name: '学習記録' }))
+    const now = new Date()
+    const todayCell = screen.getByRole('gridcell', {
+      name: `${now.getMonth() + 1}月${now.getDate()}日 1ステージ`,
+    })
+    expect(todayCell).toHaveTextContent('1')
+
+    // 戻るとステージ選択画面に帰る
+    await user.click(screen.getByRole('button', { name: '戻る' }))
+    expect(screen.getByText('ステージ A')).toBeInTheDocument()
+  })
+
+  it('学習記録は localStorage に残る', async () => {
+    const user = userEvent.setup()
+    render(<App stages={stages} />)
+    await user.click(screen.getByRole('button', { name: /ステージ A/ }))
+    await user.type(screen.getByRole('textbox'), 'at{Enter}{Enter}')
+    await user.type(screen.getByRole('textbox'), 'in{Enter}{Enter}')
+    await user.type(screen.getByRole('textbox'), 'on{Enter}{Enter}')
+    expect(loadHistory()[toDateKey(new Date())]).toBe(1)
   })
 
   it('「もう一度」で同じステージを再挑戦できる', async () => {
