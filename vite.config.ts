@@ -8,6 +8,9 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
+      // main.tsx で virtual:pwa-register を明示的に呼び、更新チェックの
+      // タイミングを制御する（iOS のホーム画面アプリ対策）ので自動注入しない
+      injectRegister: false,
       includeAssets: ['favicon.svg'],
       manifest: {
         name: 'Grammar Train',

@@ -127,3 +127,20 @@ export PATH="$HOME/.local/bin:$PATH"
 - 削除・リネームした id の孤児レコードは**あえて掃除しない**。掃除すると「ステージを一時的に
   外したら記録が消える」事故が起きるため
 - 形式を変えたくなったらキーの `:v1` を上げて新設し、旧バージョンから移行する
+
+## PWA の更新（iOS のホーム画面アプリ）
+
+iOS のホーム画面に追加した PWA は、Safari のタブと違ってバックグラウンド復帰や再訪問だけでは
+Service Worker の更新チェックが走らないことがある。そのため:
+
+- `vite.config.ts` の `VitePWA` は `injectRegister: false` にしてあり、`registerType: 'autoUpdate'`
+  の自動注入スクリプトは使わない。代わりに `src/main.tsx` で `virtual:pwa-register` の
+  `registerSW()` を直接呼び、登録した `ServiceWorkerRegistration` を
+  `src/lib/pwaUpdate.ts` の `scheduleUpdateChecks()` に渡している
+- `scheduleUpdateChecks()` は起動直後・`visibilitychange`（アプリが前面に来たとき）・
+  `pageshow`（iOS の bfcache 復帰時）に `registration.update()` を明示的に呼ぶ。
+  iOS の緩慢な自動チェックに任せきりにしないための対策
+- `vercel.json` で `/sw.js` に `Cache-Control: no-cache` を指定している。CDN/ブラウザに
+  `sw.js`自体がキャッシュされると、更新チェックをいくら呼んでも新しい SW を取得できない
+- それでも反映されない場合、最終手段はホーム画面アイコンの削除・再追加（完全に新規インストール
+  扱いになる）
