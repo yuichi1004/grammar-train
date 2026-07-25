@@ -14,6 +14,9 @@ import tensePresent from './stages/tense-present.json'
 import tensePast from './stages/tense-past.json'
 import tensePerfect from './stages/tense-perfect.json'
 import tensePastPerfect from './stages/tense-past-perfect.json'
+import tenseFuture from './stages/tense-future.json'
+import tensePassive from './stages/tense-passive.json'
+import tenseUnreal from './stages/tense-unreal.json'
 
 /**
  * 未検証のステージ JSON。新しいステージを追加するときはここに 1 行足すだけでよい。
@@ -35,6 +38,9 @@ export const stageSources: unknown[] = [
   tensePast,
   tensePerfect,
   tensePastPerfect,
+  tenseFuture,
+  tensePassive,
+  tenseUnreal,
 ]
 
 /**

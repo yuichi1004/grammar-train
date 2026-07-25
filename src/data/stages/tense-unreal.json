@@ -1,0 +1,205 @@
+{
+  "id": "tense-unreal",
+  "order": 470,
+  "title": "時制 7（仮定法・時制の一致・助動詞＋完了形）",
+  "category": "tense",
+  "description": "英語は「これは現実の話ではない」を時間を1つ後ろへずらして合図する。ずらす幅が大きいほど現実から遠い。報告のときも基準点に合わせて全体をずらす",
+  "hint": "括弧内の語を、文脈に合う時制・人称の形にして入力",
+  "questions": [
+    {
+      "sentence": "If I ___ you, I'd take the earlier flight. (be)",
+      "answer": "were",
+      "accept": ["was"],
+      "translation": "私があなたなら、早い便にするけどな。",
+      "explanation": "事実から一歩ずらすとき、英語は時間を1つ後ろへ動かして「これは現実の話ではない」と合図する。were はその距離の印で、日常会話では was も使われる。"
+    },
+    {
+      "sentence": "If you ___ me earlier, I could have changed the booking. (tell)",
+      "answer": "had told",
+      "accept": ["'d told", "’d told"],
+      "translation": "もっと早く言ってくれていたら、予約を変更できたのに。",
+      "explanation": "could have changed が「実際にはしなかった過去」を指しているので、条件側もさらに一段さかのぼる。ずらす幅が大きいほど「もう手遅れ」の感じが強くなる。"
+    },
+    {
+      "sentence": "If we ___ more time, we could do it properly. (have)",
+      "answer": "had",
+      "translation": "もっと時間があれば、きちんとやれるのに。",
+      "explanation": "今は時間がないという現実から一歩ずらしている。過去形の見た目でも指しているのは現在のこと。"
+    },
+    {
+      "sentence": "If she ___ harder, she would have passed the exam. (study)",
+      "answer": "had studied",
+      "accept": ["'d studied", "’d studied"],
+      "translation": "もっと勉強していたら、彼女は試験に受かっていただろう。",
+      "explanation": "would have passed が過去の反実を宣言しているので、条件側も過去完了まで下げて足並みをそろえる。"
+    },
+    {
+      "sentence": "If I ___ the answer, I would tell you right now. (know)",
+      "answer": "knew",
+      "translation": "答えを知っていたら、今すぐ教えるのに。",
+      "explanation": "知らないという現在の事実から一段ずらした形。right now があるので、過去の話ではなく今の想像だと分かる。"
+    },
+    {
+      "sentence": "If they ___ left earlier, they wouldn't have missed the train. (have)",
+      "answer": "had",
+      "accept": ["'d", "’d"],
+      "translation": "もっと早く出ていれば、彼らは電車に乗り遅れなかったのに。",
+      "explanation": "起きなかった過去を語るので、条件側は had ＋ 過去分詞まで沈める。主節の wouldn't have がその深さを指定している。"
+    },
+    {
+      "sentence": "If it ___ for your help, we would have failed completely. (not be)",
+      "answer": "weren't",
+      "accept": ["weren’t", "were not", "wasn't", "wasn’t", "was not"],
+      "translation": "あなたの助けがなかったら、私たちは完全に失敗していた。",
+      "explanation": "if it weren't for は「これがなければ」と1つだけ現実から抜き取る言い方。抜いた世界を想像しているので現実からずらした形になる。"
+    },
+    {
+      "sentence": "If he ___ me, I would have helped him without hesitating. (ask)",
+      "answer": "had asked",
+      "accept": ["'d asked", "’d asked"],
+      "translation": "彼が頼んでくれていたら、迷わず手伝ったのに。",
+      "explanation": "実際には頼まれなかったという過去の話。主節が would have helped なので、条件側もそこまで下げる。"
+    },
+    {
+      "sentence": "I wish I ___ harder when I was at university. (study)",
+      "answer": "had studied",
+      "accept": ["'d studied", "’d studied"],
+      "translation": "大学時代にもっと勉強しておけばよかった。",
+      "explanation": "wish は現実と願いのずれを表す語。変えられない過去を悔やむときは、過去からさらに一段さかのぼる。"
+    },
+    {
+      "sentence": "I wish I ___ speak Chinese as well as you do. (can)",
+      "answer": "could",
+      "translation": "あなたみたいに中国語が話せたらいいのに。",
+      "explanation": "今できないという現実から一歩ずらすので can が could になる。過去の意味ではなく現実との距離を示している。"
+    },
+    {
+      "sentence": "If only I ___ his phone number! (know)",
+      "answer": "knew",
+      "translation": "彼の電話番号を知ってさえいればなあ。",
+      "explanation": "if only は wish より願いが強い言い方。今知らないという事実から一段ずらして、届かない願いを表す。"
+    },
+    {
+      "sentence": "She wishes she ___ so much money on that car. (not spend)",
+      "answer": "hadn't spent",
+      "accept": ["hadn’t spent", "had not spent"],
+      "translation": "彼女はあの車にあんなに大金を使わなければよかったと思っている。",
+      "explanation": "使ってしまった過去は変えられない。取り消したい過去には過去完了を当てて、現実からの距離を最大にする。"
+    },
+    {
+      "sentence": "I wish you ___ smoking in here. (stop)",
+      "answer": "would stop",
+      "accept": ["'d stop", "’d stop"],
+      "translation": "ここでたばこを吸うのはやめてほしいのだけど。",
+      "explanation": "相手の行動を変えてほしいときの wish は would を使う。自分では動かせない相手への、いらだち混じりの願い。"
+    },
+    {
+      "sentence": "The light is off. She ___ home already. (must go)",
+      "answer": "must have gone",
+      "translation": "電気が消えている。彼女はもう帰ったに違いない。",
+      "explanation": "must は「そうとしか考えられない」という今の判断。判断の中身だけが過去のことなので、have gone を後ろに置いて内容だけを過去へ送る。"
+    },
+    {
+      "sentence": "You ___ me — I would have picked you up at the station. (should call)",
+      "answer": "should have called",
+      "translation": "電話してくれればよかったのに。駅まで迎えに行ったのに。",
+      "explanation": "should have ＋ 過去分詞は「そうすべきだったのに、しなかった」。実際には起きなかったことへの残念さがにじむ。"
+    },
+    {
+      "sentence": "I ___ the email; I can't find it in my sent folder. (might not send)",
+      "answer": "might not have sent",
+      "translation": "メールを送っていなかったかもしれない。送信済みフォルダに見当たらない。",
+      "explanation": "might は今の推量で、その中身が過去のこと。確信の度合いは might が弱く、must がいちばん強い。"
+    },
+    {
+      "sentence": "He ___ the meeting; his car is still outside. (can't leave)",
+      "answer": "can't have left",
+      "accept": ["can’t have left", "cannot have left"],
+      "translation": "彼が会議を抜けたはずがない。車がまだ外にある。",
+      "explanation": "can't have は「そんなことはありえない」という否定の確信。must have のちょうど裏返しになる。"
+    },
+    {
+      "sentence": "We ___ earlier; the traffic was terrible. (should leave)",
+      "answer": "should have left",
+      "translation": "もっと早く出るべきだった。渋滞がひどかった。",
+      "explanation": "起きてしまったあとで別の道を振り返る形。過去は変えられないので、悔いだけが残る言い方になる。"
+    },
+    {
+      "sentence": "She ___ the news already — she looked shocked. (may hear)",
+      "answer": "may have heard",
+      "translation": "彼女はもうその知らせを聞いていたのかもしれない。ひどく驚いた様子だった。",
+      "explanation": "may は控えめな推量。判断は今しているが、内容は過去の出来事なので have heard で後ろに送る。"
+    },
+    {
+      "sentence": "You ___ him; he was only trying to help. (shouldn't blame)",
+      "answer": "shouldn't have blamed",
+      "accept": ["shouldn’t have blamed", "should not have blamed"],
+      "translation": "彼を責めるべきではなかった。彼はただ助けようとしていただけだ。",
+      "explanation": "should have の否定は「してしまったが、すべきではなかった」。実際にはやってしまったことを指している。"
+    },
+    {
+      "sentence": "She told me she ___ already sent the invoice. (have)",
+      "answer": "had",
+      "accept": ["'d", "’d"],
+      "translation": "彼女は請求書をもう送ったと私に言った。",
+      "explanation": "told が過去に立っているので、その中の話も一段さかのぼる。日本語は「送った」のままだが、英語は基準点に合わせてずらす。"
+    },
+    {
+      "sentence": "He said he ___ be a little late. (will)",
+      "answer": "would",
+      "accept": ["'d", "’d"],
+      "translation": "彼は少し遅れると言っていた。",
+      "explanation": "said の時点に立って未来を見ているので、will が一段さかのぼって would になる。過去の中の未来を表す形。"
+    },
+    {
+      "sentence": "They explained that the office ___ closed on Mondays. (be)",
+      "answer": "was",
+      "translation": "月曜は事務所が閉まっていると彼らは説明した。",
+      "explanation": "説明した時点が過去なので、その中身も過去形にそろえる。今も月曜が休みでも、報告の枠に合わせて下げる。"
+    },
+    {
+      "sentence": "I asked her whether she ___ seen the file. (have)",
+      "answer": "had",
+      "translation": "そのファイルを見たかどうか、私は彼女に尋ねた。",
+      "explanation": "尋ねた時点が基準点で、見たかどうかはそれより前の話。現在完了がそのまま一段さかのぼる。"
+    },
+    {
+      "sentence": "The report said prices ___ still rising at that time. (be)",
+      "answer": "were",
+      "translation": "その報告書には、当時まだ価格が上昇中だと書かれていた。",
+      "explanation": "報告が過去なので中身も過去へずらす。進行形のまま形だけ一段下げて were rising になる。"
+    },
+    {
+      "sentence": "She promised she ___ anyone. (will not tell)",
+      "answer": "wouldn't tell",
+      "accept": ["wouldn’t tell", "would not tell"],
+      "translation": "彼女は誰にも言わないと約束した。",
+      "explanation": "約束した時点から見た未来なので will が would に下がる。否定の形もそのまま一段さかのぼる。"
+    },
+    {
+      "sentence": "He talks as if he ___ everything about the company. (know)",
+      "answer": "knew",
+      "translation": "彼はまるで会社のことを何でも知っているかのように話す。",
+      "explanation": "as if の後ろは「本当はそうではない」世界。現実から一歩ずらすので、今の話でも過去形の見た目になる。"
+    },
+    {
+      "sentence": "It's time we ___ home — it's nearly midnight. (go)",
+      "answer": "went",
+      "translation": "そろそろ帰る時間だ。もうすぐ真夜中だよ。",
+      "explanation": "it's time の後ろも現実からずらした形。まだ帰っていないという事実との差を過去形で示している。"
+    },
+    {
+      "sentence": "She behaves as though she ___ the manager. (be)",
+      "answer": "were",
+      "accept": ["was"],
+      "translation": "彼女はまるで自分が責任者であるかのようにふるまう。",
+      "explanation": "実際には責任者ではないので、現実から一段ずらす。かたい言い方では were、話し言葉では was も使われる。"
+    },
+    {
+      "sentence": "It's high time you ___ a decision about the job offer. (make)",
+      "answer": "made",
+      "translation": "そろそろその内定について決断すべきだ。",
+      "explanation": "high time が付くと「とっくにその時期なのにまだだ」という催促になる。ずらした過去形がそのずれを表す。"
+    }
+  ]
+}

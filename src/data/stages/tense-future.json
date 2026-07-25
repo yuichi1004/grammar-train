@@ -1,0 +1,210 @@
+{
+  "id": "tense-future",
+  "order": 450,
+  "title": "時制 5（未来の表し方）",
+  "category": "tense",
+  "description": "will はその場で決めた気持ち、be going to はすでに向いている矢印、進行形は手配済みの予定、現在形は予定表。時を表す副詞節の中は will で塗らない",
+  "hint": "括弧内の語を、文脈に合う時制・人称の形にして入力",
+  "questions": [
+    {
+      "sentence": "I'll email you when the file ___ ready. (be)",
+      "answer": "is",
+      "translation": "ファイルの準備ができたらメールします。",
+      "explanation": "when 以下は「いつ」を指す枠で、話し手の頭の中ではもう起きたこととして絵になっている。枠の中まで will で未来を塗り直す必要がない。"
+    },
+    {
+      "sentence": "We'll start the meeting as soon as everyone ___ here. (be)",
+      "answer": "is",
+      "translation": "全員そろい次第、会議を始めます。",
+      "explanation": "as soon as の節は時を指す枠。枠の中は現在形で置き、未来であることは主節の will が引き受ける。"
+    },
+    {
+      "sentence": "Call me the moment you ___ home. (get)",
+      "answer": "get",
+      "translation": "家に着いたらすぐ電話して。",
+      "explanation": "the moment も when と同じ働きで時の枠を作る。枠の中に will を入れると英語として成り立たない。"
+    },
+    {
+      "sentence": "Once the payment ___ , we'll ship the goods immediately. (arrive)",
+      "answer": "arrives",
+      "translation": "入金が確認でき次第、すぐに商品を発送します。",
+      "explanation": "once も時の枠を作る接続詞。未来の話でも枠の中は現在形になり、三人称単数の s だけが残る。"
+    },
+    {
+      "sentence": "By the time you ___ this, I'll be on the plane. (read)",
+      "answer": "read",
+      "translation": "これを読むころには、私は飛行機の中でしょう。",
+      "explanation": "by the time が作る枠の中も現在形。未来を表す仕事は主節の will be が全部引き受けている。"
+    },
+    {
+      "sentence": "I'll wait here until she ___ back. (come)",
+      "answer": "comes",
+      "translation": "彼女が戻るまでここで待ちます。",
+      "explanation": "until も時の枠を作る。日本語の「戻ったら」に未来の印がないのと同じで、英語も枠の中では未来形にしない。"
+    },
+    {
+      "sentence": "Don't worry. I ___ you as soon as I get the results. (call)",
+      "answer": "will call",
+      "accept": ["'ll call", "’ll call"],
+      "translation": "心配しないで。結果が出たらすぐ電話するよ。",
+      "explanation": "will は今この瞬間に生まれた気持ちがそのまま前に出る形。前から予定表にあったのではなく、目の前の相手への約束としてその場で決めている。"
+    },
+    {
+      "sentence": "That bag looks heavy. I ___ you with it. (help)",
+      "answer": "will help",
+      "accept": ["'ll help", "’ll help"],
+      "translation": "その鞄、重そうだね。手伝うよ。",
+      "explanation": "相手の様子を見て、その場で決めた申し出。あらかじめ決めていた予定ではないので be going to にはならない。"
+    },
+    {
+      "sentence": "The phone's ringing. OK, I ___ it. (get)",
+      "answer": "will get",
+      "accept": ["'ll get", "’ll get"],
+      "translation": "電話が鳴ってる。じゃあ、私が出るよ。",
+      "explanation": "鳴った音を聞いてから決めている。その場で生まれた意思なので will が使われる。"
+    },
+    {
+      "sentence": "I promise I ___ anyone about this. (not tell)",
+      "answer": "won't tell",
+      "accept": ["won’t tell", "will not tell"],
+      "translation": "このことは誰にも言わないと約束する。",
+      "explanation": "約束は相手に向けて今差し出す気持ち。will の否定形がその意思をそのまま打ち消す。"
+    },
+    {
+      "sentence": "OK, I ___ the tickets tonight, then. (book)",
+      "answer": "will book",
+      "accept": ["'ll book", "’ll book"],
+      "translation": "じゃあ今夜チケットを取っておくよ。",
+      "explanation": "OK と then が「話を聞いて今決めた」合図。決定の瞬間が今なので will になる。"
+    },
+    {
+      "sentence": "If you tell me the address, I ___ it into the app. (put)",
+      "answer": "will put",
+      "accept": ["'ll put", "’ll put"],
+      "translation": "住所を教えてくれたら、アプリに入れておくよ。",
+      "explanation": "条件を聞いてその場で応じる意思。if 節は現在形、主節が will という組み合わせになる。"
+    },
+    {
+      "sentence": "We've made up our minds: we ___ move to Fukuoka. (be going to)",
+      "answer": "are going to",
+      "accept": ["'re going to", "’re going to"],
+      "translation": "心を決めた。私たちは福岡に引っ越す。",
+      "explanation": "be going to は矢印がすでに目的地を向いている状態。決断が済んでいるので、あとは進むだけという絵になる。"
+    },
+    {
+      "sentence": "She's already saved the money — she ___ buy a car. (be going to)",
+      "answer": "is going to",
+      "accept": ["'s going to", "’s going to"],
+      "translation": "彼女はもうお金を貯めた。車を買うつもりだ。",
+      "explanation": "貯金という準備が始まっている時点で矢印は動き出している。今決めたのではないので will ではない。"
+    },
+    {
+      "sentence": "Look at those clouds! It ___ rain. (be going to)",
+      "answer": "is going to",
+      "accept": ["'s going to", "’s going to"],
+      "translation": "あの雲を見て。雨が降るよ。",
+      "explanation": "目の前にすでに兆しがあり、そこから矢印が伸びている。根拠が今見えているときの予測。"
+    },
+    {
+      "sentence": "I've booked the day off. I ___ visit my parents. (be going to)",
+      "answer": "am going to",
+      "accept": ["'m going to", "’m going to"],
+      "translation": "休みを取ってある。両親に会いに行くつもりだ。",
+      "explanation": "休暇を取った時点で矢印は目的地を向いている。意思がすでに固まっていることを示す形。"
+    },
+    {
+      "sentence": "They ___ open a second branch next year; the contract is signed. (be going to)",
+      "answer": "are going to",
+      "accept": ["'re going to", "’re going to"],
+      "translation": "彼らは来年2号店を出す。契約はもう交わされている。",
+      "explanation": "契約という事実が矢印の根拠になっている。今思いついた話ではないので going to で示す。"
+    },
+    {
+      "sentence": "I ___ meeting the supplier at ten tomorrow. (be)",
+      "answer": "am",
+      "accept": ["'m", "’m"],
+      "translation": "明日10時に取引先と会うことになっています。",
+      "explanation": "時刻まで決まっている予定は、話し手の中ではもう線が動き出している。だから未来でも進行形で言える。"
+    },
+    {
+      "sentence": "We ___ flying to Sapporo on the 3rd; it's all booked. (be)",
+      "answer": "are",
+      "accept": ["'re", "’re"],
+      "translation": "3日に札幌へ飛びます。手配は全部済んでいます。",
+      "explanation": "予約済みという事実が予定を確定させている。確定した線は進行形で表す。"
+    },
+    {
+      "sentence": "___ you coming to the party on Saturday? (be)",
+      "answer": "Are",
+      "translation": "土曜のパーティーに来る？",
+      "explanation": "相手の予定表にもう書き込まれているかを尋ねている。意思ではなく確定した予定を聞く形。"
+    },
+    {
+      "sentence": "She ___ starting her new job on Monday. (be)",
+      "answer": "is",
+      "accept": ["'s", "’s"],
+      "translation": "彼女は月曜から新しい仕事を始めます。",
+      "explanation": "始まる日が決まっている段取りの話。予測ではなく決定事項なので進行形になる。"
+    },
+    {
+      "sentence": "They ___ not coming — they cancelled this morning. (be)",
+      "answer": "are",
+      "accept": ["'re", "’re"],
+      "translation": "彼らは来ません。今朝キャンセルされました。",
+      "explanation": "取り消しという手続きが済んでいるので、来ないことも確定した予定として進行形で言う。"
+    },
+    {
+      "sentence": "This time tomorrow I ___ over the Pacific. (fly)",
+      "answer": "will be flying",
+      "accept": ["'ll be flying", "’ll be flying"],
+      "translation": "明日の今ごろは太平洋の上を飛んでいます。",
+      "explanation": "未来のある一瞬に線が通っている姿。will fly だと「飛ぶという決定」になるが、線にすると明日その時刻の途中にいる自分が見える。"
+    },
+    {
+      "sentence": "Don't call at seven — we ___ dinner then. (have)",
+      "answer": "will be having",
+      "accept": ["'ll be having", "’ll be having"],
+      "translation": "7時には電話しないで。そのころは夕食中だから。",
+      "explanation": "7時という点で未来を輪切りにして、そこを何の線が通っているかを言っている。だから未来進行形。"
+    },
+    {
+      "sentence": "At three o'clock tomorrow the committee ___ this proposal. (discuss)",
+      "answer": "will be discussing",
+      "accept": ["'ll be discussing", "’ll be discussing"],
+      "translation": "明日の3時には、委員会はこの提案を審議している最中でしょう。",
+      "explanation": "始まりでも終わりでもなく、その時刻に進行の途中であることを言う形。時刻の指定が線を輪切りにしている。"
+    },
+    {
+      "sentence": "I ___ in meetings all day tomorrow, so email me instead. (be)",
+      "answer": "will be",
+      "accept": ["'ll be", "’ll be"],
+      "translation": "明日は一日中会議なので、代わりにメールをください。",
+      "explanation": "all day tomorrow は幅のある未来の帯。その帯全体を線が埋めている絵になる。"
+    },
+    {
+      "sentence": "Next week at this time we ___ on a beach in Okinawa. (sit)",
+      "answer": "will be sitting",
+      "accept": ["'ll be sitting", "’ll be sitting"],
+      "translation": "来週の今ごろは沖縄の浜辺に座っているでしょう。",
+      "explanation": "未来の一点を指定して、その瞬間の姿を描いている。決定ではなく情景を見せる形。"
+    },
+    {
+      "sentence": "According to the timetable, the train ___ at 6:15. (leave)",
+      "answer": "leaves",
+      "translation": "時刻表によれば、その電車は6時15分に出る。",
+      "explanation": "時刻表は自分の意思とは関係なく決まっている枠組み。すでに紙の上にある事実として現在形で言う。"
+    },
+    {
+      "sentence": "What time ___ the film start this evening? (do)",
+      "answer": "does",
+      "translation": "今夜の映画は何時に始まりますか。",
+      "explanation": "上映時間はもう決まっている表の中の情報。意思を聞いているのではないので現在形で尋ねる。"
+    },
+    {
+      "sentence": "The conference ___ on the 10th and ends on the 12th. (begin)",
+      "answer": "begins",
+      "translation": "会議は10日に始まり、12日に終わる。",
+      "explanation": "日程表として頭の中にある予定。動かない枠として現在形で並べると、公式の予定という響きになる。"
+    }
+  ]
+}
