@@ -14,7 +14,14 @@ export interface Question {
 }
 
 export interface Stage {
+  /**
+   * localStorage に保存する記録の主キー。
+   * 一度公開した id は変えないこと（変えると前回の正答率が別ステージに付く / 消える）。
+   * 表示順は order で決まるので、id に連番を含める必要はない。
+   */
   id: string
+  /** 表示順。小さいほど先。10, 20, 30... と間隔をあけて振り、間に挿すときは 15 を使う */
+  order?: number
   title: string
   category: StageCategory
   description: string
