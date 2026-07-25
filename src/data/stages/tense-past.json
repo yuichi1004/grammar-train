@@ -1,0 +1,193 @@
+{
+  "id": "tense-past",
+  "order": 420,
+  "title": "時制 2（過去形・過去進行形・過去の習慣）",
+  "category": "tense",
+  "description": "過去進行形は「続いている線」、過去形は「その線に刺さる点」。used to は「今はもう違う」という対比、was going to は「向いていたのに届かなかった矢印」",
+  "hint": "括弧内の語を、文脈に合う時制・人称の形にして入力",
+  "questions": [
+    {
+      "sentence": "I ___ a shower when the doorbell rang. (take)",
+      "answer": "was taking",
+      "translation": "玄関のチャイムが鳴ったとき、私はシャワーを浴びているところだった。",
+      "explanation": "過去進行形は続いている線、過去形の rang はその線に刺さる点。点が刺さった瞬間もシャワーは続いていたので線の形にする。"
+    },
+    {
+      "sentence": "While she ___ dinner, the lights suddenly went out. (cook)",
+      "answer": "was cooking",
+      "translation": "彼女が夕食を作っているとき、突然明かりが消えた。",
+      "explanation": "while は線の側に付く合図。長く伸びている背景が while 節、そこに落ちてくる出来事が過去形になる。"
+    },
+    {
+      "sentence": "The phone rang while I ___ the car. (drive)",
+      "answer": "was driving",
+      "translation": "運転しているときに電話が鳴った。",
+      "explanation": "運転は幅のある線、電話が鳴ったのは一瞬の点。どちらが背景でどちらが出来事かで形が決まる。"
+    },
+    {
+      "sentence": "He ___ his leg while he was skiing in Nagano. (break)",
+      "answer": "broke",
+      "translation": "彼は長野でスキーをしているときに足を折った。",
+      "explanation": "折れたのは一瞬の出来事なので点。線の側はすでに was skiing として印字されているので、こちらは過去形になる。"
+    },
+    {
+      "sentence": "We ___ TV when we heard the crash outside. (watch)",
+      "answer": "were watching",
+      "translation": "外で衝突音が聞こえたとき、私たちはテレビを見ていた。",
+      "explanation": "音が聞こえたという点の前後にもテレビは続いていた。途切れずに伸びている線なので進行形にする。"
+    },
+    {
+      "sentence": "She ___ the letter and put it in her pocket. (fold)",
+      "answer": "folded",
+      "translation": "彼女は手紙をたたんでポケットに入れた。",
+      "explanation": "たたむ、入れる、と点が順番に並ぶ話。線として引き伸ばさないので、どちらも過去形になる。"
+    },
+    {
+      "sentence": "What ___ you doing at eight o'clock last night? (be)",
+      "answer": "were",
+      "translation": "昨夜8時ごろ、あなたは何をしていましたか。",
+      "explanation": "8時という一点で時間を輪切りにして、そこを何の線が通っていたかを尋ねている。だから進行形。"
+    },
+    {
+      "sentence": "As I ___ out of the station, someone called my name. (walk)",
+      "answer": "was walking",
+      "translation": "駅を出て歩いていると、誰かが私の名前を呼んだ。",
+      "explanation": "歩いているという線の途中に、呼ばれたという点が刺さる。as も while と同じく背景の線を導く。"
+    },
+    {
+      "sentence": "While I was writing the report, my colleague ___ the slides. (prepare)",
+      "answer": "was preparing",
+      "translation": "私が報告書を書いている間、同僚はスライドを用意していた。",
+      "explanation": "2本の線が並んで同じ時間を流れている絵。どちらも途中なので両方とも進行形になる。"
+    },
+    {
+      "sentence": "The children were playing outside while their father ___ the dishes. (wash)",
+      "answer": "was washing",
+      "translation": "子どもたちが外で遊んでいる間、父親は皿を洗っていた。",
+      "explanation": "同時に進む2本の線。片方がすでに進行形で印字されているので、もう片方もそろえる。"
+    },
+    {
+      "sentence": "I was reading and she ___ to music in the next room. (listen)",
+      "answer": "was listening",
+      "translation": "私は本を読み、彼女は隣の部屋で音楽を聴いていた。",
+      "explanation": "同じ時間帯に重なって流れる2つの線。どちらにも始まりと終わりの点を置いていない。"
+    },
+    {
+      "sentence": "It ___ heavily when we left the station. (rain)",
+      "answer": "was raining",
+      "translation": "駅を出たとき、雨が激しく降っていた。",
+      "explanation": "駅を出たのは点、雨はその前後に伸びている線。天気は背景として進行形で置くことが多い。"
+    },
+    {
+      "sentence": "There ___ be a bookstore on this corner, but it closed last year. (use)",
+      "answer": "used to",
+      "translation": "この角には昔書店があったが、去年閉店した。",
+      "explanation": "used to は「今はもう違う」という対比つきの過去。後ろに be が残っているので、繰り返しの動作専用の would は入り込めない。"
+    },
+    {
+      "sentence": "I ___ smoke twenty a day, but I gave up ten years ago. (use)",
+      "answer": "used to",
+      "translation": "1日20本吸っていたが、10年前にやめた。",
+      "explanation": "昔の習慣と今との断絶を1語で示す形。gave up が「今は違う」を裏づけている。"
+    },
+    {
+      "sentence": "This building ___ be a hospital before the war. (use)",
+      "answer": "used to",
+      "translation": "この建物は戦前は病院だった。",
+      "explanation": "過去の状態が今は終わっていることを示す。be が続いているので、動作の繰り返しではなく状態の対比。"
+    },
+    {
+      "sentence": "She ___ have very long hair when she was a student. (use)",
+      "answer": "used to",
+      "translation": "彼女は学生のころ、とても長い髪をしていた。",
+      "explanation": "今はそうではないという含みが自動的に付く。写真の中と目の前を並べて見せている感覚。"
+    },
+    {
+      "sentence": "I ___ what she meant as soon as she said it. (understand)",
+      "answer": "understood",
+      "translation": "彼女がそう言った瞬間、私は言いたいことが分かった。",
+      "explanation": "understand は状態なので、過去でも進行形にはしない。分かっているという状態に入った点を過去形で打つ。"
+    },
+    {
+      "sentence": "The house ___ to my grandmother until 1998. (belong)",
+      "answer": "belonged",
+      "translation": "その家は1998年まで祖母のものだった。",
+      "explanation": "所有は動作ではなく状態。線の途中を切り取る発想がないので、過去進行形にはならない。"
+    },
+    {
+      "sentence": "At that time we ___ two cars and a small boat. (own)",
+      "answer": "owned",
+      "translation": "当時、私たちは車2台と小さなボートを持っていた。",
+      "explanation": "持っている状態がその時期にあったという話。状態動詞なので was owning とはしない。"
+    },
+    {
+      "sentence": "She ___ him from her university days. (know)",
+      "answer": "knew",
+      "translation": "彼女は大学時代から彼を知っていた。",
+      "explanation": "know は状態なので進行形にできない。日本語の「〜していた」につられて was knowing としないよう気をつける。"
+    },
+    {
+      "sentence": "I ___ call you last night, but I fell asleep on the sofa. (be going to)",
+      "answer": "was going to",
+      "translation": "昨夜電話するつもりだったのに、ソファで寝てしまった。",
+      "explanation": "be going to は矢印がすでに目的地を向いている状態。was にすると「向いていたのに届かなかった」という含みが出る。"
+    },
+    {
+      "sentence": "We ___ leave at six, but the meeting ran late. (be going to)",
+      "answer": "were going to",
+      "translation": "6時に出るつもりだったが、会議が長引いた。",
+      "explanation": "矢印は6時を向いていたのに、途中で邪魔が入って届かなかった。but のあとがその邪魔の中身になる。"
+    },
+    {
+      "sentence": "He promised he ___ call me back, but he never did. (will)",
+      "answer": "would",
+      "accept": ["'d", "’d"],
+      "translation": "彼はかけ直すと約束したのに、結局かけてこなかった。",
+      "explanation": "promised が過去に立っているので、その時点から見た未来も1つ後ろへずらす。will が would になるのはその段差。"
+    },
+    {
+      "sentence": "She said she ___ be late, so we started without her. (will)",
+      "answer": "would",
+      "accept": ["'d", "’d"],
+      "translation": "彼女が遅れると言ったので、私たちは先に始めた。",
+      "explanation": "said の時点に立って未来を見ているので will が一段さかのぼる。過去の中の未来を表す形。"
+    },
+    {
+      "sentence": "I ___ my wallet on the train yesterday, so I had to walk home. (lose)",
+      "answer": "lost",
+      "translation": "昨日電車で財布をなくしたので、歩いて帰るしかなかった。",
+      "explanation": "yesterday は今から切り離された過去の箱。完了形は今まで線がつながっているときの形なので、箱の中で完結した話には使えない。"
+    },
+    {
+      "sentence": "They ___ this bridge in 1965. (build)",
+      "answer": "built",
+      "translation": "彼らは1965年にこの橋を建設した。",
+      "explanation": "1965年という点が箱の中に打たれている。今との線がつながっていないので過去形になる。"
+    },
+    {
+      "sentence": "We ___ to Okinawa three years ago. (go)",
+      "answer": "went",
+      "translation": "3年前に沖縄へ行った。",
+      "explanation": "ago は今から距離を測って過去の一点を指す言い方。点が確定しているので過去形。"
+    },
+    {
+      "sentence": "When I was a child, I ___ afraid of the dark. (be)",
+      "answer": "was",
+      "translation": "子どものころ、私は暗闇が怖かった。",
+      "explanation": "子ども時代という閉じた箱の中の話。今も怖いかどうかには触れていない。"
+    },
+    {
+      "sentence": "___ you enjoy the concert last night? (do)",
+      "answer": "Did",
+      "translation": "昨夜のコンサートは楽しかった？",
+      "explanation": "last night で過去の箱が決まっているので did。時制は did が引き受け、enjoy は原形に戻る。"
+    },
+    {
+      "sentence": "She ___ anything at all during the meeting. (not say)",
+      "answer": "didn't say",
+      "accept": ["didn’t say", "did not say"],
+      "translation": "彼女は会議中ひと言も発言しなかった。",
+      "explanation": "終わった会議の中の出来事なので過去形。did が時制を引き受けるので say は原形のまま残る。"
+    }
+  ]
+}

@@ -10,6 +10,10 @@ import articles1 from './stages/articles-1.json'
 import articles2 from './stages/articles-2.json'
 import nouns1 from './stages/nouns-1.json'
 import nouns2 from './stages/nouns-2.json'
+import tensePresent from './stages/tense-present.json'
+import tensePast from './stages/tense-past.json'
+import tensePerfect from './stages/tense-perfect.json'
+import tensePastPerfect from './stages/tense-past-perfect.json'
 
 /**
  * 未検証のステージ JSON。新しいステージを追加するときはここに 1 行足すだけでよい。
@@ -27,6 +31,10 @@ export const stageSources: unknown[] = [
   articles2,
   nouns1,
   nouns2,
+  tensePresent,
+  tensePast,
+  tensePerfect,
+  tensePastPerfect,
 ]
 
 /**

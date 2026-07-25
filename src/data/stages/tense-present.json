@@ -1,0 +1,203 @@
+{
+  "id": "tense-present",
+  "order": 410,
+  "title": "時制 1（現在形と現在進行形）",
+  "category": "tense",
+  "description": "現在形は「いつもそうなっている形」、進行形は「今この期間だけ切り取った線の途中」。途中のない状態動詞は進行形にできない",
+  "hint": "括弧内の語を、文脈に合う時制・人称の形にして入力",
+  "questions": [
+    {
+      "sentence": "Sorry, I ___ what you mean. Could you say that again? (not understand)",
+      "answer": "don't understand",
+      "accept": ["don’t understand", "do not understand"],
+      "translation": "すみません、おっしゃる意味が分かりません。もう一度言っていただけますか。",
+      "explanation": "understand は「分かっている状態」で、動き始めも終わりもない。進行形は動作の途中を切り取る形なので、途中のない状態動詞には使えない。"
+    },
+    {
+      "sentence": "This box ___ all the documents you asked for. (contain)",
+      "answer": "contains",
+      "translation": "この箱にはご依頼の書類がすべて入っています。",
+      "explanation": "contain は箱と中身の関係が動かずに続いている状態。動いていないものを「今まさに動作中」と切り取ることはできない。"
+    },
+    {
+      "sentence": "That bicycle ___ to my brother, not to me. (belong)",
+      "answer": "belongs",
+      "translation": "あの自転車は私ではなく兄のものです。",
+      "explanation": "belong は所有という結びつきが静かに続いている状態。線の途中という発想が入る余地がないので進行形にしない。"
+    },
+    {
+      "sentence": "I ___ Mr. Sato quite well — we were at school together. (know)",
+      "answer": "know",
+      "translation": "佐藤さんのことはよく知っています。学校が一緒だったんです。",
+      "explanation": "know は「知っている状態」で、知り始めた瞬間も終わる瞬間も見えない。だから進行中として切り取れない。"
+    },
+    {
+      "sentence": "This word ___ two completely different things in British English. (mean)",
+      "answer": "means",
+      "translation": "この語はイギリス英語ではまったく違う2つの意味になる。",
+      "explanation": "mean は語と意味が結びついたままの状態。動作ではないので、途中を示す進行形にはならない。"
+    },
+    {
+      "sentence": "This soup ___ a bit too salty to me. (taste)",
+      "answer": "tastes",
+      "translation": "このスープは私には少ししょっぱすぎる。",
+      "explanation": "ここでの taste は「そういう味がしている」という性質。人が味見する動作なら進行形になるが、性質は状態なのでならない。"
+    },
+    {
+      "sentence": "We ___ three cars, but we only use one. (own)",
+      "answer": "own",
+      "translation": "うちは車を3台持っているが、使うのは1台だけだ。",
+      "explanation": "own は所有という動かない状態。持ち続けている線に途中も終わりもないので、現在形のまま置く。"
+    },
+    {
+      "sentence": "___ this price include tax? (do)",
+      "answer": "does",
+      "translation": "この価格は税込みですか。",
+      "explanation": "include も状態なので進行形にならず、疑問文は do の力を借りる。主語が三人称単数なので does が前に出る。"
+    },
+    {
+      "sentence": "My brother usually works in Tokyo, but this month he ___ in Osaka. (work)",
+      "answer": "is working",
+      "accept": ["'s working", "’s working"],
+      "translation": "兄はふだんは東京で働いていますが、今月は大阪で働いています。",
+      "explanation": "現在形はいつもそうなっている形。this month という一時的な枠が付いた瞬間、線の途中を見ている絵になるので進行形になる。"
+    },
+    {
+      "sentence": "Water ___ at 100 degrees Celsius at sea level. (boil)",
+      "answer": "boils",
+      "translation": "水は海面の高さでは100度で沸騰する。",
+      "explanation": "いつでも変わらない性質を言うときは現在形。特定の時間の途中を切り取っていないので進行形にはしない。"
+    },
+    {
+      "sentence": "Be quiet — the baby ___ . (sleep)",
+      "answer": "is sleeping",
+      "accept": ["'s sleeping", "’s sleeping"],
+      "translation": "静かにして。赤ちゃんが寝ているところだから。",
+      "explanation": "今この瞬間に続いている線の途中を指している。習慣ではなく目の前の一場面なので進行形。"
+    },
+    {
+      "sentence": "I usually take the bus, but this week I ___ to work. (cycle)",
+      "answer": "am cycling",
+      "accept": ["'m cycling", "’m cycling"],
+      "translation": "ふだんはバスですが、今週は自転車で通勤しています。",
+      "explanation": "usually の側が現在形、this week の側が進行形。一時的にいつもと違う線の上にいることを進行形が示している。"
+    },
+    {
+      "sentence": "The Earth ___ around the Sun once a year. (go)",
+      "answer": "goes",
+      "translation": "地球は1年に1回太陽のまわりを回る。",
+      "explanation": "変わらない事実は現在形で置く。時間を切り取らず、いつでも成り立つ形として述べている。"
+    },
+    {
+      "sentence": "Look! It ___ again. (snow)",
+      "answer": "is snowing",
+      "accept": ["'s snowing", "’s snowing"],
+      "translation": "見て。また雪が降っている。",
+      "explanation": "Look! が目の前の一場面を指している。今その線の途中にいるので進行形になる。"
+    },
+    {
+      "sentence": "He ___ tennis every Sunday morning. (play)",
+      "answer": "plays",
+      "translation": "彼は毎週日曜の朝にテニスをする。",
+      "explanation": "every Sunday は繰り返される点の集まり。1回1回の途中ではなく習慣全体を指すので現在形。"
+    },
+    {
+      "sentence": "My English ___ , but very slowly. (improve)",
+      "answer": "is improving",
+      "accept": ["'s improving", "’s improving"],
+      "translation": "私の英語は上達しているが、とてもゆっくりだ。",
+      "explanation": "変化していく途中にいることを言っている。到達点ではなく坂の途中を指すので進行形になる。"
+    },
+    {
+      "sentence": "He ___ about the food, even at very good restaurants. (always complain)",
+      "answer": "is always complaining",
+      "accept": ["'s always complaining", "’s always complaining"],
+      "translation": "彼はとてもいいレストランでも食べ物に文句ばかり言っている。",
+      "explanation": "進行形は今まさに続いている線。そこに always を重ねると「またやっている」といういらだちがにじむ。always complains なら淡々とした事実の報告になる。"
+    },
+    {
+      "sentence": "She ___ her keys and asking me to help her look. (always lose)",
+      "answer": "is always losing",
+      "accept": ["'s always losing", "’s always losing"],
+      "translation": "彼女はいつも鍵をなくしては、私に一緒に探してくれと言ってくる。",
+      "explanation": "終わったはずの線がまた始まり、また始まりと重なって見える形。あきれや困りの気持ちが乗る。"
+    },
+    {
+      "sentence": "First you ___ the eggs, then you add the sugar. (beat)",
+      "answer": "beat",
+      "translation": "まず卵を溶き、それから砂糖を加えます。",
+      "explanation": "手順は「そのつどこうなる」という決まった形なので現在形。作業の途中を実況しているわけではない。"
+    },
+    {
+      "sentence": "Kane passes to Son, who ___ it straight into the net! (put)",
+      "answer": "puts",
+      "translation": "ケインがソンにパス、ソンがそのままネットに流し込んだ！",
+      "explanation": "実況は出来事を点として次々に打っていく。線として引き伸ばさないので、進行形ではなく現在形になる。"
+    },
+    {
+      "sentence": "In the film, the hero ___ his memory in the very first scene. (lose)",
+      "answer": "loses",
+      "translation": "その映画では、主人公は冒頭の場面で記憶を失う。",
+      "explanation": "あらすじは何度見ても同じように起きる出来事。時間の中の一回ではないので現在形で語る。"
+    },
+    {
+      "sentence": "You ___ left at the traffic lights and then go straight. (turn)",
+      "answer": "turn",
+      "translation": "信号を左に曲がって、それからまっすぐ進んでください。",
+      "explanation": "道案内も手順と同じで、そのとおりにすればそうなるという形。現在形が指示の型になる。"
+    },
+    {
+      "sentence": "I ___ seeing the dentist at three tomorrow, so I can't join the call. (be)",
+      "answer": "am",
+      "accept": ["'m", "’m"],
+      "translation": "明日3時に歯医者の予約が入っているので、その通話には出られません。",
+      "explanation": "予定として決まっていることは、頭の中ではもう線が動き始めている。だから未来のことでも進行形で言える。"
+    },
+    {
+      "sentence": "We ___ having dinner with the Kimuras on Saturday — it's all arranged. (be)",
+      "answer": "are",
+      "accept": ["'re", "’re"],
+      "translation": "土曜は木村さん一家と食事をします。もう全部手配済みです。",
+      "explanation": "すでに手配が済んでいる予定は、話し手の中で動き出している線として扱う。だから進行形で未来を語れる。"
+    },
+    {
+      "sentence": "___ you doing anything on Friday evening? (be)",
+      "answer": "Are",
+      "translation": "金曜の夜は何か予定ある？",
+      "explanation": "相手の予定表にすでに書き込まれているかを尋ねている。決まった予定を聞くので進行形になる。"
+    },
+    {
+      "sentence": "My parents ___ flying to Seoul on Monday; the tickets are booked. (be)",
+      "answer": "are",
+      "accept": ["'re", "’re"],
+      "translation": "両親は月曜にソウルへ飛びます。チケットはもう取ってあります。",
+      "explanation": "チケットが取ってある時点で予定は動き出している。予測ではなく確定した線なので進行形。"
+    },
+    {
+      "sentence": "How often ___ you check your email? (do)",
+      "answer": "do",
+      "translation": "どのくらいの頻度でメールを確認しますか。",
+      "explanation": "How often は習慣の回数を聞く言い方。習慣は現在形なので、疑問文は do の力を借りる。"
+    },
+    {
+      "sentence": "It ___ much here in winter. (not rain)",
+      "answer": "doesn't rain",
+      "accept": ["doesn’t rain", "does not rain"],
+      "translation": "ここは冬はあまり雨が降らない。",
+      "explanation": "季節ごとの傾向は変わらない性質。主語の it に合わせて does を使い、後ろは原形に戻る。"
+    },
+    {
+      "sentence": "He ___ to work; he cycles all year round. (not drive)",
+      "answer": "doesn't drive",
+      "accept": ["doesn’t drive", "does not drive"],
+      "translation": "彼は車で通勤しない。一年中自転車だ。",
+      "explanation": "習慣の否定なので現在形。does が時制と人称を引き受けるので、drive は原形のまま残る。"
+    },
+    {
+      "sentence": "___ she speak Chinese as well as Korean? (do)",
+      "answer": "Does",
+      "translation": "彼女は韓国語だけでなく中国語も話せますか。",
+      "explanation": "能力や習慣を尋ねる現在形の疑問。三人称単数の s は does が引き受けるので、speak は原形になる。"
+    }
+  ]
+}

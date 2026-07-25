@@ -1,0 +1,207 @@
+{
+  "id": "tense-perfect",
+  "order": 430,
+  "title": "時制 3（現在完了と過去形の境界）",
+  "category": "tense",
+  "description": "現在完了は過去の一点から今まで伸びる線、過去形は今から切り離された箱の中の点。日本語の「〜した」がどちらも覆ってしまうので、目印で見分ける",
+  "hint": "括弧内の語を、文脈に合う時制・人称の形にして入力",
+  "questions": [
+    {
+      "sentence": "I ___ Mr. Tanaka since we were at university. (know)",
+      "answer": "have known",
+      "accept": ["'ve known", "’ve known"],
+      "translation": "田中さんとは大学時代からの知り合いです。",
+      "explanation": "現在完了は過去の一点から今まで伸びる線で、since がその起点を打っている。know は状態なので、線の途中を切り取る been knowing にはならない。"
+    },
+    {
+      "sentence": "She ___ the owner of this shop since 2015. (be)",
+      "answer": "has been",
+      "accept": ["'s been", "’s been"],
+      "translation": "彼女は2015年からこの店のオーナーです。",
+      "explanation": "2015年に打たれた点から今まで、途切れずに線が伸びている。線が今に届いているので過去形にはできない。"
+    },
+    {
+      "sentence": "We ___ this flat since our daughter was born. (own)",
+      "answer": "have owned",
+      "accept": ["'ve owned", "’ve owned"],
+      "translation": "娘が生まれてからこのマンションを所有しています。",
+      "explanation": "所有という状態が起点から今まで続いている。状態動詞なので have been owning とは言わない。"
+    },
+    {
+      "sentence": "He ___ to the same tennis club since he was ten. (belong)",
+      "answer": "has belonged",
+      "accept": ["'s belonged", "’s belonged"],
+      "translation": "彼は10歳のときからずっと同じテニスクラブに所属している。",
+      "explanation": "所属という結びつきが切れずに今まで続いている絵。動作ではないので進行形は使わない。"
+    },
+    {
+      "sentence": "That painting ___ in the family since the war. (be)",
+      "answer": "has been",
+      "accept": ["'s been", "’s been"],
+      "translation": "あの絵は戦争のころから代々この家にある。",
+      "explanation": "戦争という起点から今まで、絵が家から出ていない。線が今に届いているので現在完了になる。"
+    },
+    {
+      "sentence": "I ___ this bike since my first year here. (have)",
+      "answer": "have had",
+      "accept": ["'ve had", "’ve had"],
+      "translation": "この自転車はここに来た1年目からずっと使っています。",
+      "explanation": "持っているという状態が起点から今まで続いている。have の完了形なので have had と重なる。"
+    },
+    {
+      "sentence": "The ground is wet — it ___ been raining all night. (have)",
+      "answer": "has",
+      "accept": ["'s", "’s"],
+      "translation": "地面がぬれている。一晩中ずっと雨が降っていたんだ。",
+      "explanation": "完了進行形は「続けたことの湯気が今も立っている」感覚。ぬれた地面という痕跡が、今との線がつながっている証拠になる。"
+    },
+    {
+      "sentence": "Your eyes are red. ___ you been crying? (have)",
+      "answer": "Have",
+      "translation": "目が赤いよ。泣いていたの？",
+      "explanation": "赤い目という今の痕跡から、さかのぼって続いていた行為を尋ねている。今に残る跡があるので完了形になる。"
+    },
+    {
+      "sentence": "I'm exhausted. I ___ been working since six this morning. (have)",
+      "answer": "have",
+      "accept": ["'ve", "’ve"],
+      "translation": "くたくただ。今朝6時からずっと働きづめだ。",
+      "explanation": "今の疲れが、朝から伸びてきた線の先端。since が起点を打ち、疲労がその線の到着点になっている。"
+    },
+    {
+      "sentence": "Sorry I'm late — I ___ been looking for a parking space. (have)",
+      "answer": "have",
+      "accept": ["'ve", "’ve"],
+      "translation": "遅れてごめん。ずっと駐車場所を探していたんだ。",
+      "explanation": "遅刻という今の結果に、直前まで続いていた行為がつながっている。線がまだ切れていないので完了進行形。"
+    },
+    {
+      "sentence": "He's completely out of breath because he ___ been running. (have)",
+      "answer": "has",
+      "accept": ["'s", "’s"],
+      "translation": "彼は走っていたので息が上がりきっている。",
+      "explanation": "息切れという今の状態が痕跡。走り終わっていても、その余韻が今に残っているので完了形でつなぐ。"
+    },
+    {
+      "sentence": "The kitchen is a mess. Someone ___ been baking. (have)",
+      "answer": "has",
+      "accept": ["'s", "’s"],
+      "translation": "台所がめちゃくちゃだ。誰かがお菓子を焼いていたな。",
+      "explanation": "散らかった台所という証拠から、直前の行為をさかのぼって言っている。今に残る跡が完了形を呼ぶ。"
+    },
+    {
+      "sentence": "We ___ to that restaurant last Friday. (go)",
+      "answer": "went",
+      "translation": "先週の金曜、あのレストランに行った。",
+      "explanation": "last Friday は今から切り離された箱。箱の中で完結しているので、今まで線を伸ばす完了形は使えない。"
+    },
+    {
+      "sentence": "She ___ this house in 2010 and sold it last year. (buy)",
+      "answer": "bought",
+      "translation": "彼女は2010年にこの家を買い、去年売った。",
+      "explanation": "買った時点も売った時点も過去の箱の中。今とのつながりが切れているので過去形で並べる。"
+    },
+    {
+      "sentence": "___ you see the fireworks last night? (do)",
+      "answer": "Did",
+      "translation": "昨夜の花火は見た？",
+      "explanation": "last night という閉じた箱を指しているので did。Have you seen としたければ、時を示す語を外す必要がある。"
+    },
+    {
+      "sentence": "He ___ his first novel when he was 22. (write)",
+      "answer": "wrote",
+      "translation": "彼は22歳のときに最初の小説を書いた。",
+      "explanation": "when he was 22 が過去の一点を指定している。時が確定した瞬間、完了形の出番はなくなる。"
+    },
+    {
+      "sentence": "I ___ him at a conference three years ago. (meet)",
+      "answer": "met",
+      "translation": "3年前に学会で彼と知り合った。",
+      "explanation": "ago は今から距離を測って過去の点を指す語。点が確定しているので線でつなぐ完了形にはしない。"
+    },
+    {
+      "sentence": "They ___ married in 1998. (get)",
+      "answer": "got",
+      "translation": "彼らは1998年に結婚した。",
+      "explanation": "年号が箱を閉じている。結婚生活が今も続いていても、出来事そのものは過去の箱の中にある。"
+    },
+    {
+      "sentence": "___ you ever been to Portugal? (have)",
+      "answer": "Have",
+      "translation": "ポルトガルに行ったことはありますか。",
+      "explanation": "ever は生まれてから今までの全体を見渡す語。時を指定しないので、今まで伸びる線として完了形で聞く。"
+    },
+    {
+      "sentence": "She's not here — she has ___ to the dentist. (go)",
+      "answer": "gone",
+      "translation": "彼女はいません。歯医者に行っています。",
+      "explanation": "have gone to は「行ってしまって今ここにいない」。行った先にまだ本人がいることを表す。"
+    },
+    {
+      "sentence": "I've ___ to Portugal twice, and I'd happily go again. (be)",
+      "answer": "been",
+      "translation": "ポルトガルには2回行ったことがあり、また行きたい。",
+      "explanation": "have been to は「行って戻ってきた」経験。今ここにいる人の経験を数えるときはこちらを使う。"
+    },
+    {
+      "sentence": "Where's Tom? He's ___ to the bank. (go)",
+      "answer": "gone",
+      "translation": "トムはどこ？ 銀行に行っているよ。",
+      "explanation": "今ここにいない理由を説明しているので gone。been にすると「行ったことがある」になり、答えにならない。"
+    },
+    {
+      "sentence": "It's the first time I ___ eaten raw fish. (have)",
+      "answer": "have",
+      "accept": ["'ve", "’ve"],
+      "translation": "生の魚を食べるのはこれが初めてだ。",
+      "explanation": "「今まで数えて初めて」という言い方なので、今まで伸びる線が要る。It's the first time は完了形とセットで動く。"
+    },
+    {
+      "sentence": "This is the first time she ___ driven abroad. (have)",
+      "answer": "has",
+      "accept": ["'s", "’s"],
+      "translation": "彼女が海外で運転するのはこれが初めてだ。",
+      "explanation": "生まれてから今までを一度見渡して、そこに前例がないと言っている。だから線を今まで引く。"
+    },
+    {
+      "sentence": "That's the third time the alarm ___ gone off today. (have)",
+      "answer": "has",
+      "accept": ["'s", "’s"],
+      "translation": "今日アラームが鳴るのはこれで3回目だ。",
+      "explanation": "today という箱がまだ閉じていないので、今までの回数を数えられる。線が現在に届いている。"
+    },
+    {
+      "sentence": "How long ___ you had that car? (have)",
+      "answer": "have",
+      "translation": "その車はどのくらい乗っているのですか。",
+      "explanation": "How long は起点から今までの線の長さを尋ねる言い方。線が今に届いているので完了形になる。"
+    },
+    {
+      "sentence": "How long ___ they been married? (have)",
+      "answer": "have",
+      "translation": "あの2人は結婚して何年になりますか。",
+      "explanation": "結婚した点から今までの長さを聞いている。過去形にすると「今はもう違う」という含みが出てしまう。"
+    },
+    {
+      "sentence": "I ___ him for weeks. Is he all right? (not see)",
+      "answer": "haven't seen",
+      "accept": ["haven’t seen", "have not seen"],
+      "translation": "何週間も彼に会っていない。無事だろうか。",
+      "explanation": "会っていない状態が今まで続いている。線がまだ切れていないので、今との関係を示す完了形になる。"
+    },
+    {
+      "sentence": "We ___ the report yet, so please wait a little longer. (not finish)",
+      "answer": "haven't finished",
+      "accept": ["haven’t finished", "have not finished"],
+      "translation": "報告書はまだ仕上がっていないので、もう少しお待ちください。",
+      "explanation": "yet は「今の時点でまだ」と現在を基準にする語。今を基準にするので完了形と組む。"
+    },
+    {
+      "sentence": "She ___ here long — only since April. (not live)",
+      "answer": "hasn't lived",
+      "accept": ["hasn’t lived", "has not lived"],
+      "translation": "彼女はここに長く住んでいるわけではない。4月からだ。",
+      "explanation": "since April が起点を打ち、そこから今までの線の短さを言っている。線は今に届いたままなので完了形。"
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "id": "tense-past-perfect",
+  "order": 440,
+  "title": "時制 4（過去完了と未来完了）",
+  "category": "tense",
+  "description": "話の基準点を過去や未来に置き、そこから振り返って「すでに終わっている」と言う形。基準点そのものは過去形・現在形で置く",
+  "hint": "括弧内の語を、文脈に合う時制・人称の形にして入力",
+  "questions": [
+    {
+      "sentence": "When I got to the platform, the train ___ already left. (have)",
+      "answer": "had",
+      "accept": ["'d", "’d"],
+      "translation": "ホームに着いたときには、電車はもう出てしまっていた。",
+      "explanation": "got が話の基準点で、そこはすでに過去。その基準点よりさらに前を語るので、have をもう一段さかのぼらせて had にする。"
+    },
+    {
+      "sentence": "By the time we arrived, the film ___ started. (have)",
+      "answer": "had",
+      "accept": ["'d", "’d"],
+      "translation": "私たちが着いたときには、映画はもう始まっていた。",
+      "explanation": "by the time が基準点を打つ合図。その線より前で起きたことは一段深い過去に沈める。"
+    },
+    {
+      "sentence": "She ___ never seen snow before she moved to Hokkaido. (have)",
+      "answer": "had",
+      "accept": ["'d", "’d"],
+      "translation": "北海道に移り住むまで、彼女は雪を見たことがなかった。",
+      "explanation": "moved が基準点。そこまでの経験を振り返っているので、現在完了をそのまま過去へずらした形になる。"
+    },
+    {
+      "sentence": "The room was empty; everyone ___ gone home. (have)",
+      "answer": "had",
+      "accept": ["'d", "’d"],
+      "translation": "部屋は空っぽだった。みんな帰ってしまっていた。",
+      "explanation": "空っぽだったという過去の場面が基準点。その状態を作った出来事はさらに前なので had で一段下げる。"
+    },
+    {
+      "sentence": "I couldn't get in because I ___ left my key at the office. (have)",
+      "answer": "had",
+      "accept": ["'d", "’d"],
+      "translation": "会社に鍵を置いてきたので、中に入れなかった。",
+      "explanation": "入れなかった過去の場面が基準点で、鍵を置いてきたのはその前。原因が結果より前にあることを段差で示す。"
+    },
+    {
+      "sentence": "The street was wet; it ___ rained during the night. (have)",
+      "answer": "had",
+      "accept": ["'d", "’d"],
+      "translation": "道がぬれていた。夜のうちに雨が降ったのだ。",
+      "explanation": "ぬれていたのを見た時点が基準点。その痕跡を作った雨はさらに前なので、過去の中の完了形になる。"
+    },
+    {
+      "sentence": "By the time she was thirty, she ___ published three novels. (have)",
+      "answer": "had",
+      "accept": ["'d", "’d"],
+      "translation": "30歳になるころには、彼女はすでに小説を3冊出していた。",
+      "explanation": "30歳という基準点まで行って後ろを振り返ると、3冊分が完成している。振り返る位置が過去なので had。"
+    },
+    {
+      "sentence": "I didn't recognize him at first — he ___ grown a beard. (have)",
+      "answer": "had",
+      "accept": ["'d", "’d"],
+      "translation": "最初は彼だと分からなかった。ひげを伸ばしていたのだ。",
+      "explanation": "見分けられなかった場面が基準点で、ひげが伸びたのはそれ以前。順序を語順ではなく形で示している。"
+    },
+    {
+      "sentence": "When I ___ to the platform, the train had already left. (get)",
+      "answer": "got",
+      "translation": "私がホームに着いたときには、電車はもう出てしまっていた。",
+      "explanation": "こちらは基準点そのもの。基準点は過去形で置き、それより前の出来事だけを had で一段沈める。"
+    },
+    {
+      "sentence": "By the time we ___ the theatre, the film had started. (reach)",
+      "answer": "reached",
+      "translation": "劇場に着いたときには、映画は始まっていた。",
+      "explanation": "by the time 節は基準点を作る側なので過去形。両方を had にすると、どちらが先か分からなくなる。"
+    },
+    {
+      "sentence": "She ___ to Hokkaido, where she saw snow for the first time. (move)",
+      "answer": "moved",
+      "translation": "彼女は北海道へ移り、そこで初めて雪を見た。",
+      "explanation": "起きた順に並べているだけなので段差が要らない。前後関係が語順どおりなら過去形で十分。"
+    },
+    {
+      "sentence": "He ___ me that he had lost the file. (tell)",
+      "answer": "told",
+      "translation": "彼はファイルをなくしてしまったと私に言った。",
+      "explanation": "言った時点が基準点で過去形。なくしたのはそれより前なので、そちらだけが had lost になる。"
+    },
+    {
+      "sentence": "We ___ the box and found that someone had taken the money. (open)",
+      "answer": "opened",
+      "translation": "箱を開けると、誰かが金を持ち去ったあとだった。",
+      "explanation": "開けた瞬間が基準点。持ち去られたのはその前なので、発見した側は過去形のままにする。"
+    },
+    {
+      "sentence": "The engine finally ___ after making a strange noise for days. (fail)",
+      "answer": "failed",
+      "translation": "エンジンは何日も異音を出したあげく、ついに止まった。",
+      "explanation": "after が順序をはっきり示しているので、段差を作らなくても前後が伝わる。基準点の出来事は過去形。"
+    },
+    {
+      "sentence": "I ___ been waiting for over an hour when she finally called. (have)",
+      "answer": "had",
+      "accept": ["'d", "’d"],
+      "translation": "1時間以上ずっと待っていたところで、ようやく彼女から電話が来た。",
+      "explanation": "called が基準点。そこまで途切れずに続いていた線を表すので、さかのぼる had と進行中の been を重ねる。"
+    },
+    {
+      "sentence": "They ___ been driving all night, so they were exhausted. (have)",
+      "answer": "had",
+      "accept": ["'d", "’d"],
+      "translation": "彼らは一晩中運転し続けていたので、へとへとだった。",
+      "explanation": "疲れていた場面が基準点で、その疲れを作った線が手前まで伸びている。過去の中の完了進行形。"
+    },
+    {
+      "sentence": "She ___ been working there for ten years before the company closed. (have)",
+      "answer": "had",
+      "accept": ["'d", "’d"],
+      "translation": "会社が倒産するまで、彼女はそこで10年働いていた。",
+      "explanation": "倒産という基準点まで10年分の線が続いていた。線の長さを過去のある一点までで測っている。"
+    },
+    {
+      "sentence": "We ___ been queuing since dawn when the doors finally opened. (have)",
+      "answer": "had",
+      "accept": ["'d", "’d"],
+      "translation": "夜明けからずっと並んでいたところで、ようやく扉が開いた。",
+      "explanation": "since dawn が起点、opened が基準点。2点の間に張られた線を過去の位置から見ている。"
+    },
+    {
+      "sentence": "By next April, I ___ in this company for ten years. (be)",
+      "answer": "will have been",
+      "accept": ["'ll have been", "’ll have been"],
+      "translation": "来年の4月で、この会社に10年いることになります。",
+      "explanation": "by は締め切りの線。未来のその線まで行って後ろを振り返ると10年分が完成しているので、will で未来へ飛び have で完成を示す。"
+    },
+    {
+      "sentence": "By the time you get back, I ___ dinner. (cook)",
+      "answer": "will have cooked",
+      "accept": ["'ll have cooked", "’ll have cooked"],
+      "translation": "あなたが戻るころには、夕食を作り終えているよ。",
+      "explanation": "戻る時点が未来の基準点。そこに立って振り返ると料理は終わっているので、未来へ飛んでから完了形で振り返る。"
+    },
+    {
+      "sentence": "By the time the guests arrive, we ___ everything. (prepare)",
+      "answer": "will have prepared",
+      "accept": ["'ll have prepared", "’ll have prepared"],
+      "translation": "客が到着するころには、準備をすべて終えているだろう。",
+      "explanation": "arrive という未来の点まで行き、そこから手前を見る形。基準点の節は will を使わず現在形で置く。"
+    },
+    {
+      "sentence": "She ___ her degree by the time she turns 22. (complete)",
+      "answer": "will have completed",
+      "accept": ["'ll have completed", "’ll have completed"],
+      "translation": "彼女は22歳になるころには学位を取り終えているだろう。",
+      "explanation": "22歳という未来の線を引き、そこまでに完成していると言っている。turns が現在形なのは時の副詞節だから。"
+    },
+    {
+      "sentence": "By this time next week, they ___ the results. (announce)",
+      "answer": "will have announced",
+      "accept": ["'ll have announced", "’ll have announced"],
+      "translation": "来週の今ごろには、結果は発表されているだろう。",
+      "explanation": "来週の今という一点に立って後ろを振り返る絵。その時点から見れば発表はすでに済んでいる。"
+    },
+    {
+      "sentence": "Don't call at eight — the film ___ by then. (not start)",
+      "answer": "won't have started",
+      "accept": ["won’t have started", "will not have started"],
+      "translation": "8時には電話しないで。そのころにはまだ映画が始まっていないから。",
+      "explanation": "by then が未来の基準点。そこまで行って振り返っても、まだ完成していないという否定の形。"
+    },
+    {
+      "sentence": "By the end of today, I ___ over fifty emails. (answer)",
+      "answer": "will have answered",
+      "accept": ["'ll have answered", "’ll have answered"],
+      "translation": "今日が終わるころには、50通以上のメールに返信し終えているだろう。",
+      "explanation": "今日の終わりという線まで進んで、そこから手前を数えている。積み上がった量を未来の位置から振り返る形。"
+    },
+    {
+      "sentence": "I ___ this book by Friday, so you can borrow it then. (finish)",
+      "answer": "will have finished",
+      "accept": ["'ll have finished", "’ll have finished"],
+      "translation": "金曜までには読み終えているので、そのとき貸せますよ。",
+      "explanation": "金曜という締め切りの線までに完成していることを言う。だから貸せるという結論が続く。"
+    },
+    {
+      "sentence": "___ you ever been to Kyoto before you moved there? (have)",
+      "answer": "Had",
+      "translation": "京都に引っ越す前に、行ったことはありましたか。",
+      "explanation": "moved という過去の基準点まで経験を数えている。現在完了の疑問をそのまま一段さかのぼらせた形。"
+    },
+    {
+      "sentence": "She ___ anyone about the plan before the meeting. (not tell)",
+      "answer": "hadn't told",
+      "accept": ["hadn’t told", "had not told"],
+      "translation": "会議の前に、彼女は誰にもその計画を話していなかった。",
+      "explanation": "会議が基準点で、それまでに話していないという否定。基準点より前の空白を had で示す。"
+    },
+    {
+      "sentence": "___ the shop already closed by the time you got there? (have)",
+      "answer": "Had",
+      "translation": "あなたが着いたときには、もう店は閉まっていましたか。",
+      "explanation": "got という過去の基準点に立って、それより前に閉まったかを尋ねている。段差があるので had。"
+    },
+    {
+      "sentence": "I ___ how late it was until my phone rang. (not realize)",
+      "answer": "hadn't realized",
+      "accept": ["hadn’t realized", "had not realized", "hadn't realised", "hadn’t realised", "had not realised"],
+      "translation": "電話が鳴るまで、こんなに遅い時間だと気づいていなかった。",
+      "explanation": "電話が鳴った瞬間が基準点で、それまで気づいていなかった空白が手前に広がっている。"
+    }
+  ]
+}
