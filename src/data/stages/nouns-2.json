@@ -1,0 +1,191 @@
+{
+  "id": "nouns-2",
+  "title": "可算・不可算 基礎 2（形と数え方）",
+  "category": "noun",
+  "description": "複数形・不規則変化・不可算名詞の数え方（カッコ内の語を正しい形で入力）",
+  "questions": [
+    {
+      "sentence": "I'd like a ___ of water, please.",
+      "answer": "glass",
+      "accept": ["cup", "bottle"],
+      "translation": "水を1杯ください。",
+      "explanation": "水は a glass of water のように容器で数える。"
+    },
+    {
+      "sentence": "She bought two ___ of bread. (loaf)",
+      "answer": "loaves",
+      "translation": "彼女はパンを2斤買いました。",
+      "explanation": "loaf の複数形は loaves。bread は a loaf of で数える。"
+    },
+    {
+      "sentence": "Can you give me a ___ of paper?",
+      "answer": "piece",
+      "accept": ["sheet"],
+      "translation": "紙を1枚もらえますか。",
+      "explanation": "paper は不可算名詞。a piece / sheet of paper で数える。"
+    },
+    {
+      "sentence": "He drank three ___ of coffee today. (cup)",
+      "answer": "cups",
+      "translation": "彼は今日コーヒーを3杯飲みました。",
+      "explanation": "コーヒーは a cup of coffee で数える。3杯なら cups。"
+    },
+    {
+      "sentence": "There are five ___ in the room. (child)",
+      "answer": "children",
+      "translation": "部屋には5人の子どもがいます。",
+      "explanation": "child の複数形は children（不規則変化）。"
+    },
+    {
+      "sentence": "I saw two ___ grazing in the field. (sheep)",
+      "answer": "sheep",
+      "translation": "野原で2頭の羊が草を食べているのを見ました。",
+      "explanation": "sheep は単複同形。"
+    },
+    {
+      "sentence": "My ___ hurt after the long walk. (foot)",
+      "answer": "feet",
+      "translation": "長く歩いたあとで両足が痛みました。",
+      "explanation": "foot の複数形は feet（不規則変化）。"
+    },
+    {
+      "sentence": "The dentist pulled out two of my ___. (tooth)",
+      "answer": "teeth",
+      "translation": "歯医者は私の歯を2本抜きました。",
+      "explanation": "tooth の複数形は teeth（不規則変化）。"
+    },
+    {
+      "sentence": "There were many ___ waiting at the station. (person)",
+      "answer": "people",
+      "accept": ["persons"],
+      "translation": "駅では多くの人が待っていました。",
+      "explanation": "person の複数は通常 people を使う。"
+    },
+    {
+      "sentence": "Three ___ were caught in the trap. (mouse)",
+      "answer": "mice",
+      "translation": "3匹のネズミがわなにかかりました。",
+      "explanation": "mouse の複数形は mice（不規則変化）。"
+    },
+    {
+      "sentence": "She gave me a lot of useful ___. (advice)",
+      "answer": "advice",
+      "translation": "彼女は役に立つアドバイスをたくさんくれました。",
+      "explanation": "advice は不可算名詞なので複数形にしない。"
+    },
+    {
+      "sentence": "We need more ___ before we decide. (information)",
+      "answer": "information",
+      "translation": "決める前にもっと情報が必要です。",
+      "explanation": "information は不可算名詞なので複数形にしない。"
+    },
+    {
+      "sentence": "He carried two heavy ___ upstairs. (box)",
+      "answer": "boxes",
+      "translation": "彼は重い箱を2つ2階へ運びました。",
+      "explanation": "-x で終わる語の複数形は -es（boxes）。"
+    },
+    {
+      "sentence": "Autumn ___ are falling from the trees. (leaf)",
+      "answer": "leaves",
+      "translation": "秋の葉が木から落ちています。",
+      "explanation": "leaf の複数形は leaves（f → ves）。"
+    },
+    {
+      "sentence": "He told us two funny ___. (story)",
+      "answer": "stories",
+      "translation": "彼は私たちにおもしろい話を2つしてくれました。",
+      "explanation": "子音 + y で終わる語は y を i に変えて -es。"
+    },
+    {
+      "sentence": "___ usually hunt in groups. (wolf)",
+      "answer": "wolves",
+      "translation": "オオカミはふつう群れで狩りをします。",
+      "explanation": "wolf の複数形は wolves（f → ves）。"
+    },
+    {
+      "sentence": "We bought some new ___ for the living room. (furniture)",
+      "answer": "furniture",
+      "translation": "リビング用に新しい家具をいくつか買いました。",
+      "explanation": "furniture は不可算名詞なので複数形にしない。"
+    },
+    {
+      "sentence": "Two ___ of cake, please. (slice)",
+      "answer": "slices",
+      "translation": "ケーキを2切れください。",
+      "explanation": "ケーキは a slice / piece of cake で数える。"
+    },
+    {
+      "sentence": "There is a lot of ___ on this road in the morning. (traffic)",
+      "answer": "traffic",
+      "translation": "朝はこの道路は交通量が多いです。",
+      "explanation": "traffic は不可算名詞なので複数形にしない。"
+    },
+    {
+      "sentence": "Be careful. These ___ are very sharp. (knife)",
+      "answer": "knives",
+      "translation": "気をつけて。これらのナイフはとても鋭いです。",
+      "explanation": "knife の複数形は knives（fe → ves）。"
+    },
+    {
+      "sentence": "Many ___ live in this lake. (fish)",
+      "answer": "fish",
+      "translation": "この湖には多くの魚が生息しています。",
+      "explanation": "fish は通常、単複同形。"
+    },
+    {
+      "sentence": "The ___ in this store are all expensive. (watch)",
+      "answer": "watches",
+      "translation": "この店の腕時計はどれも高価です。",
+      "explanation": "-ch で終わる語の複数形は -es（watches）。"
+    },
+    {
+      "sentence": "We saw wild ___ in the forest. (deer)",
+      "answer": "deer",
+      "translation": "森で野生のシカを見ました。",
+      "explanation": "deer は単複同形。"
+    },
+    {
+      "sentence": "He has two English ___. (dictionary)",
+      "answer": "dictionaries",
+      "translation": "彼は英語の辞書を2冊持っています。",
+      "explanation": "子音 + y で終わる語は y を i に変えて -es。"
+    },
+    {
+      "sentence": "Could you make two ___ of toast? (piece)",
+      "answer": "pieces",
+      "translation": "トーストを2枚作ってもらえますか。",
+      "explanation": "toast は不可算名詞。a piece of toast で数える。"
+    },
+    {
+      "sentence": "We grow ___ in our garden. (potato)",
+      "answer": "potatoes",
+      "translation": "私たちは庭でじゃがいもを育てています。",
+      "explanation": "-o で終わる語の多くは複数形が -es（potatoes / tomatoes）。"
+    },
+    {
+      "sentence": "How much ___ do you have tonight? (homework)",
+      "answer": "homework",
+      "translation": "今夜はどのくらい宿題がありますか。",
+      "explanation": "homework は不可算名詞なので複数形にしない。"
+    },
+    {
+      "sentence": "Several ___ were parked outside the hotel. (bus)",
+      "answer": "buses",
+      "translation": "ホテルの外に数台のバスが停まっていました。",
+      "explanation": "-s で終わる語の複数形は -es（buses）。"
+    },
+    {
+      "sentence": "Three ___ were waiting in line. (woman)",
+      "answer": "women",
+      "translation": "3人の女性が列に並んで待っていました。",
+      "explanation": "woman の複数形は women（不規則変化）。"
+    },
+    {
+      "sentence": "He ate two ___ of rice. (bowl)",
+      "answer": "bowls",
+      "translation": "彼はご飯を2杯食べました。",
+      "explanation": "rice は不可算名詞。a bowl of rice で数える。"
+    }
+  ]
+}

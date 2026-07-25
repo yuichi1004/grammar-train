@@ -1,0 +1,190 @@
+{
+  "id": "nouns-1",
+  "title": "可算・不可算 基礎 1（数量表現）",
+  "category": "noun",
+  "description": "much / many / few / little / some / any の使い分け",
+  "questions": [
+    {
+      "sentence": "How ___ money do you need?",
+      "answer": "much",
+      "translation": "いくらお金が必要ですか。",
+      "explanation": "money は不可算名詞なので how much。"
+    },
+    {
+      "sentence": "How ___ students are there in your class?",
+      "answer": "many",
+      "translation": "あなたのクラスには生徒が何人いますか。",
+      "explanation": "students は可算名詞の複数形なので how many。"
+    },
+    {
+      "sentence": "Would you like ___ coffee?",
+      "answer": "some",
+      "translation": "コーヒーはいかがですか。",
+      "explanation": "人に勧めるときは疑問文でも some を使う。"
+    },
+    {
+      "sentence": "I don't have ___ brothers or sisters.",
+      "answer": "any",
+      "translation": "私には兄弟も姉妹もいません。",
+      "explanation": "否定文では any を使う。"
+    },
+    {
+      "sentence": "Very ___ people know the truth.",
+      "answer": "few",
+      "translation": "真実を知っている人はほとんどいません。",
+      "explanation": "可算名詞に「ほとんど〜ない」は few。"
+    },
+    {
+      "sentence": "There was very ___ water in the bottle.",
+      "answer": "little",
+      "translation": "ボトルにはほとんど水が入っていませんでした。",
+      "explanation": "不可算名詞に「ほとんど〜ない」は little。"
+    },
+    {
+      "sentence": "She has too ___ homework tonight.",
+      "answer": "much",
+      "translation": "彼女は今夜宿題が多すぎます。",
+      "explanation": "homework は不可算名詞なので much。"
+    },
+    {
+      "sentence": "He made too ___ mistakes in the test.",
+      "answer": "many",
+      "translation": "彼はテストで間違いをしすぎました。",
+      "explanation": "mistakes は可算名詞の複数形なので many。"
+    },
+    {
+      "sentence": "Can I have ___ water, please?",
+      "answer": "some",
+      "translation": "お水をいただけますか。",
+      "explanation": "依頼するときは疑問文でも some を使う。"
+    },
+    {
+      "sentence": "Is there ___ sugar in this coffee?",
+      "answer": "any",
+      "accept": ["some"],
+      "translation": "このコーヒーには砂糖が入っていますか。",
+      "explanation": "単純な疑問文では any が基本。"
+    },
+    {
+      "sentence": "We have very ___ time before the train leaves.",
+      "answer": "little",
+      "translation": "電車が出るまでほとんど時間がありません。",
+      "explanation": "time は不可算名詞なので little。"
+    },
+    {
+      "sentence": "How ___ does this bag cost?",
+      "answer": "much",
+      "translation": "このかばんはいくらですか。",
+      "explanation": "値段を尋ねるときは how much。"
+    },
+    {
+      "sentence": "There are so ___ stars in the sky tonight.",
+      "answer": "many",
+      "translation": "今夜は空にたくさんの星が出ています。",
+      "explanation": "stars は可算名詞の複数形なので many。"
+    },
+    {
+      "sentence": "I bought ___ apples at the market.",
+      "answer": "some",
+      "translation": "市場でりんごをいくつか買いました。",
+      "explanation": "肯定文では some を使う。"
+    },
+    {
+      "sentence": "Do you have ___ plans for the weekend?",
+      "answer": "any",
+      "accept": ["some"],
+      "translation": "週末の予定はありますか。",
+      "explanation": "疑問文では any が基本。"
+    },
+    {
+      "sentence": "Very ___ hotels in this town have free Wi-Fi.",
+      "answer": "few",
+      "translation": "この町で無料 Wi-Fi のあるホテルはほとんどありません。",
+      "explanation": "hotels は可算名詞なので few。"
+    },
+    {
+      "sentence": "He speaks very ___ Japanese.",
+      "answer": "little",
+      "translation": "彼は日本語がほとんど話せません。",
+      "explanation": "言語は不可算名詞なので little。"
+    },
+    {
+      "sentence": "How ___ sleep did you get last night?",
+      "answer": "much",
+      "translation": "昨夜はどのくらい眠れましたか。",
+      "explanation": "sleep は不可算名詞なので how much。"
+    },
+    {
+      "sentence": "How ___ times have you been to Kyoto?",
+      "answer": "many",
+      "translation": "京都には何回行ったことがありますか。",
+      "explanation": "times（回数）は可算名詞なので how many。"
+    },
+    {
+      "sentence": "She gave me ___ good advice.",
+      "answer": "some",
+      "translation": "彼女は良いアドバイスをくれました。",
+      "explanation": "advice は不可算名詞。肯定文なので some。"
+    },
+    {
+      "sentence": "I couldn't find ___ information about it.",
+      "answer": "any",
+      "translation": "それについての情報は何も見つかりませんでした。",
+      "explanation": "否定文では any。information は不可算名詞。"
+    },
+    {
+      "sentence": "There were ___ people at the beach because it was cold.",
+      "answer": "few",
+      "translation": "寒かったのでビーチにはほとんど人がいませんでした。",
+      "explanation": "「ほとんどいない」という否定的な意味は few。"
+    },
+    {
+      "sentence": "He has very ___ interest in sports.",
+      "answer": "little",
+      "translation": "彼はスポーツにほとんど興味がありません。",
+      "explanation": "interest は不可算名詞なので little。"
+    },
+    {
+      "sentence": "Too ___ salt is bad for your health.",
+      "answer": "much",
+      "translation": "塩分の取りすぎは健康に悪いです。",
+      "explanation": "salt は不可算名詞なので much。"
+    },
+    {
+      "sentence": "How ___ languages can you speak?",
+      "answer": "many",
+      "translation": "何か国語を話せますか。",
+      "explanation": "languages は可算名詞の複数形なので how many。"
+    },
+    {
+      "sentence": "Let's buy ___ bread for breakfast.",
+      "answer": "some",
+      "translation": "朝食用にパンを買いましょう。",
+      "explanation": "肯定文では some。bread は不可算名詞。"
+    },
+    {
+      "sentence": "We didn't take ___ photos during the trip.",
+      "answer": "any",
+      "translation": "旅行中、写真を1枚も撮りませんでした。",
+      "explanation": "否定文では any。"
+    },
+    {
+      "sentence": "Only a ___ students passed the exam.",
+      "answer": "few",
+      "translation": "試験に合格した生徒はほんの数人でした。",
+      "explanation": "a few + 可算名詞で「少しの〜」。"
+    },
+    {
+      "sentence": "Just a ___ milk in my tea, please.",
+      "answer": "little",
+      "translation": "紅茶にはミルクを少しだけ入れてください。",
+      "explanation": "a little + 不可算名詞で「少しの〜」。"
+    },
+    {
+      "sentence": "There is too ___ noise in this room.",
+      "answer": "much",
+      "translation": "この部屋は騒音がひどすぎます。",
+      "explanation": "noise は不可算名詞なので much。"
+    }
+  ]
+}

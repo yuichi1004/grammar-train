@@ -1,0 +1,188 @@
+{
+  "id": "prepositions-1",
+  "title": "前置詞 基礎 1（時間・場所）",
+  "category": "preposition",
+  "description": "at / on / in を中心とした時間・場所の前置詞",
+  "questions": [
+    {
+      "sentence": "The meeting starts ___ 9 a.m.",
+      "answer": "at",
+      "translation": "会議は午前9時に始まります。",
+      "explanation": "時刻には at を使う。"
+    },
+    {
+      "sentence": "My birthday is ___ October.",
+      "answer": "in",
+      "translation": "私の誕生日は10月です。",
+      "explanation": "月には in を使う。"
+    },
+    {
+      "sentence": "We have an English class ___ Monday.",
+      "answer": "on",
+      "translation": "月曜日に英語の授業があります。",
+      "explanation": "曜日には on を使う。"
+    },
+    {
+      "sentence": "She was born ___ 1998.",
+      "answer": "in",
+      "translation": "彼女は1998年に生まれました。",
+      "explanation": "年には in を使う。"
+    },
+    {
+      "sentence": "Let's meet ___ noon.",
+      "answer": "at",
+      "translation": "正午に会いましょう。",
+      "explanation": "noon / midnight / night などの時点には at。"
+    },
+    {
+      "sentence": "The store closes ___ midnight.",
+      "answer": "at",
+      "translation": "その店は深夜0時に閉まります。",
+      "explanation": "midnight は時点なので at。"
+    },
+    {
+      "sentence": "I'll see you ___ the morning.",
+      "answer": "in",
+      "translation": "また明日の朝に会いましょう。",
+      "explanation": "in the morning / afternoon / evening は in。"
+    },
+    {
+      "sentence": "The party is ___ Friday evening.",
+      "answer": "on",
+      "translation": "パーティーは金曜の夜です。",
+      "explanation": "特定の曜日の朝・昼・晩は on（on Friday evening）。"
+    },
+    {
+      "sentence": "He arrived ___ Christmas Day.",
+      "answer": "on",
+      "translation": "彼はクリスマスの日に到着しました。",
+      "explanation": "特定の日（〜Day）には on。"
+    },
+    {
+      "sentence": "It gets very cold here ___ winter.",
+      "answer": "in",
+      "translation": "ここは冬になるととても寒くなります。",
+      "explanation": "季節には in を使う。"
+    },
+    {
+      "sentence": "She lives ___ Tokyo.",
+      "answer": "in",
+      "translation": "彼女は東京に住んでいます。",
+      "explanation": "都市や国など広がりのある場所には in。"
+    },
+    {
+      "sentence": "I'll wait for you ___ the bus stop.",
+      "answer": "at",
+      "translation": "バス停で待っています。",
+      "explanation": "地点として捉える場所には at。"
+    },
+    {
+      "sentence": "There is a picture ___ the wall.",
+      "answer": "on",
+      "translation": "壁に絵がかかっています。",
+      "explanation": "面に接している場合は on。"
+    },
+    {
+      "sentence": "He is cooking ___ the kitchen.",
+      "answer": "in",
+      "translation": "彼は台所で料理をしています。",
+      "explanation": "部屋などの空間の中には in。"
+    },
+    {
+      "sentence": "We arrived ___ the airport two hours early.",
+      "answer": "at",
+      "translation": "私たちは2時間早く空港に着きました。",
+      "explanation": "arrive at + 地点（建物・施設）。都市や国なら arrive in。"
+    },
+    {
+      "sentence": "The keys are ___ the table.",
+      "answer": "on",
+      "translation": "鍵はテーブルの上にあります。",
+      "explanation": "面の上に置かれている場合は on。"
+    },
+    {
+      "sentence": "There are many fish ___ the river.",
+      "answer": "in",
+      "translation": "その川にはたくさんの魚がいます。",
+      "explanation": "水の中は in。"
+    },
+    {
+      "sentence": "I met him ___ the party last night.",
+      "answer": "at",
+      "translation": "昨夜のパーティーで彼に会いました。",
+      "explanation": "イベント・催しの場には at。"
+    },
+    {
+      "sentence": "The cat is sleeping ___ the sofa.",
+      "answer": "on",
+      "translation": "猫はソファの上で眠っています。",
+      "explanation": "面に接して上にいる場合は on。"
+    },
+    {
+      "sentence": "He stayed ___ home all day.",
+      "answer": "at",
+      "translation": "彼は一日中家にいました。",
+      "explanation": "stay at home で「家にいる」。home を地点として捉える。"
+    },
+    {
+      "sentence": "We swam ___ the sea.",
+      "answer": "in",
+      "translation": "私たちは海で泳ぎました。",
+      "explanation": "海や川の中で泳ぐので in。"
+    },
+    {
+      "sentence": "Write your name ___ the top of the page.",
+      "answer": "at",
+      "translation": "ページの一番上に名前を書いてください。",
+      "explanation": "at the top / at the bottom は決まった言い方。"
+    },
+    {
+      "sentence": "I read the news ___ the internet.",
+      "answer": "on",
+      "translation": "私はインターネットでそのニュースを読みました。",
+      "explanation": "on the internet / on TV / on the radio は on。"
+    },
+    {
+      "sentence": "She sat ___ the front row.",
+      "answer": "in",
+      "translation": "彼女は最前列に座りました。",
+      "explanation": "in the front row（列の中に）は in。"
+    },
+    {
+      "sentence": "The bus stops ___ the corner of the street.",
+      "answer": "at",
+      "translation": "バスは通りの角に停まります。",
+      "explanation": "at the corner は「角という地点で」。"
+    },
+    {
+      "sentence": "They live ___ the fifth floor.",
+      "answer": "on",
+      "translation": "彼らは5階に住んでいます。",
+      "explanation": "階には on を使う（on the fifth floor）。"
+    },
+    {
+      "sentence": "I found the word ___ the dictionary.",
+      "answer": "in",
+      "translation": "その単語を辞書で見つけました。",
+      "explanation": "本・辞書・新聞の中の情報は in。"
+    },
+    {
+      "sentence": "Turn left ___ the next traffic light.",
+      "answer": "at",
+      "translation": "次の信号を左に曲がってください。",
+      "explanation": "信号や交差点などの地点には at。"
+    },
+    {
+      "sentence": "There is a stain ___ your shirt.",
+      "answer": "on",
+      "translation": "シャツにしみがついていますよ。",
+      "explanation": "表面についているものは on。"
+    },
+    {
+      "sentence": "The children are playing ___ the park.",
+      "answer": "in",
+      "translation": "子どもたちは公園で遊んでいます。",
+      "explanation": "公園などの囲まれた空間の中は in。"
+    }
+  ]
+}

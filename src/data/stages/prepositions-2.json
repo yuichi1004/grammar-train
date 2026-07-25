@@ -1,0 +1,190 @@
+{
+  "id": "prepositions-2",
+  "title": "前置詞 基礎 2（方向・手段・その他）",
+  "category": "preposition",
+  "description": "to / for / by / with / from / of / about などの使い分け",
+  "questions": [
+    {
+      "sentence": "This present is ___ you.",
+      "answer": "for",
+      "translation": "このプレゼントはあなたのためのものです。",
+      "explanation": "「〜のために」は for。"
+    },
+    {
+      "sentence": "I go ___ work by train.",
+      "answer": "to",
+      "translation": "私は電車で通勤しています。",
+      "explanation": "行き先・到達点には to。"
+    },
+    {
+      "sentence": "This novel was written ___ a famous author.",
+      "answer": "by",
+      "translation": "この小説は有名な作家によって書かれました。",
+      "explanation": "受け身の動作主は by。"
+    },
+    {
+      "sentence": "She cut the paper ___ scissors.",
+      "answer": "with",
+      "translation": "彼女ははさみで紙を切りました。",
+      "explanation": "道具を使う場合は with。"
+    },
+    {
+      "sentence": "He comes ___ Canada.",
+      "answer": "from",
+      "translation": "彼はカナダ出身です。",
+      "explanation": "出身・起点は from。"
+    },
+    {
+      "sentence": "This is a picture ___ my family.",
+      "answer": "of",
+      "translation": "これは私の家族の写真です。",
+      "explanation": "「〜の」という所属・内容は of。"
+    },
+    {
+      "sentence": "We talked ___ the problem for hours.",
+      "answer": "about",
+      "translation": "私たちはその問題について何時間も話しました。",
+      "explanation": "「〜について」は about。"
+    },
+    {
+      "sentence": "Thank you ___ your help.",
+      "answer": "for",
+      "translation": "手伝ってくれてありがとう。",
+      "explanation": "感謝の対象は for。"
+    },
+    {
+      "sentence": "I listened ___ music all night.",
+      "answer": "to",
+      "translation": "私は一晩中音楽を聴きました。",
+      "explanation": "listen to で「〜を聴く」。"
+    },
+    {
+      "sentence": "Please send the file ___ email.",
+      "answer": "by",
+      "translation": "そのファイルをメールで送ってください。",
+      "explanation": "手段は by（by email / by train）。"
+    },
+    {
+      "sentence": "He filled the glass ___ water.",
+      "answer": "with",
+      "translation": "彼はグラスを水で満たしました。",
+      "explanation": "fill A with B で「A を B で満たす」。"
+    },
+    {
+      "sentence": "The shop is open ___ nine to five.",
+      "answer": "from",
+      "translation": "その店は9時から5時まで開いています。",
+      "explanation": "from A to B で「A から B まで」。"
+    },
+    {
+      "sentence": "She is afraid ___ dogs.",
+      "answer": "of",
+      "translation": "彼女は犬が怖いです。",
+      "explanation": "be afraid of で「〜を恐れる」。"
+    },
+    {
+      "sentence": "What do you think ___ this plan?",
+      "answer": "about",
+      "accept": ["of"],
+      "translation": "この計画についてどう思いますか。",
+      "explanation": "think about / think of どちらも可。"
+    },
+    {
+      "sentence": "I paid 500 yen ___ this coffee.",
+      "answer": "for",
+      "translation": "このコーヒーに500円払いました。",
+      "explanation": "pay + 金額 + for + 品物。"
+    },
+    {
+      "sentence": "This train goes ___ Osaka.",
+      "answer": "to",
+      "translation": "この電車は大阪行きです。",
+      "explanation": "行き先は to。"
+    },
+    {
+      "sentence": "We traveled ___ car.",
+      "answer": "by",
+      "translation": "私たちは車で旅行しました。",
+      "explanation": "交通手段は by + 無冠詞の乗り物（by car / by bus）。"
+    },
+    {
+      "sentence": "He agreed ___ my idea.",
+      "answer": "with",
+      "translation": "彼は私の考えに賛成しました。",
+      "explanation": "agree with で「〜に賛成する」。"
+    },
+    {
+      "sentence": "Keep away ___ the fire.",
+      "answer": "from",
+      "translation": "火に近づかないでください。",
+      "explanation": "keep away from で「〜から離れている」。"
+    },
+    {
+      "sentence": "She is proud ___ her son.",
+      "answer": "of",
+      "translation": "彼女は息子を誇りに思っています。",
+      "explanation": "be proud of で「〜を誇りに思う」。"
+    },
+    {
+      "sentence": "I'm looking ___ my keys.",
+      "answer": "for",
+      "translation": "鍵を探しています。",
+      "explanation": "look for で「〜を探す」。"
+    },
+    {
+      "sentence": "He apologized ___ me for being late.",
+      "answer": "to",
+      "translation": "彼は遅れたことを私に謝りました。",
+      "explanation": "apologize to 人 for 事柄。"
+    },
+    {
+      "sentence": "The room was cleaned ___ my brother.",
+      "answer": "by",
+      "translation": "部屋は弟によって掃除されました。",
+      "explanation": "受け身の動作主は by。"
+    },
+    {
+      "sentence": "Would you like to come ___ us?",
+      "answer": "with",
+      "translation": "私たちと一緒に来ませんか。",
+      "explanation": "「〜と一緒に」は with。"
+    },
+    {
+      "sentence": "The result was different ___ what I expected.",
+      "answer": "from",
+      "translation": "結果は予想と違っていました。",
+      "explanation": "be different from で「〜と異なる」。"
+    },
+    {
+      "sentence": "The city is famous ___ its old temples.",
+      "answer": "for",
+      "translation": "その都市は古い寺で有名です。",
+      "explanation": "be famous for で「〜で有名」。"
+    },
+    {
+      "sentence": "She belongs ___ the tennis club.",
+      "answer": "to",
+      "translation": "彼女はテニス部に所属しています。",
+      "explanation": "belong to で「〜に所属する」。"
+    },
+    {
+      "sentence": "He died ___ cancer.",
+      "answer": "of",
+      "accept": ["from"],
+      "translation": "彼はがんで亡くなりました。",
+      "explanation": "die of / die from どちらも使われる。"
+    },
+    {
+      "sentence": "I made this cake ___ butter and eggs.",
+      "answer": "with",
+      "translation": "バターと卵でこのケーキを作りました。",
+      "explanation": "材料が形を残す場合は with（または made with）。"
+    },
+    {
+      "sentence": "He was late ___ school this morning.",
+      "answer": "for",
+      "translation": "彼は今朝学校に遅刻しました。",
+      "explanation": "be late for で「〜に遅れる」。"
+    }
+  ]
+}

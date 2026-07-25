@@ -1,0 +1,188 @@
+{
+  "id": "articles-1",
+  "title": "冠詞 基礎 1（a / an / the）",
+  "category": "article",
+  "description": "a / an / the の基本的な使い分け",
+  "questions": [
+    {
+      "sentence": "I saw ___ dog in the park.",
+      "answer": "a",
+      "translation": "公園で犬を見かけました。",
+      "explanation": "初めて話題に出る数えられる名詞には a。"
+    },
+    {
+      "sentence": "She is ___ honest person.",
+      "answer": "an",
+      "translation": "彼女は正直な人です。",
+      "explanation": "honest は h を発音しないので母音で始まる音 → an。"
+    },
+    {
+      "sentence": "He bought ___ umbrella yesterday.",
+      "answer": "an",
+      "translation": "彼は昨日傘を買いました。",
+      "explanation": "母音の音で始まる語には an。"
+    },
+    {
+      "sentence": "___ sun rises in the east.",
+      "answer": "the",
+      "translation": "太陽は東から昇ります。",
+      "explanation": "世界に一つしかないものには the。"
+    },
+    {
+      "sentence": "I have ___ idea. Let's ask her directly.",
+      "answer": "an",
+      "translation": "いい考えがあります。彼女に直接聞いてみましょう。",
+      "explanation": "idea は母音の音で始まるので an。"
+    },
+    {
+      "sentence": "Can you close ___ door? It's cold.",
+      "answer": "the",
+      "translation": "ドアを閉めてくれますか。寒いので。",
+      "explanation": "どのドアか話し手と聞き手が分かっている場合は the。"
+    },
+    {
+      "sentence": "She is ___ university student.",
+      "answer": "a",
+      "translation": "彼女は大学生です。",
+      "explanation": "university は「ユ (ju)」という子音の音で始まるので a。"
+    },
+    {
+      "sentence": "We stayed at ___ hotel near the station.",
+      "answer": "a",
+      "translation": "私たちは駅の近くのホテルに泊まりました。",
+      "explanation": "特定されていないホテルには a。hotel の h は発音する。"
+    },
+    {
+      "sentence": "This is ___ easiest way to learn English.",
+      "answer": "the",
+      "translation": "これが英語を学ぶ最も簡単な方法です。",
+      "explanation": "最上級には the をつける。"
+    },
+    {
+      "sentence": "He plays ___ guitar very well.",
+      "answer": "the",
+      "translation": "彼はギターをとても上手に弾きます。",
+      "explanation": "play the + 楽器。"
+    },
+    {
+      "sentence": "I need ___ new phone. Mine is broken.",
+      "answer": "a",
+      "translation": "新しい電話が必要です。私のは壊れています。",
+      "explanation": "不特定の1つのものには a。"
+    },
+    {
+      "sentence": "It takes ___ hour to get there.",
+      "answer": "an",
+      "translation": "そこまで1時間かかります。",
+      "explanation": "hour は h を発音しないので an。"
+    },
+    {
+      "sentence": "___ moon was really beautiful last night.",
+      "answer": "the",
+      "translation": "昨夜は月が本当にきれいでした。",
+      "explanation": "世界に一つしかないものには the。"
+    },
+    {
+      "sentence": "She works as ___ engineer.",
+      "answer": "an",
+      "translation": "彼女はエンジニアとして働いています。",
+      "explanation": "母音の音で始まる職業名には an。"
+    },
+    {
+      "sentence": "I read ___ interesting book last week.",
+      "answer": "an",
+      "translation": "先週おもしろい本を読みました。",
+      "explanation": "形容詞が母音の音で始まれば an（an interesting book）。"
+    },
+    {
+      "sentence": "Please turn off ___ lights when you leave.",
+      "answer": "the",
+      "translation": "出るときは電気を消してください。",
+      "explanation": "その場にある特定の照明を指すので the。"
+    },
+    {
+      "sentence": "He is ___ best player on the team.",
+      "answer": "the",
+      "translation": "彼はチームで一番の選手です。",
+      "explanation": "最上級 best には the。"
+    },
+    {
+      "sentence": "Do you have ___ pen I can borrow?",
+      "answer": "a",
+      "translation": "借りられるペンはありますか。",
+      "explanation": "どれでもよい1本なので a。"
+    },
+    {
+      "sentence": "My father is ___ doctor.",
+      "answer": "a",
+      "translation": "父は医者です。",
+      "explanation": "職業を言うときは a / an をつける。"
+    },
+    {
+      "sentence": "This is ___ same shirt I bought last week.",
+      "answer": "the",
+      "translation": "これは先週買ったのと同じシャツです。",
+      "explanation": "same には常に the がつく（the same）。"
+    },
+    {
+      "sentence": "There was ___ accident on the highway.",
+      "answer": "an",
+      "translation": "高速道路で事故がありました。",
+      "explanation": "accident は母音の音で始まるので an。"
+    },
+    {
+      "sentence": "I go to the gym twice ___ week.",
+      "answer": "a",
+      "translation": "私は週に2回ジムに行きます。",
+      "explanation": "「〜につき」の意味では a（twice a week）。"
+    },
+    {
+      "sentence": "He asked me ___ difficult question.",
+      "answer": "a",
+      "translation": "彼は私に難しい質問をしました。",
+      "explanation": "不特定の1つの質問なので a。"
+    },
+    {
+      "sentence": "___ first train leaves at five in the morning.",
+      "answer": "the",
+      "translation": "始発電車は朝5時に出ます。",
+      "explanation": "序数（first, second …）には the。"
+    },
+    {
+      "sentence": "She wants to be ___ actress.",
+      "answer": "an",
+      "translation": "彼女は女優になりたいと思っています。",
+      "explanation": "actress は母音の音で始まるので an。"
+    },
+    {
+      "sentence": "We watched ___ movie last night. The movie was great.",
+      "answer": "a",
+      "translation": "昨夜映画を観ました。その映画は最高でした。",
+      "explanation": "初出は a、2回目からは the。"
+    },
+    {
+      "sentence": "Is there ___ ATM near here?",
+      "answer": "an",
+      "translation": "この近くに ATM はありますか。",
+      "explanation": "ATM は「エイ」という母音の音で始まるので an。"
+    },
+    {
+      "sentence": "He gave me ___ useful tip.",
+      "answer": "a",
+      "translation": "彼は役に立つヒントをくれました。",
+      "explanation": "useful は「ユ (ju)」という子音の音で始まるので a。"
+    },
+    {
+      "sentence": "I heard ___ strange noise upstairs.",
+      "answer": "a",
+      "translation": "2階で変な物音が聞こえました。",
+      "explanation": "初めて出てくる不特定の物音なので a。"
+    },
+    {
+      "sentence": "Who is ___ woman standing over there?",
+      "answer": "the",
+      "translation": "あそこに立っている女性は誰ですか。",
+      "explanation": "「あそこに立っている」と特定されているので the。"
+    }
+  ]
+}
