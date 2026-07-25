@@ -86,12 +86,66 @@ describe('ステージデータ', () => {
     }
   })
 
-  it('冠詞カテゴリ以外では answer が空でない', () => {
+  // 空の answer は「無冠詞」「前置詞を付けない」を問う出題だけの正当な形。
+  // それ以外のカテゴリで空なら書き忘れのバグなのでガードする。
+  const BLANK_ANSWER_CATEGORIES = ['article', 'scene']
+
+  it('冠詞・場面カテゴリ以外では answer が空でない', () => {
     for (const stage of stages) {
-      if (stage.category === 'article') continue
+      if (BLANK_ANSWER_CATEGORIES.includes(stage.category)) continue
       for (const [i, q] of stage.questions.entries()) {
         expect(q.answer, `${stage.id}[${i}]`).not.toBe('')
       }
+    }
+  })
+
+  // judge は大文字小文字と空白しか正規化しない。iOS が ' を ’ に自動変換するので、
+  // ' を含む答えは ’ 版も accept に入れないと正答が不正解になる。
+  it("' を含む答えには ’（U+2019）版の別解がある", () => {
+    for (const stage of stages) {
+      for (const [i, q] of stage.questions.entries()) {
+        const candidates = [q.answer, ...(q.accept ?? [])]
+        for (const candidate of candidates.filter((c) => c.includes("'"))) {
+          expect(
+            candidates,
+            `${stage.id}[${i}]: "${candidate}" の ’ 版が accept にない`,
+          ).toContain(candidate.replaceAll("'", '’'))
+        }
+      }
+    }
+  })
+
+  // 長い答えはタイプミスによる偽の不正解を増やす（will have been working が上限）
+  it('answer は 4 語以内', () => {
+    for (const stage of stages) {
+      for (const [i, q] of stage.questions.entries()) {
+        const words = q.answer.split(/\s+/).filter(Boolean)
+        expect(words.length, `${stage.id}[${i}]: "${q.answer}"`).toBeLessThanOrEqual(4)
+      }
+    }
+  })
+
+  it('accept に answer と同じ文字列が入っていない', () => {
+    for (const stage of stages) {
+      for (const [i, q] of stage.questions.entries()) {
+        expect(q.accept ?? [], `${stage.id}[${i}]`).not.toContain(q.answer)
+      }
+    }
+  })
+
+  it('accept 内に重複がない', () => {
+    for (const stage of stages) {
+      for (const [i, q] of stage.questions.entries()) {
+        const accept = q.accept ?? []
+        expect(new Set(accept).size, `${stage.id}[${i}]`).toBe(accept.length)
+      }
+    }
+  })
+
+  it('hint があれば非空の文字列', () => {
+    for (const stage of stages) {
+      if (stage.hint === undefined) continue
+      expect(stage.hint, stage.id).not.toBe('')
     }
   })
 })

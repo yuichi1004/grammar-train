@@ -1,4 +1,10 @@
-export type StageCategory = 'preposition' | 'article' | 'noun'
+export type StageCategory =
+  | 'preposition'
+  | 'article'
+  | 'noun'
+  | 'tense'
+  /** 場面別（ビジネスなど）。前置詞・冠詞・時制を横断する */
+  | 'scene'
 
 export interface Question {
   /** 空欄を ___ で表した英文 */
@@ -25,6 +31,12 @@ export interface Stage {
   title: string
   category: StageCategory
   description: string
+  /**
+   * 入力のしかたの注意。解答前に表示する。
+   * 例: 時制ステージの「括弧内の語を文に合う形にして入力」。
+   * 答えそのものを示唆する内容は書かないこと。
+   */
+  hint?: string
   questions: Question[]
 }
 

@@ -84,10 +84,42 @@ describe('Quiz', () => {
     expect(screen.getByText('2 / 3')).toBeInTheDocument()
   })
 
-  it('冠詞ステージでは無冠詞のヒントが表示される', () => {
+  // ヒントの出し分けはカテゴリではなく「空欄の答えを含むか」で決める。
+  // 冠詞以外（ビジネス場面の「前置詞を付けない」など）でも空欄解答を出せるようにするため。
+  it('答えが空欄の問題を含むステージでは空欄のまま答えるヒントが表示される', () => {
+    const stage = makeTestStage({ category: 'article' })
+    stage.questions[2] = { ...stage.questions[2], answer: '' }
+    render(<Quiz stage={stage} onFinish={vi.fn()} onQuit={vi.fn()} />)
+    expect(screen.getByText(/空欄のまま/)).toBeInTheDocument()
+  })
+
+  it('空欄の答えがないステージではそのヒントを出さない', () => {
     const stage = makeTestStage({ category: 'article' })
     render(<Quiz stage={stage} onFinish={vi.fn()} onQuit={vi.fn()} />)
-    expect(screen.getByText(/無冠詞/)).toBeInTheDocument()
+    expect(screen.queryByText(/空欄のまま/)).not.toBeInTheDocument()
+  })
+
+  it('ステージの hint が解答前に表示される', () => {
+    const stage = makeTestStage({ hint: '括弧内の語を文に合う形にして入力' })
+    render(<Quiz stage={stage} onFinish={vi.fn()} onQuit={vi.fn()} />)
+    expect(
+      screen.getByText('括弧内の語を文に合う形にして入力'),
+    ).toBeInTheDocument()
+  })
+
+  it('解答すると hint は消える', async () => {
+    const user = userEvent.setup()
+    const stage = makeTestStage({ hint: '括弧内の語を文に合う形にして入力' })
+    render(<Quiz stage={stage} onFinish={vi.fn()} onQuit={vi.fn()} />)
+    await user.type(screen.getByRole('textbox'), 'at{Enter}')
+    expect(
+      screen.queryByText('括弧内の語を文に合う形にして入力'),
+    ).not.toBeInTheDocument()
+  })
+
+  it('hint がないステージでは何も表示しない', () => {
+    setup()
+    expect(screen.queryByText(/括弧内/)).not.toBeInTheDocument()
   })
 
   it('「やめる」で onQuit が呼ばれる', async () => {

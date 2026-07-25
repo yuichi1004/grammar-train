@@ -20,6 +20,9 @@ export function Quiz({ stage, onFinish, onQuit }: QuizProps) {
   const total = stage.questions.length
   const answered = isCorrect !== null
   const [before, after] = question.sentence.split('___')
+  // 無冠詞・前置詞なしを問うステージかどうか。カテゴリではなくデータから決めるので、
+  // 冠詞以外（ビジネス場面など）でも空欄解答を出せる。ステージ単位なのでどの問題かは漏れない。
+  const hasBlankAnswer = stage.questions.some((q) => q.answer === '')
 
   useEffect(() => {
     inputRef.current?.focus()
@@ -62,8 +65,12 @@ export function Quiz({ stage, onFinish, onQuit }: QuizProps) {
 
       <p className="translation">{question.translation}</p>
 
-      {stage.category === 'article' && !answered && (
-        <p className="hint">無冠詞のときは空欄のまま「答える」を押してください</p>
+      {!answered && stage.hint && <p className="hint">{stage.hint}</p>}
+
+      {hasBlankAnswer && !answered && (
+        <p className="hint">
+          何も入らない（無冠詞・前置詞なし）ときは空欄のまま「答える」を押してください
+        </p>
       )}
 
       <form onSubmit={handleSubmit} className="answer-form">
@@ -102,7 +109,7 @@ export function Quiz({ stage, onFinish, onQuit }: QuizProps) {
           <p className="verdict">{isCorrect ? '正解！' : '不正解'}</p>
           {!isCorrect && (
             <p className="correct-answer">
-              正解: {question.answer === '' ? '（無冠詞）' : question.answer}
+              正解: {question.answer === '' ? '（何も入らない）' : question.answer}
             </p>
           )}
           <p className="explanation">{question.explanation}</p>

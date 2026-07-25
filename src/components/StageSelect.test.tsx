@@ -49,6 +49,79 @@ describe('StageSelect', () => {
     expect(onSelect).toHaveBeenCalledWith(stages[0])
   })
 
+  it('カテゴリの見出しでグループ化して表示する', () => {
+    render(
+      <StageSelect
+        stages={stages}
+        records={{}}
+        onSelect={vi.fn()}
+        onShowHistory={vi.fn()}
+      />,
+    )
+    const headings = screen.getAllByRole('heading', { level: 2 })
+    expect(headings.map((h) => h.textContent)).toEqual(['前置詞', '冠詞'])
+  })
+
+  it('見出しは preposition → article → noun → tense → scene の順に並ぶ', () => {
+    const mixed = [
+      makeTestStage({ id: 's', title: '場面', category: 'scene' }),
+      makeTestStage({ id: 'n', title: '名詞', category: 'noun' }),
+      makeTestStage({ id: 't', title: '時制', category: 'tense' }),
+      makeTestStage({ id: 'a', title: '冠詞ステージ', category: 'article' }),
+      makeTestStage({ id: 'p', title: '前置詞ステージ' }),
+    ]
+    render(
+      <StageSelect
+        stages={mixed}
+        records={{}}
+        onSelect={vi.fn()}
+        onShowHistory={vi.fn()}
+      />,
+    )
+    const headings = screen.getAllByRole('heading', { level: 2 })
+    expect(headings.map((h) => h.textContent)).toEqual([
+      '前置詞',
+      '冠詞',
+      '名詞',
+      '時制',
+      '場面',
+    ])
+  })
+
+  it('グループ内は渡された順（order 昇順）を保つ', () => {
+    const three = [
+      makeTestStage({ id: 'p1', title: '前置詞 1' }),
+      makeTestStage({ id: 'p2', title: '前置詞 2' }),
+      makeTestStage({ id: 'p3', title: '前置詞 3' }),
+    ]
+    render(
+      <StageSelect
+        stages={three}
+        records={{}}
+        onSelect={vi.fn()}
+        onShowHistory={vi.fn()}
+      />,
+    )
+    const titles = screen
+      .getAllByRole('button')
+      .map((b) => b.querySelector('.stage-title')?.textContent)
+      .filter(Boolean)
+    expect(titles).toEqual(['前置詞 1', '前置詞 2', '前置詞 3'])
+  })
+
+  it('該当ステージのないカテゴリの見出しは表示しない', () => {
+    render(
+      <StageSelect
+        stages={[makeTestStage({ id: 'only' })]}
+        records={{}}
+        onSelect={vi.fn()}
+        onShowHistory={vi.fn()}
+      />,
+    )
+    const headings = screen.getAllByRole('heading', { level: 2 })
+    expect(headings.map((h) => h.textContent)).toEqual(['前置詞'])
+  })
+
   it('「学習記録」で onShowHistory が呼ばれる', async () => {
     const user = userEvent.setup()
     const onShowHistory = vi.fn()

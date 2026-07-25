@@ -6,7 +6,13 @@ export const MIN_QUESTIONS = 1
 /** order 未指定のステージを末尾に回すための番兵 */
 const ORDER_LAST = Number.MAX_SAFE_INTEGER
 
-const CATEGORIES: StageCategory[] = ['preposition', 'article', 'noun']
+const CATEGORIES: StageCategory[] = [
+  'preposition',
+  'article',
+  'noun',
+  'tense',
+  'scene',
+]
 
 function validateQuestion(value: unknown, stageId: string, index: number): Question {
   const label = `stage "${stageId}" questions[${index}]`
@@ -56,6 +62,12 @@ export function validateStage(value: unknown): Stage {
   }
   if (typeof stage.description !== 'string') {
     throw new Error(`stage "${stage.id}": description is required`)
+  }
+  if (
+    stage.hint !== undefined &&
+    (typeof stage.hint !== 'string' || stage.hint === '')
+  ) {
+    throw new Error(`stage "${stage.id}": hint must be a non-empty string`)
   }
   if (
     !Array.isArray(stage.questions) ||

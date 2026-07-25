@@ -63,6 +63,19 @@ describe('validateStage', () => {
     )
   })
 
+  it('時制・場面カテゴリを受理する', () => {
+    expect(() => validateStage(makeStage({ category: 'tense' }))).not.toThrow()
+    expect(() => validateStage(makeStage({ category: 'scene' }))).not.toThrow()
+  })
+
+  it('hint は省略できるが、あれば非空の文字列', () => {
+    expect(() =>
+      validateStage(makeStage({ hint: '括弧内の語を文に合う形にして入力' })),
+    ).not.toThrow()
+    expect(() => validateStage(makeStage({ hint: '' }))).toThrow(/hint/)
+    expect(() => validateStage(makeStage({ hint: 42 }))).toThrow(/hint/)
+  })
+
   it('id や title が欠けているとエラー', () => {
     expect(() => validateStage(makeStage({ id: '' }))).toThrow(/id/)
     expect(() => validateStage(makeStage({ title: '' }))).toThrow(/title/)
@@ -81,10 +94,13 @@ describe('validateStage', () => {
     )
   })
 
-  it('answer が空でも冠詞カテゴリなら受理する（無冠詞）', () => {
+  it('answer が空でも受理する（無冠詞・前置詞なし）', () => {
     const questions = [{ ...validQuestion, answer: '' }]
     expect(() =>
       validateStage(makeStage({ category: 'article', questions })),
+    ).not.toThrow()
+    expect(() =>
+      validateStage(makeStage({ category: 'scene', questions })),
     ).not.toThrow()
   })
 })
