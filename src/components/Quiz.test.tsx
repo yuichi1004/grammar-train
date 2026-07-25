@@ -4,6 +4,13 @@ import userEvent from '@testing-library/user-event'
 import { Quiz } from './Quiz'
 import { makeTestStage } from '../test-fixtures'
 
+// このファイルの他のテストは出題順（1問目=at, 2問目=in, ...）に依存しているので、
+// シャッフルはここでは無効化する。シャッフルそのものは shuffle.test.ts と
+// Quiz.shuffle.test.tsx で検証する。
+vi.mock('../lib/shuffle', () => ({
+  shuffle: <T,>(items: T[]) => items,
+}))
+
 function setup(onFinish = vi.fn(), onQuit = vi.fn()) {
   const stage = makeTestStage()
   render(<Quiz stage={stage} onFinish={onFinish} onQuit={onQuit} />)

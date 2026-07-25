@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import type { FormEvent } from 'react'
 import type { Stage } from '../types'
 import { judge } from '../lib/judge'
+import { shuffle } from '../lib/shuffle'
 
 interface QuizProps {
   stage: Stage
@@ -15,14 +16,17 @@ export function Quiz({ stage, onFinish, onQuit }: QuizProps) {
   const [correctCount, setCorrectCount] = useState(0)
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null)
   const inputRef = useRef<HTMLInputElement>(null)
+  // ステージ内の出題順をマウント時に1回だけシャッフルする。似た内容が連続で
+  // 出題される単調さを崩し、順番の暗記では解けないようにするため。
+  const [questions] = useState(() => shuffle(stage.questions))
 
-  const question = stage.questions[index]
-  const total = stage.questions.length
+  const question = questions[index]
+  const total = questions.length
   const answered = isCorrect !== null
   const [before, after] = question.sentence.split('___')
   // 無冠詞・前置詞なしを問うステージかどうか。カテゴリではなくデータから決めるので、
   // 冠詞以外（ビジネス場面など）でも空欄解答を出せる。ステージ単位なのでどの問題かは漏れない。
-  const hasBlankAnswer = stage.questions.some((q) => q.answer === '')
+  const hasBlankAnswer = questions.some((q) => q.answer === '')
 
   useEffect(() => {
     inputRef.current?.focus()

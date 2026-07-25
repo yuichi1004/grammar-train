@@ -7,6 +7,13 @@ import { stages } from './index'
 import { judge } from '../lib/judge'
 import type { Stage } from '../types'
 
+// 完走テストは stage.questions を元の順番のまま1問ずつ答えていくので、
+// シャッフルはここでは無効化する。シャッフルそのものは lib/shuffle.test.ts と
+// components/Quiz.shuffle.test.tsx で検証する。
+vi.mock('../lib/shuffle', () => ({
+  shuffle: <T,>(items: T[]) => items,
+}))
+
 /**
  * 本番のステージデータを実際の UI に流し込む通し確認。
  * 単体テストがダミーデータで通っていても、実データで壊れていたら意味がないので、

@@ -1,10 +1,17 @@
-import { describe, it, expect, beforeEach } from 'vitest'
+import { describe, it, expect, beforeEach, vi } from 'vitest'
 import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import App from './App'
 import { makeTestStage } from './test-fixtures'
 import { loadRecords } from './lib/storage'
 import { loadHistory, toDateKey } from './lib/history'
+
+// このファイルのテストは「1問目=at, 2問目=in, ...」という出題順に依存しているので、
+// シャッフルはここでは無効化する。シャッフルそのものは lib/shuffle.test.ts と
+// components/Quiz.shuffle.test.tsx で検証する。
+vi.mock('./lib/shuffle', () => ({
+  shuffle: <T,>(items: T[]) => items,
+}))
 
 const stages = [makeTestStage({ id: 'stage-a', title: 'ステージ A' })]
 
