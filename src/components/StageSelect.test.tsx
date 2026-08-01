@@ -12,7 +12,8 @@ const stages = [
 
 describe('StageSelect', () => {
   it('全ステージのタイトルが表示される', () => {
-    render(<StageSelect stages={stages} records={{}} onSelect={vi.fn()} onShowHistory={vi.fn()} />)
+    render(<StageSelect stages={stages} records={{}} onSelect={vi.fn()} onShowHistory={vi.fn()}
+        onShowSettings={vi.fn()} />)
     expect(screen.getByText('ステージ A')).toBeInTheDocument()
     expect(screen.getByText('ステージ B')).toBeInTheDocument()
   })
@@ -26,17 +27,20 @@ describe('StageSelect', () => {
         playedAt: '2026-07-25T00:00:00.000Z',
       },
     }
-    render(<StageSelect stages={stages} records={records} onSelect={vi.fn()} onShowHistory={vi.fn()} />)
+    render(<StageSelect stages={stages} records={records} onSelect={vi.fn()} onShowHistory={vi.fn()}
+        onShowSettings={vi.fn()} />)
     expect(screen.getByText(/前回 80%/)).toBeInTheDocument()
   })
 
   it('未プレイのステージは「未挑戦」と表示される', () => {
-    render(<StageSelect stages={stages} records={{}} onSelect={vi.fn()} onShowHistory={vi.fn()} />)
+    render(<StageSelect stages={stages} records={{}} onSelect={vi.fn()} onShowHistory={vi.fn()}
+        onShowSettings={vi.fn()} />)
     expect(screen.getAllByText('未挑戦')).toHaveLength(2)
   })
 
   it('カテゴリのラベルが日本語で表示される', () => {
-    render(<StageSelect stages={stages} records={{}} onSelect={vi.fn()} onShowHistory={vi.fn()} />)
+    render(<StageSelect stages={stages} records={{}} onSelect={vi.fn()} onShowHistory={vi.fn()}
+        onShowSettings={vi.fn()} />)
     expect(screen.getByText('前置詞')).toBeInTheDocument()
     expect(screen.getByText('冠詞')).toBeInTheDocument()
   })
@@ -44,7 +48,8 @@ describe('StageSelect', () => {
   it('ステージを選ぶと onSelect が呼ばれる', async () => {
     const user = userEvent.setup()
     const onSelect = vi.fn()
-    render(<StageSelect stages={stages} records={{}} onSelect={onSelect} onShowHistory={vi.fn()} />)
+    render(<StageSelect stages={stages} records={{}} onSelect={onSelect} onShowHistory={vi.fn()}
+        onShowSettings={vi.fn()} />)
     await user.click(screen.getByRole('button', { name: /ステージ A/ }))
     expect(onSelect).toHaveBeenCalledWith(stages[0])
   })
@@ -56,6 +61,7 @@ describe('StageSelect', () => {
         records={{}}
         onSelect={vi.fn()}
         onShowHistory={vi.fn()}
+        onShowSettings={vi.fn()}
       />,
     )
     const headings = screen.getAllByRole('heading', { level: 2 })
@@ -76,6 +82,7 @@ describe('StageSelect', () => {
         records={{}}
         onSelect={vi.fn()}
         onShowHistory={vi.fn()}
+        onShowSettings={vi.fn()}
       />,
     )
     const headings = screen.getAllByRole('heading', { level: 2 })
@@ -100,6 +107,7 @@ describe('StageSelect', () => {
         records={{}}
         onSelect={vi.fn()}
         onShowHistory={vi.fn()}
+        onShowSettings={vi.fn()}
       />,
     )
     const titles = screen
@@ -116,6 +124,7 @@ describe('StageSelect', () => {
         records={{}}
         onSelect={vi.fn()}
         onShowHistory={vi.fn()}
+        onShowSettings={vi.fn()}
       />,
     )
     const headings = screen.getAllByRole('heading', { level: 2 })
@@ -131,9 +140,26 @@ describe('StageSelect', () => {
         records={{}}
         onSelect={vi.fn()}
         onShowHistory={onShowHistory}
+        onShowSettings={vi.fn()}
       />,
     )
     await user.click(screen.getByRole('button', { name: '学習記録' }))
     expect(onShowHistory).toHaveBeenCalled()
+  })
+
+  it('「設定」で onShowSettings が呼ばれる', async () => {
+    const user = userEvent.setup()
+    const onShowSettings = vi.fn()
+    render(
+      <StageSelect
+        stages={stages}
+        records={{}}
+        onSelect={vi.fn()}
+        onShowHistory={vi.fn()}
+        onShowSettings={onShowSettings}
+      />,
+    )
+    await user.click(screen.getByRole('button', { name: '設定' }))
+    expect(onShowSettings).toHaveBeenCalled()
   })
 })

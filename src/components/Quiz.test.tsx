@@ -69,10 +69,10 @@ describe('Quiz', () => {
     expect(screen.getByText(/She lives/)).toBeInTheDocument()
   })
 
-  it('全問終了で onFinish が正解数とともに呼ばれる', async () => {
+  it('全問終了で onFinish が正解数と不正解の問題とともに呼ばれる', async () => {
     const user = userEvent.setup()
     const onFinish = vi.fn()
-    setup(onFinish)
+    const { stage } = setup(onFinish)
     // 1問目: 正解 / 2問目: 不正解 / 3問目: 正解
     await user.type(screen.getByRole('textbox'), 'at{Enter}')
     await user.click(screen.getByRole('button', { name: '次へ' }))
@@ -80,7 +80,50 @@ describe('Quiz', () => {
     await user.click(screen.getByRole('button', { name: '次へ' }))
     await user.type(screen.getByRole('textbox'), 'on{Enter}')
     await user.click(screen.getByRole('button', { name: '次へ' }))
-    expect(onFinish).toHaveBeenCalledWith(2)
+    expect(onFinish).toHaveBeenCalledWith(2, [stage.questions[1]])
+  })
+
+  it('全問正解なら不正解の配列は空', async () => {
+    const user = userEvent.setup()
+    const onFinish = vi.fn()
+    setup(onFinish)
+    await user.type(screen.getByRole('textbox'), 'at{Enter}')
+    await user.click(screen.getByRole('button', { name: '次へ' }))
+    await user.type(screen.getByRole('textbox'), 'in{Enter}')
+    await user.click(screen.getByRole('button', { name: '次へ' }))
+    await user.type(screen.getByRole('textbox'), 'on{Enter}')
+    await user.click(screen.getByRole('button', { name: '次へ' }))
+    expect(onFinish).toHaveBeenCalledWith(3, [])
+  })
+
+  // onFinish は「判定」とは別のイベント（次へ）で呼ばれるので、最後の問題の判定も
+  // 反映済みになる。ここを崩す実装変更（判定と同時に onFinish を呼ぶなど）を検出する
+  it('最後の問題を間違えても正解数と不正解の配列に反映される', async () => {
+    const user = userEvent.setup()
+    const onFinish = vi.fn()
+    const { stage } = setup(onFinish)
+    await user.type(screen.getByRole('textbox'), 'at{Enter}')
+    await user.click(screen.getByRole('button', { name: '次へ' }))
+    await user.type(screen.getByRole('textbox'), 'in{Enter}')
+    await user.click(screen.getByRole('button', { name: '次へ' }))
+    await user.type(screen.getByRole('textbox'), 'xx{Enter}')
+    await user.click(screen.getByRole('button', { name: '次へ' }))
+    expect(onFinish).toHaveBeenCalledWith(2, [stage.questions[2]])
+  })
+
+  // 復習では受け取った配列をそのまま出題するので、同一オブジェクトである必要がある
+  it('不正解の配列には出題された問題オブジェクトそのものが入る', async () => {
+    const user = userEvent.setup()
+    const onFinish = vi.fn()
+    const { stage } = setup(onFinish)
+    await user.type(screen.getByRole('textbox'), 'xx{Enter}')
+    await user.click(screen.getByRole('button', { name: '次へ' }))
+    await user.type(screen.getByRole('textbox'), 'in{Enter}')
+    await user.click(screen.getByRole('button', { name: '次へ' }))
+    await user.type(screen.getByRole('textbox'), 'on{Enter}')
+    await user.click(screen.getByRole('button', { name: '次へ' }))
+    const wrong = onFinish.mock.calls[0][1] as unknown[]
+    expect(wrong[0]).toBe(stage.questions[0])
   })
 
   it('フィードバック表示中に Enter でも次に進める', async () => {
@@ -127,6 +170,90 @@ describe('Quiz', () => {
   it('hint がないステージでは何も表示しない', () => {
     setup()
     expect(screen.queryByText(/括弧内/)).not.toBeInTheDocument()
+  })
+
+  describe('復習モード', () => {
+    it('reviewQuestions を渡すとその問題だけが出題される', () => {
+      const stage = makeTestStage()
+      render(
+        <Quiz
+          stage={stage}
+          reviewQuestions={[stage.questions[1]]}
+          onFinish={vi.fn()}
+          onQuit={vi.fn()}
+        />,
+      )
+      expect(screen.getByText('1 / 1')).toBeInTheDocument()
+      expect(screen.getByText(/She lives/)).toBeInTheDocument()
+      expect(screen.queryByText(/I arrived/)).not.toBeInTheDocument()
+    })
+
+    it('復習中は復習であることが表示される', () => {
+      const stage = makeTestStage()
+      render(
+        <Quiz
+          stage={stage}
+          reviewQuestions={[stage.questions[0]]}
+          onFinish={vi.fn()}
+          onQuit={vi.fn()}
+        />,
+      )
+      expect(screen.getByText('復習')).toBeInTheDocument()
+    })
+
+    it('通常のクイズでは復習表示が出ない', () => {
+      setup()
+      expect(screen.queryByText('復習')).not.toBeInTheDocument()
+    })
+
+    it('復習中もステージの hint は表示される', () => {
+      const stage = makeTestStage({ hint: '括弧内の語を文に合う形にして入力' })
+      render(
+        <Quiz
+          stage={stage}
+          reviewQuestions={[stage.questions[0]]}
+          onFinish={vi.fn()}
+          onQuit={vi.fn()}
+        />,
+      )
+      expect(
+        screen.getByText('括弧内の語を文に合う形にして入力'),
+      ).toBeInTheDocument()
+    })
+
+    // 空欄ヒントを出題中の配列から判定すると、答えが空欄の1問だけを復習したときに
+    // 答えそのものが漏れる。ステージ全体で判定していれば漏れない。
+    it('空欄ヒントは出題中の問題ではなくステージ全体から判定する', () => {
+      const stage = makeTestStage({ category: 'article' })
+      stage.questions[2] = { ...stage.questions[2], answer: '' }
+      render(
+        <Quiz
+          stage={stage}
+          reviewQuestions={[stage.questions[0]]}
+          onFinish={vi.fn()}
+          onQuit={vi.fn()}
+        />,
+      )
+      // 出題中の1問の答えは空欄ではないが、ステージには空欄の問題があるのでヒントは出る
+      expect(screen.getByText(/空欄のまま/)).toBeInTheDocument()
+    })
+
+    it('復習でも不正解の問題は onFinish に渡される', async () => {
+      const user = userEvent.setup()
+      const onFinish = vi.fn()
+      const stage = makeTestStage()
+      render(
+        <Quiz
+          stage={stage}
+          reviewQuestions={[stage.questions[1]]}
+          onFinish={onFinish}
+          onQuit={vi.fn()}
+        />,
+      )
+      await user.type(screen.getByRole('textbox'), 'xx{Enter}')
+      await user.click(screen.getByRole('button', { name: '次へ' }))
+      expect(onFinish).toHaveBeenCalledWith(0, [stage.questions[1]])
+    })
   })
 
   it('「やめる」で onQuit が呼ばれる', async () => {

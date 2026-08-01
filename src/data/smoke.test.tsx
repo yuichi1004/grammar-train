@@ -45,6 +45,7 @@ describe('実データの通し確認', () => {
         records={{}}
         onSelect={vi.fn()}
         onShowHistory={vi.fn()}
+        onShowSettings={vi.fn()}
       />,
     )
     const headings = screen.getAllByRole('heading', { level: 2 })
@@ -75,7 +76,7 @@ describe('実データの通し確認', () => {
       expect(screen.getByText('正解！')).toBeInTheDocument()
       await user.click(screen.getByRole('button', { name: '次へ' }))
     }
-    expect(onFinish).toHaveBeenCalledWith(stage.questions.length)
+    expect(onFinish).toHaveBeenCalledWith(stage.questions.length, [])
   })
 
   // 空欄のまま解答する問題（無冠詞・前置詞なし）が実際に正解になるか

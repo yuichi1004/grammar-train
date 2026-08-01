@@ -40,6 +40,7 @@ interface StageSelectProps {
   records: Records
   onSelect: (stage: Stage) => void
   onShowHistory: () => void
+  onShowSettings: () => void
 }
 
 export function StageSelect({
@@ -47,6 +48,7 @@ export function StageSelect({
   records,
   onSelect,
   onShowHistory,
+  onShowSettings,
 }: StageSelectProps) {
   return (
     <div className="stage-select">
@@ -59,6 +61,13 @@ export function StageSelect({
           onClick={onShowHistory}
         >
           学習記録
+        </button>
+        <button
+          type="button"
+          className="secondary-button"
+          onClick={onShowSettings}
+        >
+          設定
         </button>
       </nav>
       {groupByCategory(stages).map(([category, group]) => (

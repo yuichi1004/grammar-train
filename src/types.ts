@@ -53,3 +53,8 @@ export type Records = Record<string, StageRecord>
 
 /** 日付キー(YYYY-MM-DD、ローカル日付) → その日にクリアしたステージ数 */
 export type StudyHistory = Record<string, number>
+
+export interface Settings {
+  /** 結果画面に「間違えた問題を復習」を出すか */
+  reviewEnabled: boolean
+}

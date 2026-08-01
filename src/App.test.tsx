@@ -5,6 +5,7 @@ import App from './App'
 import { makeTestStage } from './test-fixtures'
 import { loadRecords } from './lib/storage'
 import { loadHistory, toDateKey } from './lib/history'
+import { loadSettings, SETTINGS_KEY } from './lib/settings'
 
 // このファイルのテストは「1問目=at, 2問目=in, ...」という出題順に依存しているので、
 // シャッフルはここでは無効化する。シャッフルそのものは lib/shuffle.test.ts と
@@ -91,5 +92,169 @@ describe('App', () => {
     await user.type(screen.getByRole('textbox'), 'on{Enter}{Enter}')
     await user.click(screen.getByRole('button', { name: 'もう一度' }))
     expect(screen.getByText('1 / 3')).toBeInTheDocument()
+  })
+
+  describe('復習セッション', () => {
+    /** 2問目だけ間違えて完走する（正答率 67%、間違いは She lives ___ Tokyo.） */
+    async function playWithOneMistake(user: ReturnType<typeof userEvent.setup>) {
+      await user.click(screen.getByRole('button', { name: /ステージ A/ }))
+      await user.type(screen.getByRole('textbox'), 'at{Enter}{Enter}')
+      await user.type(screen.getByRole('textbox'), 'xx{Enter}{Enter}')
+      await user.type(screen.getByRole('textbox'), 'on{Enter}{Enter}')
+    }
+
+    it('結果画面から間違えた問題だけを復習できる', async () => {
+      const user = userEvent.setup()
+      render(<App stages={stages} />)
+      await playWithOneMistake(user)
+
+      await user.click(screen.getByRole('button', { name: '間違えた問題を復習' }))
+      expect(screen.getByText('1 / 1')).toBeInTheDocument()
+      expect(screen.getByText(/She lives/)).toBeInTheDocument()
+      expect(screen.queryByText(/I arrived/)).not.toBeInTheDocument()
+    })
+
+    it('全問正解なら復習ボタンは出ない', async () => {
+      const user = userEvent.setup()
+      render(<App stages={stages} />)
+      await user.click(screen.getByRole('button', { name: /ステージ A/ }))
+      await user.type(screen.getByRole('textbox'), 'at{Enter}{Enter}')
+      await user.type(screen.getByRole('textbox'), 'in{Enter}{Enter}')
+      await user.type(screen.getByRole('textbox'), 'on{Enter}{Enter}')
+      expect(
+        screen.queryByRole('button', { name: '間違えた問題を復習' }),
+      ).not.toBeInTheDocument()
+    })
+
+    it('復習で正解しても保存された正答率は変わらない', async () => {
+      const user = userEvent.setup()
+      render(<App stages={stages} />)
+      await playWithOneMistake(user)
+      expect(loadRecords()['stage-a'].accuracy).toBe(67)
+
+      await user.click(screen.getByRole('button', { name: '間違えた問題を復習' }))
+      await user.type(screen.getByRole('textbox'), 'in{Enter}{Enter}')
+
+      expect(loadRecords()['stage-a']).toMatchObject({
+        correct: 2,
+        total: 3,
+        accuracy: 67,
+      })
+      expect(screen.getByText('67%')).toBeInTheDocument()
+    })
+
+    it('復習しても学習記録のクリア数は増えない', async () => {
+      const user = userEvent.setup()
+      render(<App stages={stages} />)
+      await playWithOneMistake(user)
+      expect(loadHistory()[toDateKey(new Date())]).toBe(1)
+
+      await user.click(screen.getByRole('button', { name: '間違えた問題を復習' }))
+      await user.type(screen.getByRole('textbox'), 'in{Enter}{Enter}')
+
+      expect(loadHistory()[toDateKey(new Date())]).toBe(1)
+    })
+
+    it('復習の成績が結果画面に表示される', async () => {
+      const user = userEvent.setup()
+      render(<App stages={stages} />)
+      await playWithOneMistake(user)
+      await user.click(screen.getByRole('button', { name: '間違えた問題を復習' }))
+      await user.type(screen.getByRole('textbox'), 'in{Enter}{Enter}')
+      expect(screen.getByText(/復習 1 \/ 1/)).toBeInTheDocument()
+      expect(screen.getByText(/記録には含みません/)).toBeInTheDocument()
+    })
+
+    it('復習を「やめる」と結果画面に戻る', async () => {
+      const user = userEvent.setup()
+      render(<App stages={stages} />)
+      await playWithOneMistake(user)
+      await user.click(screen.getByRole('button', { name: '間違えた問題を復習' }))
+      await user.click(screen.getByRole('button', { name: 'やめる' }))
+
+      expect(screen.getByText('67%')).toBeInTheDocument()
+      expect(screen.getByText('2 / 3')).toBeInTheDocument()
+      // 復習ボタンは残り、もう一度復習できる
+      expect(
+        screen.getByRole('button', { name: '間違えた問題を復習' }),
+      ).toBeInTheDocument()
+    })
+
+    it('復習後に「もう一度」でやり直すと復習の成績表示は消える', async () => {
+      const user = userEvent.setup()
+      render(<App stages={stages} />)
+      await playWithOneMistake(user)
+      await user.click(screen.getByRole('button', { name: '間違えた問題を復習' }))
+      await user.type(screen.getByRole('textbox'), 'in{Enter}{Enter}')
+      expect(screen.getByText(/記録には含みません/)).toBeInTheDocument()
+
+      await user.click(screen.getByRole('button', { name: 'もう一度' }))
+      await user.type(screen.getByRole('textbox'), 'at{Enter}{Enter}')
+      await user.type(screen.getByRole('textbox'), 'in{Enter}{Enter}')
+      await user.type(screen.getByRole('textbox'), 'on{Enter}{Enter}')
+
+      expect(screen.queryByText(/記録には含みません/)).not.toBeInTheDocument()
+    })
+
+    // Quiz の描画箇所を1つにまとめると index が持ち越されてしまう。その退行を検出する
+    it('復習を2回続けて始めても1問目から始まる', async () => {
+      const user = userEvent.setup()
+      render(<App stages={stages} />)
+      await playWithOneMistake(user)
+      await user.click(screen.getByRole('button', { name: '間違えた問題を復習' }))
+      await user.type(screen.getByRole('textbox'), 'in{Enter}{Enter}')
+      await user.click(screen.getByRole('button', { name: '間違えた問題を復習' }))
+      expect(screen.getByText('1 / 1')).toBeInTheDocument()
+      expect(screen.getByText(/She lives/)).toBeInTheDocument()
+    })
+
+    it('設定で復習をオフにすると復習ボタンが出ない', async () => {
+      // App は起動時に一度だけ設定を読むので、render の前に仕込む
+      localStorage.setItem(
+        SETTINGS_KEY,
+        JSON.stringify({ reviewEnabled: false }),
+      )
+      const user = userEvent.setup()
+      render(<App stages={stages} />)
+      await playWithOneMistake(user)
+      expect(
+        screen.queryByRole('button', { name: '間違えた問題を復習' }),
+      ).not.toBeInTheDocument()
+    })
+  })
+
+  describe('設定画面', () => {
+    it('設定画面で復習をオフにすると保存される', async () => {
+      const user = userEvent.setup()
+      render(<App stages={stages} />)
+      await user.click(screen.getByRole('button', { name: '設定' }))
+      await user.click(screen.getByRole('checkbox', { name: /復習/ }))
+      expect(loadSettings().reviewEnabled).toBe(false)
+    })
+
+    it('設定を変えるとその場で結果画面に反映される', async () => {
+      const user = userEvent.setup()
+      render(<App stages={stages} />)
+      await user.click(screen.getByRole('button', { name: '設定' }))
+      await user.click(screen.getByRole('checkbox', { name: /復習/ }))
+      await user.click(screen.getByRole('button', { name: '戻る' }))
+
+      await user.click(screen.getByRole('button', { name: /ステージ A/ }))
+      await user.type(screen.getByRole('textbox'), 'at{Enter}{Enter}')
+      await user.type(screen.getByRole('textbox'), 'xx{Enter}{Enter}')
+      await user.type(screen.getByRole('textbox'), 'on{Enter}{Enter}')
+
+      expect(
+        screen.queryByRole('button', { name: '間違えた問題を復習' }),
+      ).not.toBeInTheDocument()
+    })
+
+    it('設定画面の「戻る」でステージ選択に戻る', async () => {
+      const user = userEvent.setup()
+      render(<App stages={stages} />)
+      await user.click(screen.getByRole('button', { name: '設定' }))
+      await user.click(screen.getByRole('button', { name: '戻る' }))
+      expect(screen.getByText('ステージ A')).toBeInTheDocument()
+    })
   })
 })
