@@ -1,8 +1,12 @@
 import { useState } from 'react'
 import type { StudyHistory as StudyHistoryData } from '../types'
-import { buildMonthGrid, chunkIntoWeeks, heatLevel } from '../lib/calendar'
-
-const WEEKDAYS = ['日', '月', '火', '水', '木', '金', '土']
+import {
+  buildMonthGrid,
+  chunkIntoWeeks,
+  formatDayLabel,
+  heatLevel,
+  WEEKDAY_LABELS,
+} from '../lib/calendar'
 
 interface StudyHistoryProps {
   history: StudyHistoryData
@@ -74,7 +78,7 @@ export function StudyHistory({
 
       <div className="calendar-grid" role="grid" aria-label="学習カレンダー">
         <div className="calendar-week" role="row">
-          {WEEKDAYS.map((label) => (
+          {WEEKDAY_LABELS.map((label) => (
             <span key={label} className="calendar-weekday" role="columnheader">
               {label}
             </span>
@@ -91,12 +95,8 @@ export function StudyHistory({
                   className={`calendar-cell heat-${heatLevel(cell.count)}`}
                   role="gridcell"
                   // 日付はマスに出さない仕様なので、読み上げとホバーで補う
-                  aria-label={`${month + 1}月${cell.day}日 ${
-                    cell.count > 0 ? `${cell.count}ステージ` : '記録なし'
-                  }`}
-                  title={`${month + 1}月${cell.day}日 ${
-                    cell.count > 0 ? `${cell.count}ステージ` : '記録なし'
-                  }`}
+                  aria-label={formatDayLabel(month, cell.day, cell.count)}
+                  title={formatDayLabel(month, cell.day, cell.count)}
                 >
                   {cell.count > 0 ? cell.count : ''}
                 </span>

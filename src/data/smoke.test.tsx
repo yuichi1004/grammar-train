@@ -46,6 +46,7 @@ describe('実データの通し確認', () => {
         onSelect={vi.fn()}
         onShowHistory={vi.fn()}
         onShowSettings={vi.fn()}
+        history={{}}
       />,
     )
     const headings = screen.getAllByRole('heading', { level: 2 })

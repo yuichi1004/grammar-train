@@ -1,4 +1,10 @@
-import type { Records, Stage, StageCategory } from '../types'
+import type {
+  Records,
+  Stage,
+  StageCategory,
+  StudyHistory,
+} from '../types'
+import { RecentActivity } from './RecentActivity'
 
 const CATEGORY_LABELS: Record<StageCategory, string> = {
   preposition: '前置詞',
@@ -38,17 +44,22 @@ function groupByCategory(stages: Stage[]): [StageCategory, Stage[]][] {
 interface StageSelectProps {
   stages: Stage[]
   records: Records
+  history: StudyHistory
   onSelect: (stage: Stage) => void
   onShowHistory: () => void
   onShowSettings: () => void
+  /** テストから固定日を注入できるようにしている */
+  today?: Date
 }
 
 export function StageSelect({
   stages,
   records,
+  history,
   onSelect,
   onShowHistory,
   onShowSettings,
+  today,
 }: StageSelectProps) {
   return (
     <div className="stage-select">
@@ -70,6 +81,7 @@ export function StageSelect({
           設定
         </button>
       </nav>
+      <RecentActivity history={history} today={today} />
       {groupByCategory(stages).map(([category, group]) => (
         <section key={category} className="stage-group">
           <h2 className="category-heading">

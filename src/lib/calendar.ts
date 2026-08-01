@@ -1,6 +1,18 @@
 import type { StudyHistory } from '../types'
 import { toDateKey } from './history'
 
+/** Date#getDay() の値でそのまま引ける曜日ラベル */
+export const WEEKDAY_LABELS = ['日', '月', '火', '水', '木', '金', '土']
+
+/** マスの読み上げ・ホバー用ラベル。month は 0 始まり */
+export function formatDayLabel(
+  month: number,
+  day: number,
+  count: number,
+): string {
+  return `${month + 1}月${day}日 ${count > 0 ? `${count}ステージ` : '記録なし'}`
+}
+
 export interface DayCell {
   /** YYYY-MM-DD */
   dateKey: string
@@ -44,6 +56,44 @@ export function chunkIntoWeeks(grid: (DayCell | null)[]): (DayCell | null)[][] {
     weeks.push(week)
   }
   return weeks
+}
+
+export interface RecentDay extends DayCell {
+  /** 月。buildMonthGrid の引数に合わせて 0 始まり */
+  month: number
+  /** 曜日（0=日 … 6=土） */
+  weekday: number
+}
+
+/**
+ * 今日を右端にした直近 days 日分のマスを、古い順に返す。
+ *
+ * 日付は必ずローカルの年月日から組み立てる。JS が月末・年末をまたいで正規化してくれるうえ、
+ * `today.getTime() - back * 86400000` のようなミリ秒引き算と違って夏時間で 1 日ずれない
+ * （toDateKey が toISOString を避けているのと同じ理由）。
+ */
+export function buildRecentDays(
+  today: Date,
+  days: number,
+  history: StudyHistory,
+): RecentDay[] {
+  const cells: RecentDay[] = []
+  for (let back = days - 1; back >= 0; back--) {
+    const date = new Date(
+      today.getFullYear(),
+      today.getMonth(),
+      today.getDate() - back,
+    )
+    const dateKey = toDateKey(date)
+    cells.push({
+      dateKey,
+      month: date.getMonth(),
+      day: date.getDate(),
+      weekday: date.getDay(),
+      count: history[dateKey] ?? 0,
+    })
+  }
+  return cells
 }
 
 /** ヒートマップの濃さ。0 はグレー、1〜4 は緑が濃くなっていく */

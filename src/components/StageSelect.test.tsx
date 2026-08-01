@@ -13,7 +13,8 @@ const stages = [
 describe('StageSelect', () => {
   it('全ステージのタイトルが表示される', () => {
     render(<StageSelect stages={stages} records={{}} onSelect={vi.fn()} onShowHistory={vi.fn()}
-        onShowSettings={vi.fn()} />)
+        onShowSettings={vi.fn()}
+        history={{}} />)
     expect(screen.getByText('ステージ A')).toBeInTheDocument()
     expect(screen.getByText('ステージ B')).toBeInTheDocument()
   })
@@ -28,19 +29,22 @@ describe('StageSelect', () => {
       },
     }
     render(<StageSelect stages={stages} records={records} onSelect={vi.fn()} onShowHistory={vi.fn()}
-        onShowSettings={vi.fn()} />)
+        onShowSettings={vi.fn()}
+        history={{}} />)
     expect(screen.getByText(/前回 80%/)).toBeInTheDocument()
   })
 
   it('未プレイのステージは「未挑戦」と表示される', () => {
     render(<StageSelect stages={stages} records={{}} onSelect={vi.fn()} onShowHistory={vi.fn()}
-        onShowSettings={vi.fn()} />)
+        onShowSettings={vi.fn()}
+        history={{}} />)
     expect(screen.getAllByText('未挑戦')).toHaveLength(2)
   })
 
   it('カテゴリのラベルが日本語で表示される', () => {
     render(<StageSelect stages={stages} records={{}} onSelect={vi.fn()} onShowHistory={vi.fn()}
-        onShowSettings={vi.fn()} />)
+        onShowSettings={vi.fn()}
+        history={{}} />)
     expect(screen.getByText('前置詞')).toBeInTheDocument()
     expect(screen.getByText('冠詞')).toBeInTheDocument()
   })
@@ -49,7 +53,8 @@ describe('StageSelect', () => {
     const user = userEvent.setup()
     const onSelect = vi.fn()
     render(<StageSelect stages={stages} records={{}} onSelect={onSelect} onShowHistory={vi.fn()}
-        onShowSettings={vi.fn()} />)
+        onShowSettings={vi.fn()}
+        history={{}} />)
     await user.click(screen.getByRole('button', { name: /ステージ A/ }))
     expect(onSelect).toHaveBeenCalledWith(stages[0])
   })
@@ -62,6 +67,7 @@ describe('StageSelect', () => {
         onSelect={vi.fn()}
         onShowHistory={vi.fn()}
         onShowSettings={vi.fn()}
+        history={{}}
       />,
     )
     const headings = screen.getAllByRole('heading', { level: 2 })
@@ -83,6 +89,7 @@ describe('StageSelect', () => {
         onSelect={vi.fn()}
         onShowHistory={vi.fn()}
         onShowSettings={vi.fn()}
+        history={{}}
       />,
     )
     const headings = screen.getAllByRole('heading', { level: 2 })
@@ -108,6 +115,7 @@ describe('StageSelect', () => {
         onSelect={vi.fn()}
         onShowHistory={vi.fn()}
         onShowSettings={vi.fn()}
+        history={{}}
       />,
     )
     const titles = screen
@@ -125,6 +133,7 @@ describe('StageSelect', () => {
         onSelect={vi.fn()}
         onShowHistory={vi.fn()}
         onShowSettings={vi.fn()}
+        history={{}}
       />,
     )
     const headings = screen.getAllByRole('heading', { level: 2 })
@@ -141,10 +150,29 @@ describe('StageSelect', () => {
         onSelect={vi.fn()}
         onShowHistory={onShowHistory}
         onShowSettings={vi.fn()}
+        history={{}}
       />,
     )
     await user.click(screen.getByRole('button', { name: '学習記録' }))
     expect(onShowHistory).toHaveBeenCalled()
+  })
+
+  it('直近 7 日間のヒートマップが表示される', () => {
+    render(
+      <StageSelect
+        stages={stages}
+        records={{}}
+        onSelect={vi.fn()}
+        onShowHistory={vi.fn()}
+        onShowSettings={vi.fn()}
+        history={{ '2026-07-22': 2 }}
+        today={new Date(2026, 6, 22)}
+      />,
+    )
+    expect(screen.getAllByRole('cell')).toHaveLength(7)
+    expect(
+      screen.getByRole('cell', { name: '7月22日 2ステージ' }),
+    ).toBeInTheDocument()
   })
 
   it('「設定」で onShowSettings が呼ばれる', async () => {
@@ -157,6 +185,7 @@ describe('StageSelect', () => {
         onSelect={vi.fn()}
         onShowHistory={vi.fn()}
         onShowSettings={onShowSettings}
+        history={{}}
       />,
     )
     await user.click(screen.getByRole('button', { name: '設定' }))

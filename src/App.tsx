@@ -77,6 +77,7 @@ function App({ stages = defaultStages }: AppProps) {
         <StageSelect
           stages={stages}
           records={records}
+          history={history}
           onSelect={(stage) => setView({ screen: 'quiz', stage })}
           onShowHistory={() => setView({ screen: 'history' })}
           onShowSettings={() => setView({ screen: 'settings' })}

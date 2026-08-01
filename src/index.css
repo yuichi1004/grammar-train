@@ -67,6 +67,41 @@ button {
   margin: 0 0 20px;
 }
 
+/* トップに出す直近 7 日間のヒートマップ */
+.recent-activity {
+  margin: 0 0 28px;
+}
+
+.recent-activity-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+  margin: 0 0 8px;
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/*
+  月間カレンダーの 1fr だとトップでは 1 マス 80px 超になってしまう。
+  aspect-ratio: 1 を殺して高さを固定すると長方形になるので、トラック幅の方を固定する
+*/
+.recent-activity .calendar-week {
+  grid-template-columns: repeat(7, 36px);
+  justify-content: start;
+}
+
+.recent-activity .calendar-cell {
+  font-size: 0.85rem;
+}
+
+/* 右端が今日であることは並びだけでは伝わらないので、枠で示す */
+.recent-activity .calendar-cell.is-today {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 1px;
+}
+
 .stage-group {
   margin: 0 0 28px;
 }

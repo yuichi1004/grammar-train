@@ -223,6 +223,59 @@ describe('App', () => {
     })
   })
 
+  describe('トップの直近 7 日間', () => {
+    /** 今日のマスの読み上げ名。学習記録画面の gridcell とは role が違う */
+    function todayCellName(stages: number) {
+      const now = new Date()
+      return `${now.getMonth() + 1}月${now.getDate()}日 ${stages}ステージ`
+    }
+
+    it('まだ何もしていなければ今日のマスは記録なし', () => {
+      render(<App stages={stages} />)
+      const now = new Date()
+      expect(
+        screen.getByRole('cell', {
+          name: `${now.getMonth() + 1}月${now.getDate()}日 記録なし`,
+        }),
+      ).toBeInTheDocument()
+    })
+
+    it('ステージをクリアすると今日のマスが埋まる', async () => {
+      const user = userEvent.setup()
+      render(<App stages={stages} />)
+      await user.click(screen.getByRole('button', { name: /ステージ A/ }))
+      await user.type(screen.getByRole('textbox'), 'at{Enter}{Enter}')
+      await user.type(screen.getByRole('textbox'), 'in{Enter}{Enter}')
+      await user.type(screen.getByRole('textbox'), 'on{Enter}{Enter}')
+      await user.click(screen.getByRole('button', { name: 'ステージ選択へ' }))
+
+      expect(
+        screen.getByRole('cell', { name: todayCellName(1) }),
+      ).toHaveTextContent('1')
+    })
+
+    // handleFinish と handleReviewFinish を分けている理由を UI 側から固定する
+    it('復習しても今日のマスは増えない', async () => {
+      const user = userEvent.setup()
+      render(<App stages={stages} />)
+      await user.click(screen.getByRole('button', { name: /ステージ A/ }))
+      await user.type(screen.getByRole('textbox'), 'at{Enter}{Enter}')
+      await user.type(screen.getByRole('textbox'), 'xx{Enter}{Enter}')
+      await user.type(screen.getByRole('textbox'), 'on{Enter}{Enter}')
+
+      await user.click(screen.getByRole('button', { name: '間違えた問題を復習' }))
+      await user.type(screen.getByRole('textbox'), 'in{Enter}{Enter}')
+      await user.click(screen.getByRole('button', { name: 'ステージ選択へ' }))
+
+      expect(
+        screen.getByRole('cell', { name: todayCellName(1) }),
+      ).toHaveTextContent('1')
+      expect(
+        screen.queryByRole('cell', { name: todayCellName(2) }),
+      ).not.toBeInTheDocument()
+    })
+  })
+
   describe('設定画面', () => {
     it('設定画面で復習をオフにすると保存される', async () => {
       const user = userEvent.setup()
